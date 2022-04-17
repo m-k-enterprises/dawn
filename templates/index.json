@@ -186,6 +186,7 @@
       "blocks": {
         "collection-0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
@@ -193,12 +194,13 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "buckle-free-belt",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
