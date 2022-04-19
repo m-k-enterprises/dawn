@@ -77,7 +77,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -105,6 +104,7 @@
     },
     "165013541345f17318": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "16501354135e9bf081-0": {
           "type": "text",
