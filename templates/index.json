@@ -188,7 +188,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "product": {
@@ -202,7 +202,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         }
       },
