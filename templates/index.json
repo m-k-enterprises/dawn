@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/products\/buckle-free-belt",
+            "button_link_1": "shopify:\/\/products\/pride-flag-buckle-free-belt",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -172,7 +172,7 @@
         "16501354135e9bf081-7"
       ],
       "settings": {
-        "product": "buckle-free-belt",
+        "product": "pride-flag-buckle-free-belt",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -194,7 +194,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "buckle-free-belt",
+            "product": "pride-flag-buckle-free-belt",
             "second_image": false
           }
         },
