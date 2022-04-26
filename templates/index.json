@@ -187,7 +187,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -216,7 +215,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Our favourites",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
