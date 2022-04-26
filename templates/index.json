@@ -191,9 +191,8 @@
       "blocks": {
         "collection-0": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "belts"
           }
         },
         "product": {
