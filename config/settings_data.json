@@ -2,15 +2,15 @@
   "current": {
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
-    "gradient_accent_2": "",
+    "gradient_accent_1": "linear-gradient(180deg, rgba(85, 85, 85, 1) 4%, rgba(0, 0, 0, 1) 100%)",
+    "colors_accent_2": "#eaa032",
+    "gradient_accent_2": "linear-gradient(180deg, rgba(213, 99, 0, 1), rgba(254, 221, 99, 1) 100%)",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
+    "gradient_background_1": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(85, 85, 85, 1) 100%)",
     "colors_background_2": "#f3f3f3",
-    "gradient_background_2": "",
+    "gradient_background_2": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
     "type_header_font": "bio_rhyme_n4",
     "heading_scale": 100,
     "type_body_font": "bio_rhyme_n4",
@@ -108,7 +108,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "background-1",
