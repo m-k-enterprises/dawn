@@ -201,18 +201,18 @@
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
-          "disabled": true,
+        "ddd86f79-7e84-46a5-8f10-edbf70608489": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "buckle-free-belt",
+            "second_image": false
           }
         }
       },
       "block_order": [
         "collection-0",
         "product",
-        "collection-1"
+        "ddd86f79-7e84-46a5-8f10-edbf70608489"
       ],
       "settings": {
         "heading": "Our favourites",
