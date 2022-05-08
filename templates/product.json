@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "<p>{{ product.metafields.descriptors.materials | metafield_text }}<\/p>",
+            "content": "<p>{{ product.metafields.facts.materials | metafield_text }}<\/p>",
             "page": ""
           }
         },
@@ -73,7 +73,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.descriptors.length | metafield_tag }} × {{ product.metafields.descriptors.width | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.facts.dimensions | metafield_tag }}<\/p>",
             "page": ""
           }
         },
