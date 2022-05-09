@@ -5,9 +5,8 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "A New Experience",
             "heading_size": "h0"
           }
         },
@@ -20,10 +19,9 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "shopify:\/\/products\/pride-flag-buckle-free-belt",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/belts",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -52,19 +50,18 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>Bear Belts Mission<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>After searching the belt market, we were frustrated by the lack of options for….<br\/><br\/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to distinguish yourself from the crowd a little better via your buckle-free belt.<\/p>"
           }
         }
       },
@@ -73,6 +70,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
