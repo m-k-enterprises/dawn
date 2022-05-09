@@ -349,11 +349,11 @@
                           >
                           {%- case option.name -%}
                             {%- when 'Color' -%}
-                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ variant_needed.metafields.swatch.color }}">
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ value.metafields.swatch.color }}">
                                 {{ value }}
                               </label>
                             {%- when 'Style' -%}
-                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ variant_needed.metafields.swatch.style }}')">
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ value.metafields.swatch.style }}')">
                                 {{ value }}
                               </label>
                             {%- else -%}
