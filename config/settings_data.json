@@ -108,10 +108,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Buy 2 Get 1 Free",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
