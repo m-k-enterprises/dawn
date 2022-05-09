@@ -341,6 +341,12 @@
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
                         {%- for value in option.values -%}
+                          {%- assign value_variant = null -%}
+                          {%- for variant in product.variants -%}
+                            {%- if variant.options contains value -%}
+                              {%- assign value_variant = variant -%}
+                            {%- endif -%}
+                          {%- endfor -%}  
                           <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 name="{{ option.name }}"
                                 value="{{ value | escape }}"
@@ -349,11 +355,11 @@
                           >
                           {%- case option.name -%}
                             {%- when 'Color' -%}
-                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ value.metafields.swatch.color }}">
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ value_variant.metafields.swatch.color }}">
                                 {{ value }}
                               </label>
                             {%- when 'Style' -%}
-                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ value.metafields.swatch.style }}')">
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ value_variant.metafields.swatch.style }}')">
                                 {{ value }}
                               </label>
                             {%- else -%}
