@@ -367,6 +367,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1652176883e2da494c": {
+      "type": "newsletter",
+      "blocks": {
+        "165217688366cfcb54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Family",
+            "heading_size": "h1"
+          }
+        },
+        "165217688366cfcb54-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.<\/p>"
+          }
+        },
+        "165217688366cfcb54-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165217688366cfcb54-0",
+        "165217688366cfcb54-1",
+        "165217688366cfcb54-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -378,6 +412,7 @@
     "16521208037f36a38d",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "1652176883e2da494c"
   ]
 }
