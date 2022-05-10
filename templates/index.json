@@ -114,7 +114,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Buckle-free belt collections",
+        "title": "Belt collections",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
