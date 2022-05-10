@@ -356,11 +356,23 @@
                           {%- case option.name -%}
                             {%- when 'Color' -%}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ value_variant.metafields.swatch.color }}">
-                                {{ value }}
+                                {%- if value_variant.metafields.swatch.color -%}
+                                  <span class="visually-hidden">
+                                    {{ value }}
+                                  </span>
+                                {%- else -%}
+                                  {{ value }}
+                                {%- endif -%}
                               </label>
                             {%- when 'Style' -%}
-                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ value_variant.metafields.swatch.style | image_url }}')">
-                                {{ value }}
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-size: cover; background-image: url('{{ value_variant.metafields.swatch.style | image_url: width: 260, format: pjpg }}')">
+                                {%- if value_variant.metafields.swatch.style -%}
+                                  <span class="visually-hidden">
+                                    {{ value }}
+                                  </span>
+                                {%- else -%}
+                                  {{ value }}
+                                {%- endif -%}
                               </label>
                             {%- else -%}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
