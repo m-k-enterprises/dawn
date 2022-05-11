@@ -83,7 +83,7 @@
             "heading": "Care Instructions",
             "icon": "heart",
             "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": ""
+            "page": "care-guide"
           }
         },
         "share": {
