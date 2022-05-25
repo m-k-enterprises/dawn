@@ -1,11 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "local-banner",
-      "settings": {
-        "color_scheme": "background-1"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -207,7 +201,6 @@
     }
   },
   "order": [
-    "banner",
     "image_banner",
     "rich_text",
     "featured_collection",
