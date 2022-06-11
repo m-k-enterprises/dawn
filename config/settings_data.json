@@ -119,7 +119,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/Logo_Alt_No_Margin.png",
+          "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
