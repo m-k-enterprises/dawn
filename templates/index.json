@@ -5,7 +5,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h0"
@@ -13,7 +12,6 @@
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -21,7 +19,6 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -39,8 +36,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bath-bomb-ad.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -151,6 +148,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/premium-bath-bombs.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
