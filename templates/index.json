@@ -20,10 +20,29 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "26d135c8-2a6c-4296-ac92-56676e6bb615": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1832370.jpg",
+            "heading": "Donut Bath Fizzers",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/donut-bath-fizzers",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "16551104186c81f655-0"
+        "16551104186c81f655-0",
+        "26d135c8-2a6c-4296-ac92-56676e6bb615"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -35,65 +54,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -103,24 +63,24 @@
             "collection": "himalayan-salt-bath-bombs"
           }
         },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "donut-bath-fizzers"
+          }
+        },
         "product": {
           "type": "product",
           "settings": {
             "product": "",
             "second_image": false
           }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "collection-0",
-        "product",
-        "collection-1"
+        "collection-1",
+        "product"
       ],
       "settings": {
         "heading": "",
@@ -202,8 +162,6 @@
   },
   "order": [
     "1655110418b5035676",
-    "rich_text",
-    "featured_collection",
     "collage",
     "video",
     "multicolumn"
