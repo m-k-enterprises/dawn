@@ -38,11 +38,30 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "0c9624c1-d80a-4f2c-8816-c5754da9eab8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1832134.jpg",
+            "heading": "Gemstone Bath Bombs",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/gemstone-bath-bombs",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "16551104186c81f655-0",
-        "26d135c8-2a6c-4296-ac92-56676e6bb615"
+        "26d135c8-2a6c-4296-ac92-56676e6bb615",
+        "0c9624c1-d80a-4f2c-8816-c5754da9eab8"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -68,11 +87,25 @@
           "settings": {
             "collection": "donut-bath-fizzers"
           }
+        },
+        "20262f26-b99c-47f9-bc4b-a93b6b558ec6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gemstone-bath-bombs"
+          }
+        },
+        "89f74e2b-fca5-4528-86b6-7716c6dfdc3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-bath-bombs"
+          }
         }
       },
       "block_order": [
         "1655110425c9fa4582-0",
-        "1655110425c9fa4582-1"
+        "1655110425c9fa4582-1",
+        "20262f26-b99c-47f9-bc4b-a93b6b558ec6",
+        "89f74e2b-fca5-4528-86b6-7716c6dfdc3b"
       ],
       "settings": {
         "title": "",
