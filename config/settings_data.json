@@ -126,7 +126,7 @@
             "type": "link_list",
             "settings": {
               "heading": "About Us",
-              "menu": "footer"
+              "menu": "footer-about"
             }
           },
           "footer-1": {
