@@ -7,9 +7,191 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165514198160ee940b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165514198029ce81b5-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have an annual subscription fee?",
+            "icon": "none",
+            "row_content": "<p>No, registration is free for all.<\/p>",
+            "page": ""
+          }
+        },
+        "165514198029ce81b5-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I place my first order?",
+            "icon": "none",
+            "row_content": "<p>You will be able to add items to your shopping cart immediately.<\/p>",
+            "page": ""
+          }
+        },
+        "165514198029ce81b5-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much do you charge for products?",
+            "icon": "none",
+            "row_content": "<p>All the products on the site have a price listed with them.<\/p>",
+            "page": ""
+          }
+        },
+        "165514198029ce81b5-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do your prices include shipping?",
+            "icon": "none",
+            "row_content": "<p>The prices shown on the pages are for the item only, shipping prices will be added in the shopping cart.<\/p>",
+            "page": ""
+          }
+        },
+        "c420e240-93f4-4c9e-9bd5-ab0123ef0711": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I have your products shipped to someone else or does it have to go directly to my myself?",
+            "icon": "none",
+            "row_content": "<p>Once you purchase a product you can have it shipped to any destination of your choice, including someone else.<\/p>",
+            "page": ""
+          }
+        },
+        "973b53a4-dfb2-431b-9c6b-a52a1072c97c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you gift wrap my orders?",
+            "icon": "none",
+            "row_content": "<p>We do not currently offer a gift wrapping service, orders are packed in unmarked new and recycled packaging.<\/p>",
+            "page": ""
+          }
+        },
+        "160d8cc0-c3be-4660-bacd-6c2aae26ac8c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I pay?",
+            "icon": "none",
+            "row_content": "<p>Payment is made via PayPal or Debit \/ Credit card and is charged on checkout, we do not operate any account systems.<\/p>",
+            "page": ""
+          }
+        },
+        "1f26d27e-3dbd-464b-851d-180cce26690a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you Dropship to?",
+            "icon": "none",
+            "row_content": "<p>We ship worldwide. Orders to the UK, anywhere within the EU and popular world destinations can be placed through the shopping cart, for prices for shipments not on the delivery page please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "56bfee50-7ce0-4ffa-ad2a-af32ab602182": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if an item arrives faulty, or damaged in transit?",
+            "icon": "none",
+            "row_content": "<p>In short, we require photographic evidence for any item under £15 in value and a replacement will be dispatched.<\/p>",
+            "page": ""
+          }
+        },
+        "2ee56166-2a8a-40d9-8f49-f7c8a90ca31b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I have received my item but it is not the colour I specified?",
+            "icon": "none",
+            "row_content": "<p>Unfortunately we cannot guarantee the colour you have chosen from an assorted pack will be available, in this case we would randomly select a colour.<\/p>",
+            "page": ""
+          }
+        },
+        "eadb4895-1f84-4112-8c7c-078f9031564a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer exclusivity?",
+            "icon": "none",
+            "row_content": "<p>As we sell worldwide, as well as selling through third parties we cannot offer this as it is nearly impossible for us to police.<\/p>",
+            "page": ""
+          }
+        },
+        "0dfd2ace-831f-437c-afc2-12caa0d5970e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I get a further discount for ordering multiple products?",
+            "icon": "none",
+            "row_content": "<p>Unless otherwise advertised there is no bulk discount on orders, if you wish to place an order of over £500 for one specific item (not several items in the same or different range) please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "5c9c9385-f8d1-4bdb-bf20-0c16a92f6c49": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will any paperwork be sent with the goods?",
+            "icon": "none",
+            "row_content": "<p>No, no paperwork is sent with the goods other than the courier label.<\/p>",
+            "page": ""
+          }
+        },
+        "ac7bb4f0-8a61-4f67-84b4-208612f465bc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I amend an order, or add delivery instructions after an order has been placed?",
+            "icon": "none",
+            "row_content": "<p>If you wish to leave any instructions for an order, or amend any details after an order has been placed please email us stating the order number and amendments. Please note in some cases an amendment cannot be made manually and we may have to cancel and refund the order for it to be placed again. Please do not send messages via PayPal when checking out as we do not receive these messages.<\/p>",
+            "page": ""
+          }
+        },
+        "6a192214-47b8-47d7-b662-bd4388938ac0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long after an item is dispatched will I receive my order?",
+            "icon": "none",
+            "row_content": "<p>Orders will be delivered within 3-5 working days after dispatch. For small parcel shipping option, delivery is the next working day for Courier (UK mainland only).<\/p>",
+            "page": ""
+          }
+        },
+        "6835e344-60fa-4c2b-aa4e-9931fd962940": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The picture shows multiple items but the description says sold individually, what will I receive?",
+            "icon": "none",
+            "row_content": "<p>Most items are sold individually unless stated otherwise in the product descriptions, photographs are for illustrative purposes only.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165514198029ce81b5-1",
+        "165514198029ce81b5-0",
+        "165514198029ce81b5-2",
+        "165514198029ce81b5-3",
+        "c420e240-93f4-4c9e-9bd5-ab0123ef0711",
+        "973b53a4-dfb2-431b-9c6b-a52a1072c97c",
+        "160d8cc0-c3be-4660-bacd-6c2aae26ac8c",
+        "1f26d27e-3dbd-464b-851d-180cce26690a",
+        "56bfee50-7ce0-4ffa-ad2a-af32ab602182",
+        "2ee56166-2a8a-40d9-8f49-f7c8a90ca31b",
+        "eadb4895-1f84-4112-8c7c-078f9031564a",
+        "0dfd2ace-831f-437c-afc2-12caa0d5970e",
+        "5c9c9385-f8d1-4bdb-bf20-0c16a92f6c49",
+        "ac7bb4f0-8a61-4f67-84b4-208612f465bc",
+        "6a192214-47b8-47d7-b662-bd4388938ac0",
+        "6835e344-60fa-4c2b-aa4e-9931fd962940"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165514198160ee940b"
   ]
 }
