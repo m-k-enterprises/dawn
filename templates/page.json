@@ -1,15 +1,138 @@
 {
   "sections": {
+    "16551438374833f0c2": {
+      "type": "image-banner",
+      "blocks": {
+        "592e10fe-565f-45b0-8f05-39fb1463c354": {
+          "type": "heading",
+          "settings": {
+            "heading": "About",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "592e10fe-565f-45b0-8f05-39fb1463c354"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1839617.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_page_title": true,
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1655143594393cb989": {
+      "type": "rich-text",
+      "blocks": {
+        "1655143594da4fe695-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What We Ship?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1655143594da4fe695-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We ship a range of high-quality and scrumptious bath boms.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1655143594da4fe695-0",
+        "1655143594da4fe695-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1655143464ca28a160": {
+      "type": "rich-text",
+      "blocks": {
+        "165514346433d4ba2f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Manufactured in England<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "165514346433d4ba2f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sizzle & Soak is established in the UK and our products are manufacturered in Sheffield, UK.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165514346433d4ba2f-0",
+        "165514346433d4ba2f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16551437761f939371": {
+      "type": "rich-text",
+      "blocks": {
+        "16551437761bfc1e94-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Business Ethics<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16551437761bfc1e94-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These are tricky subjects, but not one we choose to ignore as a company. A lot of people don’t believe that ethics and business mix, we are more than pleased that most of our customers would appose this idea and we try hard to ensure our suppliers are like minded.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16551437761bfc1e94-0",
+        "16551437761bfc1e94-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "16551438374833f0c2",
+    "main",
+    "1655143594393cb989",
+    "1655143464ca28a160",
+    "16551437761f939371"
   ]
 }
