@@ -131,6 +131,7 @@
           },
           "footer-1": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Discover",
               "menu": "footer"
