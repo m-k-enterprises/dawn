@@ -144,6 +144,12 @@
             "collection": "magnificent-floral-fizzes"
           }
         },
+        "ae5be166-3867-47cf-a427-df3ca972f24b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "just-desserts-bath-bombs"
+          }
+        },
         "91914fd9-6679-4b06-9d95-2cfeb550196e": {
           "type": "featured_collection",
           "settings": {
@@ -163,6 +169,7 @@
         "20262f26-b99c-47f9-bc4b-a93b6b558ec6",
         "89f74e2b-fca5-4528-86b6-7716c6dfdc3b",
         "52e418e9-c89c-4f27-9acf-9c203f47ee45",
+        "ae5be166-3867-47cf-a427-df3ca972f24b",
         "91914fd9-6679-4b06-9d95-2cfeb550196e",
         "c502a8fb-be8d-4285-adfa-2e1543e7830f"
       ],
