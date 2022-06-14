@@ -124,6 +124,18 @@
           "settings": {
             "collection": "tropical-paradise-coco-bath-bombs"
           }
+        },
+        "c502a8fb-be8d-4285-adfa-2e1543e7830f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shea-butter-bath-bombs"
+          }
+        },
+        "52e418e9-c89c-4f27-9acf-9c203f47ee45": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnificent-floral-fizzes"
+          }
         }
       },
       "block_order": [
@@ -131,7 +143,9 @@
         "1655110425c9fa4582-1",
         "20262f26-b99c-47f9-bc4b-a93b6b558ec6",
         "89f74e2b-fca5-4528-86b6-7716c6dfdc3b",
-        "91914fd9-6679-4b06-9d95-2cfeb550196e"
+        "91914fd9-6679-4b06-9d95-2cfeb550196e",
+        "c502a8fb-be8d-4285-adfa-2e1543e7830f",
+        "52e418e9-c89c-4f27-9acf-9c203f47ee45"
       ],
       "settings": {
         "title": "",
