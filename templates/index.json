@@ -161,6 +161,12 @@
           "settings": {
             "collection": "shea-butter-bath-bombs"
           }
+        },
+        "240f8978-53c3-4db7-a438-4ff0ef09e71a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jumbo-bath-balls"
+          }
         }
       },
       "block_order": [
@@ -171,7 +177,8 @@
         "52e418e9-c89c-4f27-9acf-9c203f47ee45",
         "ae5be166-3867-47cf-a427-df3ca972f24b",
         "91914fd9-6679-4b06-9d95-2cfeb550196e",
-        "c502a8fb-be8d-4285-adfa-2e1543e7830f"
+        "c502a8fb-be8d-4285-adfa-2e1543e7830f",
+        "240f8978-53c3-4db7-a438-4ff0ef09e71a"
       ],
       "settings": {
         "title": "",
