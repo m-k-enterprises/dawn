@@ -103,6 +103,10 @@
     "checkout_body_background_color": "#1e274c",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#d8efef",
+    "checkout_heading_font": "Playball",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#ffce00",
+    "checkout_button_color": "#ffce00",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
