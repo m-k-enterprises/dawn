@@ -150,6 +150,12 @@
             "collection": "just-desserts-bath-bombs"
           }
         },
+        "526cbba0-d420-4a79-8ed5-0c6b2e0029d5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "essential-oils-bath-balls"
+          }
+        },
         "91914fd9-6679-4b06-9d95-2cfeb550196e": {
           "type": "featured_collection",
           "settings": {
@@ -176,6 +182,7 @@
         "89f74e2b-fca5-4528-86b6-7716c6dfdc3b",
         "52e418e9-c89c-4f27-9acf-9c203f47ee45",
         "ae5be166-3867-47cf-a427-df3ca972f24b",
+        "526cbba0-d420-4a79-8ed5-0c6b2e0029d5",
         "91914fd9-6679-4b06-9d95-2cfeb550196e",
         "c502a8fb-be8d-4285-adfa-2e1543e7830f",
         "240f8978-53c3-4db7-a438-4ff0ef09e71a"
