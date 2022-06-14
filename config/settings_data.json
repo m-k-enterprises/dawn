@@ -97,6 +97,12 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "cart_type": "notification",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_No_Margin.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#1e274c",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#d8efef",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
