@@ -117,7 +117,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/Logo_No_Margin.png",
+          "logo": "{{ shop.brand.logo }}",
           "logo_width": 180,
           "logo_position": "top-center",
           "menu": "main-menu",
