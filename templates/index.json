@@ -78,12 +78,12 @@
         "1454a3ef-6989-40c1-9cde-31002157f4b6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1598602.jpg",
-            "heading": "Magnificent Floral Fizzes",
+            "image": "shopify:\/\/shop_images\/1827619.jpg",
+            "heading": "Aromatherapy Shower Steamer",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "Shop",
-            "link": "shopify:\/\/collections\/magnificent-floral-fizzes",
+            "link": "shopify:\/\/collections\/aromatherapy-shower-steamer",
             "button_style_secondary": true,
             "box_align": "bottom-center",
             "show_text_box": false,
@@ -138,6 +138,12 @@
             "collection": "funky-bath-bombs"
           }
         },
+        "1512c602-a8b5-4649-ab7f-872fd33ac504": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-shower-steamer"
+          }
+        },
         "52e418e9-c89c-4f27-9acf-9c203f47ee45": {
           "type": "featured_collection",
           "settings": {
@@ -186,6 +192,7 @@
         "1655110425c9fa4582-1",
         "20262f26-b99c-47f9-bc4b-a93b6b558ec6",
         "89f74e2b-fca5-4528-86b6-7716c6dfdc3b",
+        "1512c602-a8b5-4649-ab7f-872fd33ac504",
         "52e418e9-c89c-4f27-9acf-9c203f47ee45",
         "ae5be166-3867-47cf-a427-df3ca972f24b",
         "526cbba0-d420-4a79-8ed5-0c6b2e0029d5",
