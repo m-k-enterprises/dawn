@@ -255,11 +255,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16560806512a5d8705": {
+      "type": "video",
+      "settings": {
+        "heading": "Unboxing",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Unboxing.jpg",
+        "video_url": "https:\/\/vimeo.com\/723794423",
+        "description": "Unboxing",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1655110418b5035676",
     "165580640774a9ee9f",
-    "1655110425f2cf1e28"
+    "1655110425f2cf1e28",
+    "16560806512a5d8705"
   ]
 }
