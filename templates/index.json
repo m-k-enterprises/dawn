@@ -210,6 +210,12 @@
             "collection": "aromatherapy-bath-potion-bath-balls"
           }
         },
+        "487d8048-18a4-446c-95fb-fa2ebad7d330": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-eggs"
+          }
+        },
         "91914fd9-6679-4b06-9d95-2cfeb550196e": {
           "type": "featured_collection",
           "settings": {
@@ -239,6 +245,7 @@
         "ae5be166-3867-47cf-a427-df3ca972f24b",
         "526cbba0-d420-4a79-8ed5-0c6b2e0029d5",
         "7bf9efef-2041-450d-9a5f-064a667ae70e",
+        "487d8048-18a4-446c-95fb-fa2ebad7d330",
         "91914fd9-6679-4b06-9d95-2cfeb550196e",
         "c502a8fb-be8d-4285-adfa-2e1543e7830f",
         "240f8978-53c3-4db7-a438-4ff0ef09e71a"
