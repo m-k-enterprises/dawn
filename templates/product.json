@@ -8,10 +8,10 @@
           "settings": {
           }
         },
-        "caption": {
+        "39e470c3-01a5-41d4-b536-509c8a72baa1": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "{{ product.metafields.facts.essential_oils | metafield_text }}",
             "text_style": "subtitle"
           }
         },
@@ -102,7 +102,7 @@
       },
       "block_order": [
         "title",
-        "caption",
+        "39e470c3-01a5-41d4-b536-509c8a72baa1",
         "2564d84c-7ae7-43d5-a493-dcde47ab266b",
         "price",
         "variant_picker",
