@@ -186,6 +186,12 @@
             "collection": "funky-bath-bombs"
           }
         },
+        "9a6258b9-621b-4e13-936b-c1a0fb7efff3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "handmade-soaps"
+          }
+        },
         "1512c602-a8b5-4649-ab7f-872fd33ac504": {
           "type": "featured_collection",
           "settings": {
@@ -241,6 +247,7 @@
         "1655110425c9fa4582-1",
         "20262f26-b99c-47f9-bc4b-a93b6b558ec6",
         "89f74e2b-fca5-4528-86b6-7716c6dfdc3b",
+        "9a6258b9-621b-4e13-936b-c1a0fb7efff3",
         "1512c602-a8b5-4649-ab7f-872fd33ac504",
         "52e418e9-c89c-4f27-9acf-9c203f47ee45",
         "ae5be166-3867-47cf-a427-df3ca972f24b",
