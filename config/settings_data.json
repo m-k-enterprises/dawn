@@ -114,6 +114,7 @@
         "blocks": {
           "40979749-dad8-46e1-b949-ce68417fd10d": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Get 15% off your first purchase with discount code `FirstTime`.",
               "color_scheme": "background-2",
