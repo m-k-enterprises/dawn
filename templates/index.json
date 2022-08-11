@@ -3,6 +3,24 @@
     "1655110418b5035676": {
       "type": "slideshow",
       "blocks": {
+        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1841280-5.jpg",
+            "heading": "New In Stock",
+            "heading_size": "h0",
+            "subheading": "Massage Soaps",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/massage-soaps",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "1454a3ef-6989-40c1-9cde-31002157f4b6": {
           "type": "slide",
           "settings": {
@@ -74,32 +92,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1837422.jpg",
-            "heading": "Happy Scrub Soaps",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "Shop",
-            "link": "shopify:\/\/collections\/happy-scrub-soaps",
-            "button_style_secondary": true,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf",
         "1454a3ef-6989-40c1-9cde-31002157f4b6",
         "0c9624c1-d80a-4f2c-8816-c5754da9eab8",
         "26d135c8-2a6c-4296-ac92-56676e6bb615",
-        "16551104186c81f655-0",
-        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf"
+        "16551104186c81f655-0"
       ],
       "settings": {
         "layout": "full_bleed",
