@@ -38,6 +38,11 @@
           "settings": {
           }
         },
+        "ae279d51-98ed-47de-b1c2-aeaa72a32979": {
+          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -48,11 +53,6 @@
           "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
           "settings": {
             "product": "{{product}}"
-          }
-        },
-        "ae279d51-98ed-47de-b1c2-aeaa72a32979": {
-          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
-          "settings": {
           }
         },
         "description": {
@@ -112,9 +112,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "ae279d51-98ed-47de-b1c2-aeaa72a32979",
         "buy_buttons",
         "0bf6adb1-65b5-44ed-9dbb-1fcd79d991cd",
-        "ae279d51-98ed-47de-b1c2-aeaa72a32979",
         "description",
         "collapsible-row-2",
         "collapsible-row-0",
