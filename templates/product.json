@@ -50,9 +50,10 @@
             "product": "{{product}}"
           }
         },
-        "ae279d51-98ed-47de-b1c2-aeaa72a32979": {
-          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+        "40a0bfca-502b-406a-97cd-b70bf4432ef8": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
+            "product": "{{product}}"
           }
         },
         "description": {
@@ -114,7 +115,7 @@
         "quantity_selector",
         "buy_buttons",
         "0bf6adb1-65b5-44ed-9dbb-1fcd79d991cd",
-        "ae279d51-98ed-47de-b1c2-aeaa72a32979",
+        "40a0bfca-502b-406a-97cd-b70bf4432ef8",
         "description",
         "collapsible-row-2",
         "collapsible-row-0",
