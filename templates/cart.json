@@ -28,6 +28,15 @@
       "settings": {
       }
     },
+    "166024128928ddc05a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'th-subscription-cart', item: item %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -59,6 +68,7 @@
   "order": [
     "cart-items",
     "cart-footer",
+    "166024128928ddc05a",
     "featured-collection"
   ]
 }
