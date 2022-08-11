@@ -267,6 +267,12 @@
     "1660065280e61f3893": {
       "type": "collection-nav",
       "blocks": {
+        "f1ca78b8-a2ee-4ea6-a8f5-1b64bdda70f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massage-soaps"
+          }
+        },
         "166006528041d805e2-0": {
           "type": "featured_collection",
           "settings": {
@@ -287,6 +293,7 @@
         }
       },
       "block_order": [
+        "f1ca78b8-a2ee-4ea6-a8f5-1b64bdda70f6",
         "166006528041d805e2-0",
         "166006528041d805e2-1",
         "166006528041d805e2-2"
