@@ -208,7 +208,7 @@
     "blocks": {
       "8257630261509358238": {
         "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-embed-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
