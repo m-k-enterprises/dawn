@@ -38,6 +38,12 @@
           "settings": {
           }
         },
+        "7732a72d-9af6-4f17-bc12-47605fcd998a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'th-subscription', product: product %}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -48,12 +54,6 @@
           "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
           "settings": {
             "product": "{{product}}"
-          }
-        },
-        "7732a72d-9af6-4f17-bc12-47605fcd998a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'th-subscription', product: product %}"
           }
         },
         "description": {
@@ -113,9 +113,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "7732a72d-9af6-4f17-bc12-47605fcd998a",
         "buy_buttons",
         "0bf6adb1-65b5-44ed-9dbb-1fcd79d991cd",
-        "7732a72d-9af6-4f17-bc12-47605fcd998a",
         "description",
         "collapsible-row-2",
         "collapsible-row-0",
