@@ -38,12 +38,6 @@
           "settings": {
           }
         },
-        "7732a72d-9af6-4f17-bc12-47605fcd998a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'th-subscription', product: product %}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -113,7 +107,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "7732a72d-9af6-4f17-bc12-47605fcd998a",
         "buy_buttons",
         "0bf6adb1-65b5-44ed-9dbb-1fcd79d991cd",
         "description",
