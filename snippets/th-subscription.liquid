@@ -14,6 +14,8 @@
       You can edit, skip, reschedule and cancel subscription anytime.
     {%- endif -%}
   {%- endcapture -%}
+  <pre>Widget: {{ shop.metafields.nativeSubscription.thsb_subscription_widget }}</pre>
+  <pre>Layout: {{ shop.metafields.nativeSubscription.thsb_subscription_layout }}</pre>
   {%- if shop.metafields.nativeSubscription.thsb_subscription_widget != 0 -%}
     {%- if shop.metafields.nativeSubscription.thsb_subscription_layout == 1 -%}
       <div class="th_subscription_radio_section">
