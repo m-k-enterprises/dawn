@@ -19,9 +19,9 @@
       <div class="th_subscription_radio_section">
         <input type="hidden" name="selling_plan" class="th_subscription_selling_id_{{ product.id }}" value="{{ product.selected_selling_plan.id }}" />
         {%- if shop.metafields.nativeSubscription.thsb_purchase_option != blank -%}
-          <legend class="th_sp_wf_cls th_subscription_section_title">{{ shop.metafields.nativeSubscription.thsb_purchase_option }}</legend>
+          <legend class="form__label">{{ shop.metafields.nativeSubscription.thsb_purchase_option }}</legend>
         {%- else -%}
-          <legend class="th_sp_wf_cls th_subscription_section_title" data-language="th_sb_purchase_option">Purchase options</legend>
+          <legend class="form__label" data-language="th_sb_purchase_option">Purchase options</legend>
         {%- endif -%}
         <div class="th_sp_wf_cls th_subscription_radio_section_outer">
           <div class="th_subscription_radio_plans">
