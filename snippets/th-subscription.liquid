@@ -24,7 +24,7 @@
           <legend class="form__label" data-language="th_sb_purchase_option">Purchase options</legend>
         {%- endif -%}
         {%- unless product.requires_selling_plan -%}
-          <div class="th_sp_wf_cls th_subscription_radio_fieldset">
+          <div class="product-form__submit">
             <div class="th_subscription_radio_label_outer">
               <input type="radio" id="th_subscription_radio_otp_option_{{ product.id }}" name="th-subscription-plan-selector-group-radio" class="th_subscription_radio_btn_cls_group" value="one-time-purchase" {% unless product.requires_selling_plan %}checked{% endunless %} />
                 <label for="th_subscription_radio_otp_option_{{ product.id }}" data-value="one-time-purchase-label">
@@ -44,7 +44,7 @@
         {%- endunless -%}
         {%- for th_subscription_spg in product.selling_plan_groups -%}
           {%- if th_subscription_spg.app_id == '18d463fb7da4ca64c4511f4aa069dc20' -%}
-            <div class="th_sp_wf_cls th_subscription_radio_fieldset">
+            <div class="product-form__submit">
               <div class="th_subscription_radio_label_outer">
                 <input type="radio" id="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}" class="th_subscription_radio_btn_cls_group" name="th-subscription-plan-selector-group-radio" value="{{ th_subscription_spg.id }}" {% if product.requires_selling_plan %}{% if forloop.first %}checked{% endif %}{% endif %} />
                 <label for="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}">
