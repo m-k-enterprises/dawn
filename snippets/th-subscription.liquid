@@ -245,7 +245,6 @@
         </div>
       </div>
     {%- else -%}
-      <pre>{{ shop.metafields.nativeSubscription.thsb_subscription_layout }}</pre>
       <div class="th_subscription_section">
         <input type="hidden" name="selling_plan" class="th_subscription_selling_id_{{ product.id }}" value="{{ product.selected_selling_plan.id }}" />
         {%- if shop.metafields.nativeSubscription.thsb_purchase_option != blank -%}
