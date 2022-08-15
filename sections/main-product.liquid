@@ -426,7 +426,7 @@
                 </div>
 
                 {%- form 'product', product, data-productid: product.id, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  
+                  {% render 'th-subscription', product: product %}
                   <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons">
                     <button
@@ -452,7 +452,7 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                  {% render 'th-subscription', product: products.product %}
+                  
                 {%- endform -%}
               </product-form>
 
