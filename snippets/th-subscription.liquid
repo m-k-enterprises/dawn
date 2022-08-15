@@ -16,47 +16,45 @@
   {%- endcapture -%}
   {%- if shop.metafields.nativeSubscription.thsb_subscription_widget != 0 -%}
     {%- if shop.metafields.nativeSubscription.thsb_subscription_layout == 1 -%}
-      <div class="th_subscription_radio_section">
+      <div class="product-form__buttons th_subscription_radio_section">
         <input type="hidden" name="selling_plan" class="th_subscription_selling_id_{{ product.id }}" value="{{ product.selected_selling_plan.id }}" />
         {%- if shop.metafields.nativeSubscription.thsb_purchase_option != blank -%}
           <legend class="form__label">{{ shop.metafields.nativeSubscription.thsb_purchase_option }}</legend>
         {%- else -%}
           <legend class="form__label" data-language="th_sb_purchase_option">Purchase options</legend>
         {%- endif -%}
-        <div class="th_subscription_radio_plans">
-          {%- unless product.requires_selling_plan -%}
+        {%- unless product.requires_selling_plan -%}
+          <div class="th_sp_wf_cls th_subscription_radio_fieldset">
+            <div class="th_subscription_radio_label_outer">
+              <input type="radio" id="th_subscription_radio_otp_option_{{ product.id }}" name="th-subscription-plan-selector-group-radio" class="th_subscription_radio_btn_cls_group" value="one-time-purchase" {% unless product.requires_selling_plan %}checked{% endunless %} />
+                <label for="th_subscription_radio_otp_option_{{ product.id }}" data-value="one-time-purchase-label">
+                  {%- if shop.metafields.nativeSubscription.thsb_one_time_purchase != blank -%}
+                    <span class="th_subscription_radio_label_text">{{ shop.metafields.nativeSubscription.thsb_one_time_purchase }}</span>
+                  {%- else -%}
+                    <span class="th_subscription_radio_label_text">One-time purchase</span>
+                  {%- endif -%}
+                  <span class="th_subscription_radio_fieldset_discount_min_price">
+                    <span class="money">
+                      {{ product.selected_or_first_available_variant.price | money }}
+                    </span>
+                  </span>
+                </label>
+            </div>
+          </div>
+        {%- endunless -%}
+        {%- for th_subscription_spg in product.selling_plan_groups -%}
+          {%- if th_subscription_spg.app_id == '18d463fb7da4ca64c4511f4aa069dc20' -%}
             <div class="th_sp_wf_cls th_subscription_radio_fieldset">
               <div class="th_subscription_radio_label_outer">
-                <input type="radio" id="th_subscription_radio_otp_option_{{ product.id }}" name="th-subscription-plan-selector-group-radio" class="th_subscription_radio_btn_cls_group" value="one-time-purchase" {% unless product.requires_selling_plan %}checked{% endunless %} />
-                  <label for="th_subscription_radio_otp_option_{{ product.id }}" data-value="one-time-purchase-label">
-                    {%- if shop.metafields.nativeSubscription.thsb_one_time_purchase != blank -%}
-                      <span class="th_subscription_radio_label_text">{{ shop.metafields.nativeSubscription.thsb_one_time_purchase }}</span>
-                    {%- else -%}
-                      <span class="th_subscription_radio_label_text">One-time purchase</span>
-                    {%- endif -%}
-                    <span class="th_subscription_radio_fieldset_discount_min_price">
-                      <span class="money">
-                        {{ product.selected_or_first_available_variant.price | money }}
-                      </span>
-                    </span>
-                  </label>
+                <input type="radio" id="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}" class="th_subscription_radio_btn_cls_group" name="th-subscription-plan-selector-group-radio" value="{{ th_subscription_spg.id }}" {% if product.requires_selling_plan %}{% if forloop.first %}checked{% endif %}{% endif %} />
+                <label for="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}">
+                  <span class="th_subscription_radio_label_text">{{ th_subscription_spg.name }} <span class="th_subscription_radio_fieldset_discount_val" data-save="save"></span></span>
+                  <span class="th_subscription_radio_fieldset_discount_min_price" data-from="from" data-delivery="{{ thsb_prepaid_delivery_label }}"></span>
+                </label>
               </div>
             </div>
-          {%- endunless -%}
-          {%- for th_subscription_spg in product.selling_plan_groups -%}
-            {%- if th_subscription_spg.app_id == '18d463fb7da4ca64c4511f4aa069dc20' -%}
-              <div class="th_sp_wf_cls th_subscription_radio_fieldset">
-                <div class="th_subscription_radio_label_outer">
-                  <input type="radio" id="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}" class="th_subscription_radio_btn_cls_group" name="th-subscription-plan-selector-group-radio" value="{{ th_subscription_spg.id }}" {% if product.requires_selling_plan %}{% if forloop.first %}checked{% endif %}{% endif %} />
-                  <label for="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}">
-                    <span class="th_subscription_radio_label_text">{{ th_subscription_spg.name }} <span class="th_subscription_radio_fieldset_discount_val" data-save="save"></span></span>
-                    <span class="th_subscription_radio_fieldset_discount_min_price" data-from="from" data-delivery="{{ thsb_prepaid_delivery_label }}"></span>
-                  </label>
-                </div>
-              </div>
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
+          {%- endif -%}
+        {%- endfor -%}
         {%- for th_subscription_spg in product.selling_plan_groups -%}
           {%- if th_subscription_spg.app_id == '18d463fb7da4ca64c4511f4aa069dc20' -%}
             <div class="th_subscription_radio_interval" data-id="th_subscription_radio_{{ th_subscription_spg.id }}_option_{{ product.id }}" {% unless product.requires_selling_plan %}style="display:none;"{% endunless %}>
