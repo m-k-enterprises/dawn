@@ -111,6 +111,55 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1660742631b50d1eba": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1660742630310ddf44-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Summer Sale",
+            "heading_size": "h1"
+          }
+        },
+        "1660742630310ddf44-1": {
+          "type": "text",
+          "settings": {
+            "text": "Now On",
+            "text_style": "subtitle"
+          }
+        },
+        "1660742630310ddf44-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660742630310ddf44-0",
+        "1660742630310ddf44-1",
+        "1660742630310ddf44-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo-of-a-person-in-a-bathtub-viewed-from-above.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "165580640774a9ee9f": {
       "type": "rich-text",
       "disabled": true,
@@ -329,6 +378,7 @@
   },
   "order": [
     "1655110418b5035676",
+    "1660742631b50d1eba",
     "165580640774a9ee9f",
     "16600650638f67e5f0",
     "1660065280e61f3893",
