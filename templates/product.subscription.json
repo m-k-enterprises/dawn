@@ -58,6 +58,49 @@
         "padding_bottom": 52
       }
     },
+    "1660851601344b8f25": {
+      "type": "multicolumn",
+      "blocks": {
+        "16608516014e665919-0": {
+          "type": "column",
+          "settings": {
+            "title": "Subscribe",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16608516014e665919-1": {
+          "type": "column",
+          "settings": {
+            "title": "Unbox",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16608516014e665919-0",
+        "16608516014e665919-1"
+      ],
+      "settings": {
+        "title": "How it works",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -233,6 +276,7 @@
   "order": [
     "1660850960cad2b559",
     "1660851461862f24c0",
+    "1660851601344b8f25",
     "main",
     "16552347299a8f80f2",
     "product-recommendations"
