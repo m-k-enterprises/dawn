@@ -64,6 +64,7 @@
         "16608516014e665919-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hand-duotone.png",
             "title": "Subscribe",
             "text": "",
             "link_label": "",
