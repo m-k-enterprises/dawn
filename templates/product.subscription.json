@@ -334,50 +334,29 @@
     },
     "166085234943082171": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "16608523494154d6a9-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I add other items to my subscription, to combine shipping?",
+            "icon": "none",
+            "row_content": "<p>Subscription Box is a monthly subscription service which renews automatically (unless you tell us otherwise!), so we won't be able to add additional items.<\/p>",
             "page": ""
           }
         },
         "16608523494154d6a9-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "16608523494154d6a9-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "16608523494154d6a9-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How much is shipping?",
+            "icon": "none",
+            "row_content": "<p>The box is a fixed price, but shipping costs will vary based on where in the world you are! Each box will weigh up to {{ product.metafields.facts.weight | metafield_tag }}.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "16608523494154d6a9-0",
-        "16608523494154d6a9-1",
-        "16608523494154d6a9-2",
-        "16608523494154d6a9-3"
+        "16608523494154d6a9-1"
       ],
       "settings": {
         "caption": "",
