@@ -28,6 +28,36 @@
         "show_text_below": false
       }
     },
+    "1660851461862f24c0": {
+      "type": "rich-text",
+      "blocks": {
+        "1660851461085b8f50-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Bath bombs delivered to your doorstep monthly.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660851461085b8f50-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Sizzle & Soak subscription box offers bath bombs monthly. Every month you’ll receive 4 - 5 bath, shower and soap products. Subscribe today.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660851461085b8f50-0",
+        "1660851461085b8f50-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -202,6 +232,7 @@
   },
   "order": [
     "1660850960cad2b559",
+    "1660851461862f24c0",
     "main",
     "16552347299a8f80f2",
     "product-recommendations"
