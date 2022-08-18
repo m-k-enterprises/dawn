@@ -74,6 +74,7 @@
         "16608516014e665919-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/box-taped-duotone.png",
             "title": "Unbox",
             "text": "",
             "link_label": "",
