@@ -127,6 +127,28 @@
         "padding_bottom": 12
       }
     },
+    "166194647154a33267": {
+      "type": "rich-text",
+      "blocks": {
+        "1661946471de79bb16-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please leave us a review below. We would love to hear your feedback!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1661946471de79bb16-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16552347299a8f80f2": {
       "type": "apps",
       "blocks": {
@@ -174,6 +196,7 @@
   },
   "order": [
     "main",
+    "166194647154a33267",
     "16552347299a8f80f2",
     "product-recommendations"
   ]
