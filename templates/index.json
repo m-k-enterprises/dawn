@@ -211,6 +211,12 @@
             "collection": "himalayan-salt-bath-bombs"
           }
         },
+        "ea24cf4f-b64d-499c-83ea-b39927016cb4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halloween-bath-bombs"
+          }
+        },
         "1660065063f4fc3b4a-1": {
           "type": "featured_collection",
           "settings": {
@@ -286,6 +292,7 @@
       },
       "block_order": [
         "1660065063f4fc3b4a-0",
+        "ea24cf4f-b64d-499c-83ea-b39927016cb4",
         "1660065063f4fc3b4a-1",
         "1660065063f4fc3b4a-2",
         "45dd7ec8-6f77-4f49-aacb-f9721004141c",
@@ -300,7 +307,7 @@
         "00ec6e10-edbf-44f0-b1bd-9df32e089dfb"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Bath Bombs",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
