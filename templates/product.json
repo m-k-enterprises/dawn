@@ -39,10 +39,22 @@
           "settings": {
           }
         },
+        "0149de67-ffd9-46e2-aba5-a04c5e256c30": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available %}\nIn stock, ready to ship\n{% endif %}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "cf82cd08-e05f-430b-ae22-948a287bb55c": {
+          "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "description": {
@@ -110,7 +122,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "0149de67-ffd9-46e2-aba5-a04c5e256c30",
         "buy_buttons",
+        "cf82cd08-e05f-430b-ae22-948a287bb55c",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
@@ -128,22 +142,6 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "165091771351e7c596": {
-      "type": "apps",
-      "blocks": {
-        "f506bee6-3e62-44e4-831d-f690b32bcf53": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "f506bee6-3e62-44e4-831d-f690b32bcf53"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "image-with-text": {
@@ -187,8 +185,8 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Buy 2 Get 1 Free",
+            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -196,8 +194,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "14 Day Money Back Guarantee",
+            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy. <strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back<\/strong> for a full refund!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,12 +211,12 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "color_scheme": "accent-2",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -240,13 +238,52 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1661946404888b2ff9": {
+      "type": "rich-text",
+      "blocks": {
+        "166194640487bb20a1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please leave us a review below. We would love to hear your feedback!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166194640487bb20a1-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165091771351e7c596": {
+      "type": "apps",
+      "blocks": {
+        "f506bee6-3e62-44e4-831d-f690b32bcf53": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "f506bee6-3e62-44e4-831d-f690b32bcf53"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "165091771351e7c596",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1661946404888b2ff9",
+    "165091771351e7c596"
   ]
 }

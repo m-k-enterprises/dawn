@@ -81,6 +81,15 @@
     "1652120374894c02b4": {
       "type": "multicolumn",
       "blocks": {
+        "3d227545-1bea-45ba-a96a-9fca7d055415": {
+          "type": "column",
+          "settings": {
+            "title": "Buy 2 Get 1 Free",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "1652120374c1d5dba6-0": {
           "type": "column",
           "settings": {
@@ -92,6 +101,7 @@
         }
       },
       "block_order": [
+        "3d227545-1bea-45ba-a96a-9fca7d055415",
         "1652120374c1d5dba6-0"
       ],
       "settings": {
@@ -105,7 +115,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "accent-2",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 16
