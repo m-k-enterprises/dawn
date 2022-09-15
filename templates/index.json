@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/background.jpg",
+        "image": "shopify:\/\/shop_images\/Buckle-Free_Belts_-_Promo_on_Bear_Flag.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -137,8 +137,8 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
@@ -229,7 +229,6 @@
     },
     "16521208037f36a38d": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1652120803c043f23d-0": {
           "type": "heading",
@@ -248,8 +247,8 @@
         "1652120803c043f23d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Find my belt",
+            "button_link": "shopify:\/\/collections\/belts"
           }
         }
       },
@@ -259,13 +258,14 @@
         "1652120803c043f23d-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Buckle-Free_Belts_-_Promo_-_Aligned.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
