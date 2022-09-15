@@ -312,12 +312,11 @@
     },
     "video": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "Shoot 2022",
         "heading_size": "h1",
         "cover_image": "shopify:\/\/shop_images\/frame-000149.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/youtu.be\/qHyIG8-hejI",
         "description": "Bear Belts Shoot 2022",
         "full_width": false,
         "color_scheme": "background-1",
