@@ -61,7 +61,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>After searching the belt market, we were frustrated by the lack of options for the bigger guy.<br\/><br\/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to distinguish yourself from the crowd a little better via your buckle-free belt.<\/p>"
+            "text": "<p>After searching the belt market, we were <strong>frustrated by the lack of options<\/strong> for the bigger guy.<br\/><br\/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to <strong>distinguish yourself from the crowd<\/strong> a little better via your buckle-free belt.<\/p>"
           }
         }
       },
@@ -225,6 +225,34 @@
         "enable_video_looping": true,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "166325020295edf243": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "166325020280b6f5cf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seek the Adventure",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166325020280b6f5cf-0"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "16521208037f36a38d": {
@@ -421,6 +449,7 @@
     "1652120374894c02b4",
     "featured_collection",
     "165013541345f17318",
+    "166325020295edf243",
     "16521208037f36a38d",
     "collage",
     "video",
