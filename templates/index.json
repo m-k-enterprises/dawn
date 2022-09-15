@@ -246,6 +246,7 @@
         },
         "1652120803c043f23d-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Find my belt",
             "button_link": "shopify:\/\/collections\/belts"
