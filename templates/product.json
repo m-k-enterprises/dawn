@@ -99,6 +99,11 @@
             "page": "care-guide"
           }
         },
+        "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
+          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -131,6 +136,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "8b84276a-b8d2-4f8d-98e0-7277d196036f",
         "share",
         "e404bab6-f250-4909-a5f2-3df524765bdc"
       ],
