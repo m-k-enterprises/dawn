@@ -348,8 +348,8 @@
         "cover_image": "shopify:\/\/shop_images\/frame-000149.jpg",
         "video_url": "https:\/\/youtu.be\/qHyIG8-hejI",
         "description": "Bear Belts Shoot 2022",
-        "full_width": true,
-        "color_scheme": "background-1",
+        "full_width": false,
+        "color_scheme": "accent-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
