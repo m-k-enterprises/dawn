@@ -1,29 +1,27 @@
-Dawn v5.0.0 introduces new ways to customize the look and feel of your store with a vertical product filter layout, mega menu header style, and a quick add button option. This update also features fixes and improvements, including several accessibility enhancements. 
+Dawn 7.0.0 introduces several fixes and enhancements to make the themes even more flexible and easy to use. We now offer additional customization options in the header to change the position of your logo, new ways of displaying your product page and featured product images, and a new complementary product block to help boost sales.
 
 ### Added
-- Important: We’ve introduced a new vertical product filter layout so you can further customize your store’s filters. You’ll find this setting in the collection and search templates. This update may cause a visual change to your theme. If you previously selected the “Collapse on desktop” checkbox, your filter layout will be changed to horizontal, which is the new default. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
-- Important: You can now control the number of desktop and mobile grid columns in the collections list page, giving you more options to express your brand’s look and feel. This update may cause a layout change because columns will no longer automatically adjust to fill the available screen width. This can be modified by adjusting the number of columns setting.
-- We’ve added the ability to choose a mega menu style in the header section, providing better support for menus with many items. 
-- You can now enable a quick add button on your product cards, allowing your customers to quickly add items to their cart. Find this setting in the collection template and the featured collection section. 
-- The featured collection section is now more flexible. You can control the description, text styles, button styles, and layout in the section settings. 
-- You can now adjust how many products to show in the product recommendations section, allowing you more control over the layout of your store. 
-- The theme’s product filtering functionality now supports boolean (true or false) custom filters. 
+- The announcement bar section has a new setting that lets you set the text alignment.
+- The header is now more flexible. We added a new logo position option called “Middle center” to feature your logo in the center and your navigation menu on the left, on larger screens.
+- The product information section has a new layout option that allows you to split your product images into a two-column grid.
+- The product information section has a new block that allows you to display complementary products.
+- The product information and featured product sections now allow desktop media to be displayed on the left or on the right on larger screens.
+- We added pagination to the main collection list.
+- We introduced the ability to add and reorder sections, including app sections, to the customer account pages.
+
+### Changed
+- Important: We introduced new theme settings to style “product cards”, “blog cards” and “collection cards” separately. Prior to this update, all these components were styled with the cards’ theme settings. If you have previously updated the style of your cards, this update may cause visual changes to your product cards, blog cards, or collection cards. This can be modified by adjusting their styling in theme settings.
+- We introduced a new setting on the collage section to let you apply product card styling to all card types featured in the section.
 
 ### Fixes and improvements
-- Gradients will now be applied more predictably across the theme. 
-- In some cases, the maximum price wasn’t showing on the price filter. This is now fixed. 
-- We fixed an issue where navigation arrows were unexpectedly appearing on product pages. 
-- The experience of navigating the slideshow section when using a screen reader or keyboard is improved. 
-- We fixed an issue where unintended mobile menu items were being discovered by screen readers. 
-- We removed an empty heading in the contact form, improving its accessibility. 
-- There was an issue with vendor name visibility on the cart page that is now fixed. 
-- We fixed an issue where the email signup text on the password page sometimes wasn’t visible. 
-- The “Continue shopping” button on the gift card page wasn’t working as expected. This is now fixed. 
-- The Shop Pay installments text will now be center aligned when there is no accompanying product media. 
-- There were some spacing inconsistencies in the product media gallery. This is now fixed.
-- Empty columns in the multicolumn section were adding unnecessary vertical space. This is now fixed. 
-- We’re now providing improved information on how to create meaningful alt text in the video section. 
-- We fixed an issue with making products full width on featured collections. 
-
-### Removed
-- In the collection and search templates, the “Collapse on desktop” checkbox has been removed from the filtering and sorting settings. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
+- We fixed the setting that displays the product’s vendor name on the cart pop up notification.
+- We fixed an issue where the search dropdown window wasn’t matching the width of the search input field on smaller screens.
+- We fixed an issue where the quick add buttons would still display when JavaScript was disabled.
+- We fixed an issue where the login link wouldn’t display properly in the menu drawer on Android.
+- We fixed video controls not being clickable on the featured product section.
+- We fixed an issue with the cart notification overlapping the rest of the content on Safari v15.6.
+- We added max width to iFrames placed in the product description so the content doesn’t overflow.
+- We fixed the slider padding being different on Safari from the rest of the browsers.
+- We fixed an issue where manually inputting a quantity in the cart drawer could remove the item in question.
+- We fixed a bug to allow the removal of filters.
+- We fixed focus rings for Windows High Contrast mode.
