@@ -584,8 +584,256 @@
         "insufficient_funds": "Plata dvs. a fost refuzată din cauza fondurilor insuficiente. Încercați din nou sau utilizați o altă metodă de plată.",
         "fraud_payment_errors": {
           "transaction_declined": "Tranzactia a fost refuzata",
-          "address_mismatch": "Adresa stradală și codul poștal nu se potrivesc."
+          "address_mismatch": "Adresa stradală și codul poștal nu se potrivesc.",
+          "cannot_process": "Această tranzacție nu poate fi procesată.",
+          "no_match": "Nu se potrivesc",
+          "card_declined": "Cardul dumneavoastră a fost respins"
         }
+      },
+      "shipping_errors": {
+        "shipping_method": "Coșul dvs. de cumpărături a fost actualizat și rata de expediere anterioară nu este valabilă. Selectați o nouă rată.",
+        "shipping_method_not_available": "Coșul tău a fost actualizat și articolele adăugate nu pot fi expediate la adresa ta. Eliminați articolele pentru a finaliza comanda.",
+        "shipping_method_not_available_generic": {
+          "one": "Această comandă nu poate fi expediată la adresa pe care ați introdus-o. Verificați-vă adresa pentru a vă asigura că toate câmpurile au fost introduse corect și încercați din nou.",
+          "other": "Unele articole din coșul dvs. nu pot fi expediate la adresa pe care ați introdus-o. Verificați-vă adresa pentru a vă asigura că toate câmpurile au fost introduse corect și încercați din nou."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Articolul pe care l-ați adăugat nu este expediat în locația dvs. Scoateți-l pentru a verifica sau contactați magazinul.",
+          "other": "Unul sau mai multe articole pe care le-ați adăugat nu sunt expediate în locația dvs. Eliminați-le pentru a verifica sau contactați magazinul."
+        }
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Checkout rapid",
+        "or": "SAU"
+      },
+      "alternative_payment_method": {
+        "button_html": "Plătiți cu: %{method}",
+        "button_label": "Plătiți cu: %{method}"
+      },
+      "paypal": {
+        "button_html": "Plătiți cu %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Cumpărați cu %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "Post-cumpărare",
+        "title": "Post-cumpărare",
+        "escape_confirmation": "Ai plătit pentru comanda ta.",
+        "escape_action": "Vizualizați confirmarea comenzii ›",
+        "components": {
+          "close": "Închide",
+          "expand": "Vezi mai mult",
+          "processing": "Prelucrare…",
+          "submit": "Trimite"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Se redirecționează…",
+        "redirecting_title": "Se redirecționează…",
+        "redirecting_notice": "Așteptați până vă redirecționăm.",
+        "complete_your_purchase_title": "Finalizați achiziția",
+        "continue_to_payment_gateway_notice": "Continuați cu plata pentru a adăuga informațiile dvs. de plată.",
+        "continue_to_payment_gateway_button_label": "Continuați cu plata",
+        "complete_your_purchase_title_error": "Corectați informațiile de plată",
+        "continue_to_payment_gateway_notice_error": "Informațiile dvs. de plată nu au putut fi verificate.",
+        "continue_to_payment_gateway_button_label_error": "Actualizați informațiile de plată",
+        "page_title": "Procesarea comenzii",
+        "title": "Procesarea comenzii",
+        "your_order_has_been_received_title": "Vă mulțumim pentru comandă",
+        "you_will_receive_confirmation": "Primim o mulțime de comenzi chiar acum. Ar trebui să primiți în curând confirmarea prin e-mail sau text. Dacă nu îl primiți în următoarea oră, anunțați-ne.",
+        "you_will_not_be_charged": "Încă nu veți fi taxat",
+        "wait": {
+          "short": "Comanda dvs. este procesată.",
+          "medium": {
+            "one": "Comanda dvs. este procesată. Timpul de așteptare estimat este de %{count} minut.",
+            "other": "Comanda dvs. este procesată. Timpul de așteptare estimat este de %{count} minute."
+          },
+          "long": "Veți primi un e-mail de îndată ce comanda dvs. va fi procesată. În prezent există un volum mare de comenzi.",
+          "no_auto_refresh_html": "Dacă nu sunteți redirecționat automat, %{link}.",
+          "refresh_this_page": "reîmprospătați această pagină"
+        }
+      },
+      "failed_payment": {
+        "page_title": "Plata nu a putut fi procesată",
+        "title": "Plata nu a putut fi procesată",
+        "payment_not_processed_title": "Plata dvs. nu a putut fi procesată",
+        "payment_not_processed_text": "Nu ai fost taxat. Întoarceți-vă la coș pentru a finaliza achiziția.",
+        "return_to_cart_button_label": "Întoarce-te la coș"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Card de credit",
+        "bank_deposit_label": "Depozit bancar",
+        "cash_on_delivery_label": "Ramburs la livrare (COD)",
+        "money_order_label": "Mandat poștal"
+      },
+      "thank_you": {
+        "title": "Multumesc pentru cumparaturile facute!",
+        "confirmation_email_sent_text": "Un e-mail de confirmare a fost trimis la %{email}",
+        "return_to_store_link_label": "Continua cumparaturile",
+        "print_link_label": "Tipăriți chitanța",
+        "payment_information_title": "Informatii de plata",
+        "shipping_information_title": "Informații despre livrare",
+        "page_title": "Mulțumesc %{display_name}!",
+        "page_title_no_name": "Mulțumesc!",
+        "cancelled_page_title": "Comanda anulată",
+        "customer_information_title": "Informații despre client",
+        "contact_information_title": "Informatii de contact",
+        "billing_address_title": "Adresa de facturare",
+        "company_location_title": "Locație",
+        "shipping_address_title": "Adresa de transport",
+        "shipping_address_map_title": "Harta Google care afișează punctul de identificare al adresei de expediere: %{address}",
+        "payment_method_title": "Modalitate de plată",
+        "shipping_method_title": "Metodă de livrare",
+        "tracking_number": "Număr de urmărire:",
+        "company_tracking_number": "Număr de urmărire %{company}:",
+        "estimated_arrival": "Estimată Data de livrare:",
+        "estimated_delivery": "Livrare estimata",
+        "re-order": "Recomandați aceleași articole",
+        "confirmed": "Confirmat",
+        "gift_card_confirmation_by_text": "Cardurile cadou sunt trimise prin text. Dacă nu le-ați primit pe ale dvs., încercați să le trimiteți din nou sau contactați-ne.",
+        "gift_card_confirmation_by_email": "Cardurile cadou sunt trimise prin e-mail. Dacă nu le-ați primit pe ale dvs., încercați să le trimiteți din nou sau contactați-ne.",
+        "gift_card_title": "Carduri cadou",
+        "resend_gift_cards": "Retrimiteți cardurile cadou",
+        "thank_you_title": "Comanda dvs. este confirmată",
+        "thank_you_title_payment": "Plata dvs. este confirmată",
+        "thank_you_title_review": "Comanda dvs. a fost trimisă spre examinare",
+        "thank_you_confirmed_order_with_email": "Veți primi în curând un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_confirmed_order_with_phone": "Veți primi în curând un text de confirmare cu numărul dvs. de comandă.",
+        "thank_you_confirmed_order_with_email_and_phone": "Veți primi în curând un e-mail de confirmare și un mesaj text cu numărul comenzii.",
+        "thank_you_confirmed_order_with_email_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Veți primi un text când comanda dvs. este gata de ridicare.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "thank_you_confirmed_order_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi o confirmare a comenzii.",
+        "thank_you_confirmed_order_with_draft": "Vă vom anunța dacă avem nevoie de mai multe informații sau când comanda dvs. este confirmată.",
+        "order_status_confirmed_order_with_email": "Veți primi un e-mail când comanda dvs. este gata.",
+        "order_status_confirmed_order_with_phone": "Veți primi un text când comanda dvs. este gata.",
+        "order_status_confirmed_order_with_email_and_phone": "Veți primi un e-mail și un mesaj text când comanda dvs. este gata.",
+        "order_status_confirmed_order_with_email_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Ați efectuat o plată pentru comanda dvs. %{date}.",
+        "order_status_confirmed_order_with_email_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "order_status_confirmed_order_with_phone_pick_up": "Veți primi un text când comanda dvs. este gata de ridicare.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Veți primi un e-mail și un mesaj text când comanda dvs. este gata pentru ridicare.",
+        "order_status_confirmed_order_local": "Pregătim comanda pentru livrare.",
+        "order_status_updates_with_email": "Veți primi actualizări de livrare și livrare prin e-mail.",
+        "order_status_updates_with_phone": "Veți primi actualizări de expediere și livrare prin text.",
+        "order_status_updates_with_email_and_phone": "Veți primi actualizări de livrare și livrare prin e-mail și text.",
+        "order_status_updates_with_missing": "Alegeți cum doriți să primiți actualizări de expediere.",
+        "order_status_confirmed_with_installments_payment_return": "Vă rugăm să vă întoarceți atenția către asociatul de vânzări.",
+        "order_status_confirmed_with_installments_payment_confirm": "Veți primi în curând un e-mail de confirmare cu numărul comenzii și detaliile programului de rate.",
+        "confirmed_title": "Comanda dvs. este confirmată",
+        "confirmed_description": "Am acceptat comanda dvs. și o pregătim. Reveniți la această pagină pentru actualizări privind starea expedierii dvs.",
+        "ready_for_pickup_title": "Comanda dvs. este gata pentru ridicare",
+        "ready_for_pickup_description": "Comanda dvs. este gata pentru ridicare. Vă rugăm să aduceți confirmarea comenzii când vă ridicați comanda.",
+        "ready_for_delivery_title": "Comanda dvs. este gata de livrare.",
+        "ready_for_delivery_description": "Ți-am pregătit comanda.",
+        "order_updates_title": "Comanda actualizări",
+        "shop_phone_description": "Veți primi un text cu un link către aplicația Shop pentru a vă ajuta să urmăriți comanda.",
+        "order_updates_description_html": "Actualizările vor fi trimise la %{customer_contact}",
+        "order_updates_current_step_prefix": "Pasul curent:",
+        "order_updates_past_step_prefix": "Pasul trecut:",
+        "order_updates_upcoming_step_prefix": "Următorul pas:",
+        "in_transit": "Pe drum",
+        "in_transit_title": "Comanda ta este pe drum",
+        "in_transit_description": "Veți primi actualizări despre progresul acestuia.",
+        "in_transit_description_days": "Ar trebui să primiți comanda în următoarele %{number} zile.",
+        "in_transit_description_today": "Ar trebui să primiți comanda astăzi.",
+        "in_transit_description_tomorrow": "Ar trebui să primiți comanda în ziua următoare.",
+        "no_tracking_number": "Nu există un număr de urmărire pentru această comandă.",
+        "out_for_delivery": "Pregătit pentru livrare",
+        "out_for_delivery_title": "Comanda dvs. este disponibilă pentru livrare",
+        "out_for_delivery_description_html": "Comanda dvs. este pe drum și ar trebui să sosească astăzi. Dacă nu este livrat în următoarele 2 zile, %{contact_us}.",
+        "out_for_delivery_local_title": "Comanda dvs. este disponibilă pentru livrare",
+        "out_for_delivery_local_description_html": "Comanda dvs. va sosi în curând.",
+        "attempted_delivery": "încercare de livrare",
+        "attempted_delivery_title": "S-a încercat să vă livrați comanda",
+        "attempted_delivery_description_html": "S-a încercat să vă livrați comanda, dar nu a reușit. %{contact_us} pentru a aranja o altă încercare de livrare.",
+        "attempted_delivery_local_title": "Livrare ratată",
+        "attempted_delivery_local_description_html": "Nu am reușit să vă livrăm comanda. Pentru a programa o altă livrare, %{contact_us}.",
+        "delivered": "Livrat",
+        "delivered_title": "Comanda dvs. a fost livrată",
+        "delivered_description_html": "Comanda dvs. a fost livrată la adresa pe care ați furnizat-o. Dacă nu l-ați primit sau dacă aveți alte probleme, %{contact_us}.",
+        "delivered_local_title": "Comanda dvs. a fost livrată",
+        "delivered_local_description_html": "Nu ați primit comanda dvs.? %{anunță-ne}.",
+        "payment_method_draft_order": "Datorită după revizuirea comenzii",
+        "picked_up_title": "Comanda dvs. a fost ridicată",
+        "picked_up_description_html": "Comanda dvs. a fost ridicată la %{location_name} pe %{date}.",
+        "contact_us": "Contactaţi-ne",
+        "contact_us_lowercase": "contactaţi-ne",
+        "contact_us_html": "Nevoie de ajutor? %{contactaţi-ne}",
+        "updated_time": "Actualizat acum %{time_ago}",
+        "failure": "Nu a fost livrat",
+        "failed_title": "Comanda dvs. nu a putut fi livrată",
+        "failed_contact_merchant": "Contactați %{company} pentru a aranja livrarea.",
+        "failed_contact_merchant_no_company": "Contactați-ne pentru a aranja livrarea.",
+        "non_shippable_title": "Comanda dvs. este finalizată",
+        "let_us_know": "Anunță-ne",
+        "login_title": "Conectați-vă pentru a vedea toate detaliile comenzii",
+        "login_description": "Puteți găsi numărul comenzii în chitanța primită prin e-mail.",
+        "login_description_phone": "Puteți găsi numărul comenzii în chitanța primită prin mesaj text.",
+        "login_not_customer_html": "Nu %{name}? Puteți %{link}",
+        "login_reorder_link_text": {
+          "one": "cumpara si acest produs",
+          "other": "cumpara si aceste produse"
+        },
+        "customer_information_hidden_fields_message": "Conectați-vă pentru a vedea toate informațiile despre clienți.",
+        "cancelled_title": "Comanda dvs. a fost anulată",
+        "cancelled_description": "Comanda dvs. a fost anulată pe %{date}. Contactați-ne dacă aveți întrebări.",
+        "order_number_label": "Număr de ordine",
+        "customer_validation_error": "Introduceți un e-mail valid sau un număr de comandă.",
+        "customer_validation_error_phone": "Introduceți un număr de telefon sau de comandă valid.",
+        "login": "Autentificare",
+        "unfulfilled_items_title": "Pregătirea pentru expediere",
+        "unfulfilled_items_description": "În prezent pregătim aceste articole pentru expediere.",
+        "marker": {
+          "current": "Locația curentă de expediere",
+          "shipping": "Adresa de transport"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Locația curentă de expediere",
+          "shipping": "Locația de ridicare"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articole din acest transport",
+          "unfulfilled_table_title": "Articole care se pregătesc pentru expediere",
+          "product_image_label": "Imaginea produsului",
+          "description_label": "Descriere",
+          "quantity_label": "Cantitate"
+        },
+        "opt_in_message_html": "Informațiile dvs. au fost salvate cu %{shopify_pay}",
+        "order_updates_description_missing": "Nu primiți actualizări de livrare.",
+        "order_updates_subscribe_to_email_notifications": "Primiți actualizări de livrare prin e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Primiți actualizări de livrare prin e-mail sau text",
+        "order_updates_subscribe_to_phone_notifications": "Primiți actualizări de expediere prin text",
+        "order_updates_submit_subscription": "Trimite",
+        "track_shipment": "Urmăriți expedierea",
+        "shopify_pay": {
+          "order_completed_html": "Comanda finalizată cu %{shopify_pay}",
+          "learn_more_label": "Aflați mai multe despre Shop Pay"
+        },
+        "other_options": "Alte optiuni",
+        "delivery_information_label": "Informații de livrare:",
+        "gift_card_sent_confirmation": "Carduri cadou trimise",
+        "qr_code": {
+          "send_link_to_phone": "Sau trimiteți un link către telefonul dvs",
+          "title": "Urmăriți pe telefonul dvs",
+          "subtitle": "Scanați codul cu camera telefonului pentru a urmări cu Shop."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scanează cu telefonul tău",
+            "description": "Magazinul vă va trimite actualizări de livrare în timp real odată ce comanda dvs. este expediată."
+          },
+          "sms": {
+            "title": "Sau trimiteți un link către telefonul dvs"
+          }
+        },
+        "view_business_customer_account": "Vezi contul",
+        "breadcrumbs_submitted": "Trimis"
       }
     }
   }
