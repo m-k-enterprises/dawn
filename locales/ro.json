@@ -1267,6 +1267,142 @@
         "sort_by": "Sortați după: {{option}}",
         "sort_hide_options_accessibility_label": "Ascundeți opțiunile de sortare pentru comenzile confirmate."
       }
+    },
+    "addresses": {
+      "pagination": {
+        "load_more": "Incarca mai mult",
+        "load_more_accessibility_label": "Încărcați mai multe adrese"
+      },
+      "save_new_address_accessibility_label": "Salvați adresa",
+      "title": "Adrese"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Închideți sugestiile",
+      "auto_complete_title": "Sugestii",
+      "billing_address": "Utilizați ca adresă de facturare",
+      "cancel": "Anulare",
+      "cancel_accessibility_label": "Anulați editarea adresei {{address}}",
+      "creation_success_notification": "Adresă adăugată",
+      "default_address": "Aceasta este adresa mea prestabilită",
+      "default_address_creation_success_notification": "Adresă implicită adăugată",
+      "default_address_update_success_notification": "Adresa implicită a fost actualizată",
+      "loading_add_form_accessibility_message": "Se încarcă formularul de adresă nouă",
+      "loading_edit_form_accessibility_message": "Se încarcă formularul de modificare a adresei",
+      "loading_finished_accessibility_message": "Formularul s-a încărcat",
+      "save": "Salvați",
+      "save_accessibility_label": "Salvați adresa {{address}}",
+      "section_title_accessibility_label": "Adaugă adresă",
+      "update_success_notification": "Adresă actualizată"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Numele companiei",
+        "company_card_section_accessibility_label": "Companie"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "oameni",
+        "contact_name": "Nume",
+        "contact_permissions": "Permisiuni",
+        "contact_phone_number": "Număr de telefon",
+        "location_picker_label": "Numele locatiei",
+        "net_payment_terms_description": "{{name}} : plăți datorate în termen {{numberOfDays}} zile",
+        "payment_details_title": "detaliile platii",
+        "payment_terms": "Termeni de plată",
+        "permissions_label": "Permisiunile dvs",
+        "permissions_title": "Permisiuni",
+        "section_title": "Locație",
+        "shipping_address_required": "Adăugați o adresă de livrare la această locație pentru a începe să plasați comenzi.",
+        "tax_details_title": "Detalii fiscale",
+        "tax_id": "Cod fiscal",
+        "tax_exemptions": "Scutiri de impozite",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "și",
+        "tax_exemptions_modal_close": "Închide",
+        "taxes_none": "Nici unul",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Vedeți toate scutirile fiscale"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuați să stocați",
+        "description": "Dacă aveți deja articole în coș, schimbarea locațiilor poate afecta prețurile și cantitățile coșului.",
+        "list_accessibility_label": "Lista locațiilor",
+        "list_item_accessibility_label": "{{name}} : {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}} : Nicio adresă",
+        "list_loading_accessibility_message": "Se încarcă lista de locații",
+        "list_loading_address_accessibility_message": "Se încarcă adresa pentru {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lista locațiilor a fost încărcată",
+        "loading_store_accessibility_message": "Merg la magazin",
+        "no_location_title": "Numai comenzi personale",
+        "no_location_description": "Nu mai aveți permisiunea de a plasa comenzi pentru {{company}} . În continuare puteți plasa comenzi personale.",
+        "no_locations_found": "Nu au fost găsite locații",
+        "search": "Căutați o locație",
+        "selection_cancel_button": "Anulare",
+        "selection_confirmation_button": "Alegeți locația",
+        "title": "Pentru ce locatie cumperi?",
+        "clear_search": "Ștergeți căutarea",
+        "try_new_search": "Încercați o nouă căutare"
+      },
+      "addresses": {
+        "add_billing_address_button": "Adăugați adresa de facturare",
+        "add_billing_address_section_accessibility_label": "Adăugați adresa de facturare",
+        "add_shipping_address_button": "Adăugați adresa de expediere",
+        "add_shipping_address_section_accessibility_label": "Adăugați adresa de expediere",
+        "billing_address_card_title": "Adresa de facturare",
+        "cancel_adding_billing_address_accessibility_label": "Anulați adăugarea adresei de facturare",
+        "cancel_adding_shipping_address_accessibility_label": "Anulați adăugarea adresei de expediere",
+        "save_new_billing_address_accessibility_label": "Salvați adresa de facturare",
+        "save_new_shipping_address_accessibility_label": "Salvați adresa de expediere",
+        "shipping_address_card_title": "Adresa de transport"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ascunde tot",
+          "show_all": "Arata tot",
+          "hide_all_accessibility_label": "Ascundeți toate comenzile în examinare",
+          "show_all_accessibility_label": "Afișați toate comenzile în examinare",
+          "show_all_orders_in_review": "Afișați toate comenzile în examinare",
+          "show_less_orders_in_review": "Afișați mai puține comenzi în examinare",
+          "title": "În revizuire",
+          "pagination": {
+            "nav_accessibility_label": "Butoanele de navigare a comenzilor din recenzie"
+          }
+        },
+        "order_list_column_headers_location": "Locație",
+        "order_list_column_headers_contact": "a lua legatura"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmat pe {{date}} din comanda {{draftOrderName}}",
+        "loading": "Se încarcă detaliile comenzii",
+        "loading_finished_accessibility_message": "Detaliile comenzii au fost încărcate",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Plata dvs. este întârziată cu {{count}} zile",
+              "other": "Plata dvs. este întârziată cu {{count}} zile"
+            },
+            "banner_due": {
+              "one": "Plata dvs. este scadentă în {{count}} zi",
+              "other": "Plata dvs. este scadentă în {{count}} zile"
+            },
+            "banner_due_today": "Plata dvs. este scadentă astăzi",
+            "title": "Plată datorată",
+            "title_with_date": "Plata scadentă {{date}}",
+            "title_due_on_receipt": "Plata nu scade încă",
+            "description_overdue": "Plata dvs. întârzie.",
+            "description_partially_paid": "Această comandă a fost plătită parțial. Ai un sold rămas.",
+            "description_authorized": "Metoda dvs. de plată va fi taxată la data scadenței sau puteți plăti acum.",
+            "description_due_on_receipt": "Veți primi o factură când plata este scadentă."
+          },
+          "draft": {
+            "description": "Detaliile de plată sunt decise în momentul confirmării comenzii.",
+            "title": "Plata încă nu scade"
+          },
+          "paid": {
+            "title": "Plătit"
+          }
+        }
+      }
     }
   }
 }
