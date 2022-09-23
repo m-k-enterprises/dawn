@@ -1552,5 +1552,57 @@
       },
       "filter_selected_accessibility": "{{ type }} ( {{ count }} filtre selectate)"
     }
+  },
+  "customer": {
+    "order": {
+      "tracking_number": "Număr de urmărire",
+      "subtotal": "Subtotal",
+      "total_duties": "Atribuțiile"
+    },
+    "orders": {
+      "title": "Istoric comenzi",
+      "order_number": "Ordin",
+      "order_number_link": "Numărul comenzii {{ number }}",
+      "date": "Data",
+      "payment_status": "Starea plății",
+      "fulfillment_status": "Starea de îndeplinire",
+      "total": "Total",
+      "none": "Încă nu ați plasat nicio comandă."
+    },
+    "recover_password": {
+      "title": "reseteaza parola",
+      "subtext": "Vă vom trimite un e-mail pentru a vă reseta parola",
+      "success": "V-am trimis un e-mail cu un link pentru a vă actualiza parola."
+    },
+    "register": {
+      "title": "Creează cont",
+      "first_name": "Nume",
+      "last_name": "Numele de familie",
+      "email": "E-mail",
+      "password": "Parola",
+      "submit": "Crea"
+    },
+    "reset_password": {
+      "title": "Resetați parola contului",
+      "subtext": "Introduceți o parolă nouă",
+      "password": "Parola",
+      "password_confirm": "Confirmă parola",
+      "submit": "Reseteaza parola"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Iată cardul tău cadou de {{ value }} pentru {{ shop }} !",
+      "subtext": "Cardul dvs. cadou",
+      "gift_card_code": "Cod card cadou",
+      "shop_link": "Continua cumparaturile",
+      "remaining_html": "{{ balance }} rămas",
+      "add_to_apple_wallet": "Adăugați în portofelul Apple",
+      "qr_image_alt": "Cod QR — scanați pentru a valorifica cardul cadou",
+      "copy_code": "Copiați codul",
+      "expired": "Expirat",
+      "copy_code_success": "Cod copiat cu succes",
+      "print_gift_card": "Imprimare"
+    }
   }
 }
