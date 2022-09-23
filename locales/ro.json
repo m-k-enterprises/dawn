@@ -987,7 +987,285 @@
           }
         },
         "recurring_totals": "%{total_price} fiecare %{interval}",
-        "recurring_totals_with_initial_order_shipping_discount": "Prima plată %{total_price_with_discount}, apoi %{recurring_total}"
+        "recurring_totals_with_initial_order_shipping_discount": "Prima plată %{total_price_with_discount}, apoi %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Prima plată %{total_price}",
+            "other": "Primele %{count} plăți %{total_price} fiecare"
+          },
+          "following_cycles": ", apoi %{total_price} la fiecare %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", apoi %{count} plată la %{total_price}",
+            "other": ", apoi %{count} plăți la %{total_price} fiecare"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Metode de plata",
+        "title": "Metode de plata",
+        "update_card_button_label": "Actualizați cardul",
+        "delete_customer_mandate": {
+          "generic_error": "A apărut o problemă la procesarea solicitării dvs.",
+          "success_message": "Metoda dvs. de plată a fost ștearsă cu succes"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Următorul"
+    },
+    "links": {
+      "powered_by_shopify": "Produs de Shopify",
+      "learn_more": "Află mai multe"
+    },
+    "feed": {
+      "more": "Mai mult"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "parola",
+      "password_confirmation": "Confirmarea parolei",
+      "first_name": "Nume",
+      "last_name": "numele de familie",
+      "body": "corp",
+      "signature": "Abordare"
+    },
+    "addresses": {
+      "zip_code": "Cod poștal",
+      "postal_code": "Cod postal",
+      "postcode": "Cod poștal",
+      "pincode": "Cod PIN",
+      "region": "Regiune",
+      "prefecture": "Prefectura",
+      "province": "Provincie",
+      "state": "Stat",
+      "state_and_territory": "Stat\/teritoriu",
+      "county": "judetul",
+      "emirate": "Emirat",
+      "governorate": "Guvernoratul",
+      "confirm": "Sigur doriți să ștergeți această adresă?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Recomandate",
+        "best_selling": "Cel mai bine vândut",
+        "az": "Alfabetic, AZ",
+        "za": "Alfabetic, ZA",
+        "price_ascending": "Preț, de la mic la mare",
+        "price_descending": "Preț, de la mare la mic",
+        "date_ascending": "Data, de la vechi la nou",
+        "date_descending": "Data, de la nou la vechi"
+      }
+    },
+    "errors": {
+      "blank": "nu poate fi gol",
+      "blocked_address": "Această locație nu este acceptată.",
+      "credit_card_session_expired": "Autorizarea cardului de credit a expirat, introduceți din nou informațiile dvs. de plată. Cardul dvs. nu a fost debitat.",
+      "empty": "nu poate fi goală",
+      "invalid_email": "Trebuie sa fie o adresa de email valida",
+      "discount_disabled": "Această reducere a fost dezactivată",
+      "discount_expired": "Această reducere nu mai este valabilă",
+      "discount_limit_reached": "Această reducere a atins limita de utilizare",
+      "discount_not_found": "Nu se poate găsi o reducere validă care să se potrivească cu codul introdus",
+      "customer_already_used_once_per_customer_discount_notice": "Această reducere a atins limita de utilizare",
+      "gift_card_already_applied": "Codul a fost deja aplicat la finalizarea comenzii dvs",
+      "gift_card_code_invalid": "Codul este invalid",
+      "gift_card_currency_mismatch": "%{gift_card_currency} carduri cadou nu pot fi aplicate pentru comenzile %{checkout_currency}",
+      "gift_card_depleted": "Nu mai sunt fonduri pe acest card cadou",
+      "gift_card_disabled": "Cardul cadou este dezactivat",
+      "gift_card_expired": "Cardul cadou este expirat",
+      "invalid": "este invalid",
+      "bad_domain": "conține un nume de domeniu nevalid",
+      "taken": "a fost deja luat",
+      "contains_html_tags": "nu poate conține etichete HTML",
+      "too_short": "este prea scurt (minimumul este de %{count} caractere)",
+      "too_long": "este prea lung (maximum este %{count} caractere)",
+      "password_mismatch": "trebuie să se potrivească cu parola furnizată",
+      "contains_spaces": "începe sau se termină cu spații.",
+      "email_domain_invalid": "furnizorul nu este acceptat",
+      "invalid_for_country": "nu este valabil pentru %{country}",
+      "invalid_for_country_and_province": "nu este valabil pentru %{province} și %{country}",
+      "invalid_province_in_country": "nu este o provincie validă în %{country}",
+      "invalid_state_in_country": "nu este o stare validă în %{country}",
+      "invalid_region_in_country": "nu este o regiune validă în %{country}",
+      "less_than_or_equal_to": "trebuie să fie mai mic sau egal cu %{count}",
+      "not_supported": "nu e suportat",
+      "full_name_required": "Introduceți un prenume și un prenume",
+      "invalid_for_card_type": "nu e valid",
+      "invalid_type": "ne pare rău, nu acceptăm carduri de acest tip",
+      "invalid_format": "formatul nu este valid",
+      "expired": "a expirat",
+      "invalid_start_date_or_issue_number_for_debit": "este necesară o dată de începere validă sau un număr de emisiune",
+      "invalid_expiry_year": "nu este un an valabil de expirare",
+      "reset_password_html": "Această adresă de e-mail este deja asociată unui cont. Dacă acest cont este al tău, îți poți <a href=\"\/account\/login#recover\">reseta parola<\/a>",
+      "verify_email": "Am trimis un e-mail către %{customer_email}, vă rugăm să faceți clic pe linkul inclus pentru a vă verifica adresa de e-mail.",
+      "product_not_available": "produsul nu este publicat pentru acest client."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Eroare de resetare a parolei",
+        "no_account_found": "Nu s-a găsit niciun cont cu acel e-mail.",
+        "invalid_credentials": "Adresă de e-mail sau parolă incorecte.",
+        "denylisted_reset_password": "Contul dvs. nu a putut fi accesat deoarece parola actuală nu este sigură. Veți primi un e-mail pentru a vă actualiza parola."
+      },
+      "address": {
+        "updated": "Adresă actualizată cu succes.",
+        "error_updating": "Eroare la actualizarea adresei",
+        "created": "Adresă creată cu succes",
+        "error_creating": "Eroare la crearea adresei.",
+        "deleted": "Adresă a fost ștearsă cu succes",
+        "error_deleting": "Eroare la ștergerea adresei."
+      },
+      "order": {
+        "not_available": "Această comandă nu este disponibilă",
+        "financial_status": {
+          "authorized": "Autorizat",
+          "pending": "In asteptarea",
+          "paid": "Plătit",
+          "unpaid": "Neplătit"
+        }
+      }
+    },
+    "checkpoint": {
+      "submit_button_text": "Trimite"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "De obicei, gata în 1 oră",
+        "two_hours": "De obicei, gata în 2 ore",
+        "four_hours": "De obicei gata în 4 ore",
+        "twenty_four_hours": "De obicei, gata în 24 de ore",
+        "two_to_four_days": "De obicei, gata în 2-4 zile",
+        "five_or_more_days": "De obicei, gata în peste 5 zile",
+        "zero_to_two_hours": "De obicei, gata în 2 ore",
+        "two_to_four_hours": "De obicei gata în 4 ore",
+        "immediately": "Gata pentru ridicare acum",
+        "next_day": "Gata de ridicare a doua zi"
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ascunde meniul Cont",
+        "label": "Cont",
+        "show_accessibility_label": "Afișează meniul Cont"
+      },
+      "action_menu_accessibility_label": "Mai multe actiuni",
+      "close_menu_accessibility_label": "Închideți navigarea principală",
+      "contact_email_subject": "Contact din magazinul online {{shopName}}",
+      "contact_link": "Contactaţi-ne",
+      "delete_confirmation": {
+        "cancel": "Anulare",
+        "delete": "Șterge"
+      },
+      "dismiss_toast": "Respingeți",
+      "document_title": "{{sectionName}} - {{shopName}} - Cont",
+      "generic_accessibility_label": "{{label}} : {{value}}",
+      "go_to_store_link": "Merge la magazin",
+      "loading_message": "Se încarcă",
+      "log_out_link": "Deconectați-vă",
+      "login_prompt": {
+        "continue": "Continua",
+        "privacy": "Confidențialitate",
+        "title": "Continuați să vă autentificați"
+      },
+      "logout_overlay_label": "Te deconectez...",
+      "nav_label_accessibility_label": "Navigație principală",
+      "navigation_accessibility_message": "Ați navigat la {{sectionName}}",
+      "open_menu_accessibility_label": "Deschideți navigarea principală",
+      "orders_link_label": "Comenzi",
+      "shop_logo_accessibility_label": "{{shopName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Se încarcă informații despre cont",
+      "loading_finished_accessibility_message": "S-au încărcat informațiile despre cont",
+      "profile_card": {
+        "cancel": "Anulare",
+        "cancel_accessibility_label": "Anulați editarea profilului",
+        "edit": "Editați | ×",
+        "edit_accessibility_label": "Editează profilul",
+        "email_help_text": "E-mailul folosit pentru autentificare nu poate fi schimbat",
+        "first_name": "Nume",
+        "last_name": "Numele de familie",
+        "phone_number_help_text": "Numărul de telefon folosit pentru autentificare nu poate fi schimbat",
+        "save": "Salvați",
+        "save_accessibility_label": "Salveaza profilul",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "profil actualizat",
+      "title": "Informatii despre cont",
+      "people": {
+        "pagination": {
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai mulți oameni",
+          "loading_accessibility_label": "Încărcarea oamenilor"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opțiuni de aspect",
+      "list_title": "Comenzi",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Data livrării",
+          "items": "Articole",
+          "order_date": "Data comandă",
+          "order_number": "Număr de ordine",
+          "status": "Starea comenzii",
+          "payment_status": "Starea plății",
+          "total": "Total"
+        },
+        "delivered": "Livrat {{date}}",
+        "empty_state_order_source_description": "Doar comenzile plasate până la {{email}} vor apărea aici.",
+        "empty_state_subtitle": "Mergeți la magazin pentru a plasa o comandă.",
+        "empty_state_title": "Încă nu există comenzi",
+        "estimated": "{{date}} estimat",
+        "estimated_shortform": "EST. {{date}}",
+        "estimated_delivery": "Livrare estimată {{date}}",
+        "one_images_accessibility_label": "Comanda include {{lineItemName1}}",
+        "two_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} articol",
+          "other": "{{count}} articole"
+        },
+        "list_view": "Afișează vizualizarea listă",
+        "multiple_shipments": "Expedieri multiple",
+        "no_filtered_results_description": "Eliminați sau ajustați filtrele pentru a vă vedea comenzile",
+        "no_filtered_results_title": "Niciun rezultat filtrat",
+        "order_link": "Vizualizați comanda {{name}}",
+        "order_number": "Comanda {{name}}",
+        "orders_title": "Confirmat",
+        "pagination": {
+          "nav_accessibility_label": "Comenzi butoane de navigare",
+          "next": "Următorul",
+          "next_accessibility_label": "Următoarele comenzi",
+          "previous": "Prev",
+          "previous_accessibility_label": "Comenzi anterioare",
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe comenzi"
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Plata restante",
+            "due": "Plata scadentă {{date}}",
+            "due_today": "Plata datorata azi",
+            "due_without_date": "Plată datorată"
+          },
+          "table_view": {
+            "overdue": "Depasit",
+            "due": "Data scadentei {{date}}",
+            "due_today": "Datorită astăzi",
+            "paid": "Plătit",
+            "due_without_date": "Datorită"
+          }
+        },
+        "sort_by": "Sortați după: {{option}}",
+        "sort_hide_options_accessibility_label": "Ascundeți opțiunile de sortare pentru comenzile confirmate."
       }
     }
   }
