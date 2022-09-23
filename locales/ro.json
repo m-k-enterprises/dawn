@@ -833,7 +833,161 @@
           }
         },
         "view_business_customer_account": "Vezi contul",
-        "breadcrumbs_submitted": "Trimis"
+        "breadcrumbs_submitted": "Trimis",
+        "breadcrumbs_in_review": "În revizuire",
+        "breadcrumbs_confirmed": "Confirmat",
+        "missing_shipping_address_banner": {
+          "title": "Adresa de livrare lipsește",
+          "text_html": "%{contact_us} cu adresa dvs. de expediere pentru a finaliza această comandă."
+        },
+        "first_payment_complete": "Prima plată finalizată",
+        "in_store_purchase": "Achiziție în magazin"
+      },
+      "review": {
+        "title": "Revizuire",
+        "review_title": "Verificați comanda",
+        "checkout_as_guest": "Checkout ca oaspete",
+        "blocks": {
+          "contact_method_title": "a lua legatura",
+          "billing_address_title": "Facturare",
+          "shipping_address_title": "Îmbarca spre",
+          "shipping_method_title": "Metodă",
+          "payment_method_title": "Plată",
+          "change_link_label": "Schimbare",
+          "change_contact_method_link_label": "Schimbați informațiile de contact",
+          "change_billing_address_link_label": "Schimbați adresa de facturare",
+          "change_shipping_address_link_label": "schimbă adresa livrăii",
+          "change_shipping_method_link_label": "Schimbați metoda de livrare",
+          "change_payment_method_link_label": "Schimbă modalitatea de plată",
+          "pick_up_in_store_shipping_method_html": "Ridicare din magazin · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Trimiteți-mi un e-mail cu știri și oferte",
+        "post_accept_marketing_checkbox_label": "Sunteți abonat pentru a primi știri și oferte prin e-mail",
+        "pending_accept_marketing_checkbox_label": "Verificați-vă e-mailul pentru a vă confirma abonamentul la știri și oferte",
+        "accept_sms_checkbox_label": "Scrie-mi cu știri și oferte",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Politica de Confidențialitate",
+            "terms_of_service": "Termenii serviciului",
+            "description_html": "Înregistrându-vă prin mesaj, sunteți de acord să primiți mesaje de marketing automate recurente, inclusiv mementouri pentru coș, la numărul de telefon furnizat. Consimțământul nu este o condiție de cumpărare. Răspunde STOP pentru a te dezabona. Răspundeți HELP pentru ajutor. Frecvența mesajelor variază. Se pot aplica tarife pentru mesaje și date. Vizualizați %{privacy_policy_link} și %{terms_of_service_link}.",
+            "description_transactional_html": "Vă vom trimite o chitanță de comandă și actualizări recurente de expediere prin mesaj text. Răspunde STOP pentru a te dezabona. Răspundeți HELP pentru ajutor. Frecvența mesajelor variază. Se pot aplica tarife pentru mesaje și date. Vizualizați %{privacy_policy_modal_link} și %{terms_of_service_modal_link}."
+          }
+        },
+        "unsubscribe": {
+          "title": "V-ați dezabonat",
+          "description": "Nu veți mai primi mementouri de coș de la noi."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politica de rambursare",
+        "privacy_policy": "Politica de Confidențialitate",
+        "terms_of_service": "Termenii serviciului",
+        "legal_notice": "Aviz juridic",
+        "shipping_policy": "Politică de livrare",
+        "terms_of_sale": "Condiții de vânzare",
+        "subscription_policy": "Politica de abonament",
+        "purchase_options_policy": "Politica opțiunilor de cumpărare",
+        "contact_information": "Informatii de contact"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Termenii și condițiile Comerciant of Record",
+        "privacy_policy": "Politica de confidențialitate Merchant of Record"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Shop Pay",
+        "save": "Salvați",
+        "title": "Amintește-ți de mine",
+        "label": "Salvează-mi informațiile pentru o finalizare mai rapidă",
+        "description_html": "Data viitoare când verificați aici sau în alte magazine oferite de Shopify, veți primi un cod prin mesaj text pentru a cumpăra în siguranță cu Shop Pay.",
+        "mobile_phone_icon_alt": "Telefon mobil",
+        "mobile_phone_number": "numar de telefon mobil",
+        "terms_and_privacy_html": "Continuând, sunteți de acord cu %{privacy_href} și %{terms_href} de la Shop Pay.",
+        "external_acessibility_label": "(se deschide o fereastră nouă)",
+        "privacy_policy": "Politica de Confidențialitate",
+        "terms_of_service": "Termenii serviciului",
+        "errors": {
+          "optin": "Shop Pay nu este disponibil"
+        },
+        "installments": {
+          "paid_in_installments": "Plătit în rate cu Shop Pay.",
+          "view_schedule": "Vedeți programul"
+        },
+        "title_with_logo_html": "Ține-mă minte cu %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Lăsați Shop Pay să-mi completeze adresa și informațiile de plată pentru finalizarea comenzilor mai rapide.",
+        "label_faster_checkouts_and_thousand_shops": "Salvează-mi informațiile cu Shop Pay pentru a face achiziții mai rapide la peste un milion de magazine."
+      },
+      "notifications": {
+        "title": "Notificări"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Suma de plătit pentru comanda %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Adăugat",
+            "other": "%{count} adăugat"
+          },
+          "removed": "Îndepărtat",
+          "subtracted": "%{count} eliminat"
+        },
+        "additional_payment_requested": "Este necesară plata a %{total_outstanding}",
+        "checkout_review_and_pay": "Comanda dvs. %{order_name} a fost actualizată. Examinați aceste modificări, apoi plătiți pentru a vă confirma comanda.",
+        "order_updated_on": "Comanda dvs. a fost actualizată pe %{last_edited_at}.",
+        "order_review_and_pay": "Comanda dvs. a fost actualizată. Verificați și plătiți pentru a vă confirma comanda.",
+        "pay_now": "Plătește acum"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "Cardul dvs. de credit va fi debitat cu %{amount}",
+        "payment_total_label": "Plata totala",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Schimbați în %{currency_name}",
+        "card_provider_fx_charges_warning": "Furnizorul dvs. de card poate percepe comisioane pentru tranzacțiile %{currency_code}.",
+        "currency_not_supported_by_shop": "Moneda pe care ați selectat-o nu mai este disponibilă. Toate prețurile sunt acum în %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Coșul dvs. de cumpărături a fost actualizat în funcție de țara dvs. de expediere."
+      },
+      "tips": {
+        "title": "Adăugați pont",
+        "description": "Arată-ți sprijinul pentru echipă la %{shop_name}",
+        "presets_description": "Selectați un procentaj de bacșiș",
+        "custom_label": "Sfat personalizat",
+        "add_tip": "Adăugați pont",
+        "update_tip": "Actualizați sfatul",
+        "message": "Vă mulțumim, apreciem",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Nici unul"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Cumpărați %{product_name}",
+          "one": "Achiziționați %{product_name} și %{count} alt articol",
+          "other": "Achiziționați %{product_name} și %{count} alte articole"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "zi",
+            "other": "%{count} zile"
+          },
+          "week": {
+            "one": "săptămână",
+            "other": "%{count} săptămâni"
+          },
+          "month": {
+            "one": "lună",
+            "other": "%{count} luni"
+          },
+          "year": {
+            "one": "an",
+            "other": "%{count} ani"
+          }
+        },
+        "recurring_totals": "%{total_price} fiecare %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Prima plată %{total_price_with_discount}, apoi %{recurring_total}"
       }
     }
   }
