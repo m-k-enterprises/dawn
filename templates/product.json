@@ -110,14 +110,13 @@
     },
     "16641099125c857702": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1664109912cbdf0971-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Adjust.jpg",
             "title": "Loop",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Loop the belt through each belt loop.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -127,7 +126,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Clip.jpg",
             "title": "Snap",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Snap the buttons together through the front belt loops.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -137,7 +136,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Stretch_1.jpg",
             "title": "Adjust",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Adjust using the slidable clasp.<\/p>",
             "link_label": "",
             "link": ""
           }
