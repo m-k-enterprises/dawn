@@ -221,6 +221,7 @@
         "product": "pride-flag-buckle-free-belt",
         "color_scheme": "background-1",
         "secondary_background": false,
+        "media_position": "left",
         "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 28,
@@ -335,6 +336,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -408,6 +410,15 @@
         "padding_bottom": 36
       }
     },
+    "166419697996b064fd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text\/javascript\" src=\"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\" async><\/script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1652176883e2da494c": {
       "type": "newsletter",
       "blocks": {
@@ -454,6 +465,7 @@
     "collage",
     "video",
     "multicolumn",
+    "166419697996b064fd",
     "1652176883e2da494c"
   ]
 }
