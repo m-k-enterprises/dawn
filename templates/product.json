@@ -26,6 +26,13 @@
             "picker_type": "button"
           }
         },
+        "0a75dd91-5f47-42c7-86c8-893c29087887": {
+          "type": "popup",
+          "settings": {
+            "text": "Size guide",
+            "page": "{{ product.metafields.descriptors.size_guide_page.value }}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -57,20 +64,11 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
+        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d": {
+          "type": "text",
           "settings": {
-            "heading": "Size guide",
-            "icon": "ruler",
-            "content": "",
-            "page": "{{ product.metafields.descriptors.size_guide_page.value }}"
-          }
-        },
-        "0a75dd91-5f47-42c7-86c8-893c29087887": {
-          "type": "popup",
-          "settings": {
-            "text": "Size guide",
-            "page": "{{ product.metafields.descriptors.size_guide_page.value }}"
+            "text": "This product is made especially for you as soon as you place an order, which is why it takes us a bit longer to deliver it to you. Making products on demand instead of in bulk helps reduce overproduction, so thank you for making thoughtful purchasing decisions!",
+            "text_style": "body"
           }
         }
       },
@@ -79,13 +77,13 @@
         "caption",
         "price",
         "variant_picker",
+        "0a75dd91-5f47-42c7-86c8-893c29087887",
         "quantity_selector",
         "buy_buttons",
         "share",
         "description",
         "collapsible-row-0",
-        "collapsible-row-2",
-        "0a75dd91-5f47-42c7-86c8-893c29087887"
+        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d"
       ],
       "settings": {
         "enable_sticky_info": true,
