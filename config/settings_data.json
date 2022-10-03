@@ -173,6 +173,13 @@
               "menu": "footer"
             }
           },
+          "864f77bd-fa55-4780-ab1c-f0c6c47ff0df": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "<p><a href=\"mailto:team@pocketbearsapparel.store\" title=\"team@pocketbearsapparel.store\">team@pocketbearsapparel.store<\/a><\/p>"
+            }
+          },
           "footer-2": {
             "type": "text",
             "settings": {
@@ -184,12 +191,13 @@
         "block_order": [
           "footer-0",
           "footer-1",
+          "864f77bd-fa55-4780-ab1c-f0c6c47ff0df",
           "footer-2"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Newsletter",
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
