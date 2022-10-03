@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<p>{{ product.metafields.facts.materials | metafield_text }}<\/p>",
             "page": ""
           }
         },
