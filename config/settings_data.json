@@ -106,9 +106,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/PocketBearsApparel",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/PocketBearsApparel",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -117,7 +117,9 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "{{ shop.brand.square_logo }}",
     "currency_code_enabled": true,
+    "show_cart_note": true,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
