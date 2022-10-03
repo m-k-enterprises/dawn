@@ -120,6 +120,13 @@
     "favicon": "{{ shop.brand.square_logo }}",
     "currency_code_enabled": true,
     "show_cart_note": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo.png",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_color": "#f3f3f3",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#ffde64",
+    "checkout_button_color": "#ffde64",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
