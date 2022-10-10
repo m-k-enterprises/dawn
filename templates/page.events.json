@@ -13,6 +13,7 @@
       "blocks": {
         "166385866842538b59-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/301835451_5533219140090996_6642673734727409752_n.jpg",
             "title": "BearScotFest 2022",
