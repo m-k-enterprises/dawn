@@ -11,17 +11,6 @@
     "1663858668cfada428": {
       "type": "multicolumn",
       "blocks": {
-        "166385866842538b59-0": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/301835451_5533219140090996_6642673734727409752_n.jpg",
-            "title": "BearScotFest 2022",
-            "text": "<p><strong>CC Blooms<\/strong><br\/>23-24 Greenside Place<br\/>Edinburgh, EH1 3AA<br\/>Scotland<br\/>United Kingdom<\/p><p>Friday, 7 October 2022 @ 11 am - 7 pm<\/p><p>Saturday, 8 October 2022 @ 11 am - 5 pm<\/p>",
-            "link_label": "Event",
-            "link": "https:\/\/facebook.com\/events\/526335805415755"
-          }
-        },
         "166385866842538b59-1": {
           "type": "column",
           "settings": {
@@ -31,11 +20,34 @@
             "link_label": "Event",
             "link": "https:\/\/facebook.com\/events\/1146813562874892"
           }
+        },
+        "52f339e3-ebd2-4152-930c-80c11cc3a1e2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/278964084_10166065768205433_8801369443678954065_n.jpg",
+            "title": "Pre-HiBearNation 2022",
+            "text": "<p><strong>Gay Village<\/strong><br\/>Manchester<br\/>United Kingdom<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/facebook.com\/events\/1049591119006827"
+          }
+        },
+        "166385866842538b59-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/301835451_5533219140090996_6642673734727409752_n.jpg",
+            "title": "BearScotFest 2023",
+            "text": "<p><strong>CC Blooms<\/strong><br\/>23-24 Greenside Place<br\/>Edinburgh, EH1 3AA<br\/>Scotland<br\/>United Kingdom<\/p><p>Friday, 6 October 2023 @ 11 am - 7 pm<\/p><p>Saturday, 7 October 2023 @ 11 am - 2 pm<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/facebook.com\/events\/526335805415755"
+          }
         }
       },
       "block_order": [
-        "166385866842538b59-0",
-        "166385866842538b59-1"
+        "166385866842538b59-1",
+        "52f339e3-ebd2-4152-930c-80c11cc3a1e2",
+        "166385866842538b59-0"
       ],
       "settings": {
         "title": "",
