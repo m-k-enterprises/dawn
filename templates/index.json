@@ -212,6 +212,12 @@
             "collection": "himalayan-salt-bath-bombs"
           }
         },
+        "392d08fe-b84e-45bf-bbaa-f6241e254bdf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-gift-packs"
+          }
+        },
         "ea24cf4f-b64d-499c-83ea-b39927016cb4": {
           "type": "featured_collection",
           "settings": {
@@ -293,6 +299,7 @@
       },
       "block_order": [
         "1660065063f4fc3b4a-0",
+        "392d08fe-b84e-45bf-bbaa-f6241e254bdf",
         "ea24cf4f-b64d-499c-83ea-b39927016cb4",
         "1660065063f4fc3b4a-1",
         "1660065063f4fc3b4a-2",
