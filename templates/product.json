@@ -164,6 +164,36 @@
         "padding_bottom": 36
       }
     },
+    "c609627f-f7b9-4b5c-9169-58a02641509a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16002834006261__c609627f-f7b9-4b5c-9169-58a02641509a-16684424542f68ed83-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Buy 2 Get 1 Free<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "cabe470d-2e04-464e-8dcd-4763617beecc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16002834006261__c609627f-f7b9-4b5c-9169-58a02641509a-16684424542f68ed83-0",
+        "cabe470d-2e04-464e-8dcd-4763617beecc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -203,10 +233,24 @@
           "settings": {
           }
         },
-        "0149de67-ffd9-46e2-aba5-a04c5e256c30": {
-          "type": "custom_liquid",
+        "54cbf2b5-d264-4741-a8a9-74f774974b3f": {
+          "type": "icon-with-text",
           "settings": {
-            "custom_liquid": "{% if product.available %}\nIn stock, ready to ship\n{% endif %}"
+            "layout": "vertical",
+            "icon_1": "box",
+            "heading_1": "Buy 2 Get 1 Free",
+            "icon_2": "return",
+            "heading_2": "14 Day Money Back Guarantee",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "087aa213-a434-48ac-9b6b-b35a38ec6464": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": false
           }
         },
         "buy_buttons": {
@@ -292,7 +336,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "0149de67-ffd9-46e2-aba5-a04c5e256c30",
+        "54cbf2b5-d264-4741-a8a9-74f774974b3f",
+        "087aa213-a434-48ac-9b6b-b35a38ec6464",
         "buy_buttons",
         "cf82cd08-e05f-430b-ae22-948a287bb55c",
         "description",
@@ -316,8 +361,39 @@
         "padding_bottom": 12
       }
     },
+    "728af4f7-a7a2-4a62-aa89-0dff97aedc70": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16002834006261__728af4f7-a7a2-4a62-aa89-0dff97aedc70-16684424542f68ed83-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our 14 Day Money Back Guarantee<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16002834006261__728af4f7-a7a2-4a62-aa89-0dff97aedc70-16684424542f68ed83-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy.<br\/><strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back<\/strong> for a full refund!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16002834006261__728af4f7-a7a2-4a62-aa89-0dff97aedc70-16684424542f68ed83-0",
+        "template--16002834006261__728af4f7-a7a2-4a62-aa89-0dff97aedc70-16684424542f68ed83-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -421,7 +497,9 @@
     "image-with-text",
     "166325377836e7b914",
     "16641099125c857702",
+    "c609627f-f7b9-4b5c-9169-58a02641509a",
     "main",
+    "728af4f7-a7a2-4a62-aa89-0dff97aedc70",
     "multicolumn",
     "product-recommendations",
     "1661946404888b2ff9",
