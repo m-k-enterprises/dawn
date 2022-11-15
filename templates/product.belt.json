@@ -307,6 +307,19 @@
             "page": "care-guide"
           }
         },
+        "d3192d1d-2da6-45a2-b3dd-010bb212d85b": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
@@ -345,6 +358,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "d3192d1d-2da6-45a2-b3dd-010bb212d85b",
         "8b84276a-b8d2-4f8d-98e0-7277d196036f",
         "share",
         "e404bab6-f250-4909-a5f2-3df524765bdc"
@@ -354,6 +368,7 @@
         "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": true,
