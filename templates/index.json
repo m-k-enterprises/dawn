@@ -376,27 +376,26 @@
     },
     "f5c98cbf-6032-47a9-b3bb-3f665293585a": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Get some extra special ‘me’ time delivered to you every month",
             "heading_size": "h1"
           }
         },
         "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Sent straight to you monthly.<\/p>",
             "text_style": "body"
           }
         },
         "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Sign me up!",
+            "button_link": "shopify:\/\/products\/subscription"
           }
         }
       },
@@ -409,12 +408,12 @@
         "image": "shopify:\/\/shop_images\/shipping-box.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
