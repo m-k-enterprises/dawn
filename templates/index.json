@@ -203,8 +203,133 @@
         "padding_bottom": 52
       }
     },
+    "3c0b06dc-1896-446b-b419-60ffa45b7a94": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "himalayan-salt-bath-bombs"
+          }
+        },
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-gift-packs"
+          }
+        },
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halloween-bath-bombs"
+          }
+        },
+        "0063013c-2302-4b0c-954a-2bc1d93849a8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-eggs"
+          }
+        },
+        "91210521-dd66-4d95-a69f-998b781a712b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "donut-bath-fizzers"
+          }
+        },
+        "9245ec8e-0268-4867-a03a-3555523166d4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gemstone-bath-bombs"
+          }
+        },
+        "32c957eb-9301-476d-8794-93cea0b9cdac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-bath-bombs"
+          }
+        },
+        "890e969e-4700-4511-8cc8-bc08c0e2f5b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-shower-steamers"
+          }
+        },
+        "eaf78cef-2fd2-4322-b36e-b60860f40c6b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnificent-floral-fizzes"
+          }
+        },
+        "ae536a6c-130b-40aa-b748-58b6eaa56a97": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "just-desserts-bath-bombs"
+          }
+        },
+        "1258a712-4c35-4f5a-898f-cad28d501c69": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "essential-oils-bath-balls"
+          }
+        },
+        "21b89d47-5899-466d-b121-f2f3a0daa786": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-bath-potion-bath-balls"
+          }
+        },
+        "f08763d2-11b2-48f7-a876-a90b22f0218d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tropical-paradise-coco-bath-bombs"
+          }
+        },
+        "10bcfce3-4eab-4f71-9771-ec5047b5139d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shea-butter-bath-bombs"
+          }
+        },
+        "d86ce215-6550-40e8-aa5e-c8cbf647fe6f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jumbo-bath-balls"
+          }
+        }
+      },
+      "block_order": [
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-0",
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-1",
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-2",
+        "0063013c-2302-4b0c-954a-2bc1d93849a8",
+        "91210521-dd66-4d95-a69f-998b781a712b",
+        "9245ec8e-0268-4867-a03a-3555523166d4",
+        "32c957eb-9301-476d-8794-93cea0b9cdac",
+        "890e969e-4700-4511-8cc8-bc08c0e2f5b2",
+        "eaf78cef-2fd2-4322-b36e-b60860f40c6b",
+        "ae536a6c-130b-40aa-b748-58b6eaa56a97",
+        "1258a712-4c35-4f5a-898f-cad28d501c69",
+        "21b89d47-5899-466d-b121-f2f3a0daa786",
+        "f08763d2-11b2-48f7-a876-a90b22f0218d",
+        "10bcfce3-4eab-4f71-9771-ec5047b5139d",
+        "d86ce215-6550-40e8-aa5e-c8cbf647fe6f"
+      ],
+      "settings": {
+        "title": "Bath Bombs",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16600650638f67e5f0": {
       "type": "collection-nav",
+      "disabled": true,
       "blocks": {
         "1660065063f4fc3b4a-0": {
           "type": "featured_collection",
@@ -327,8 +452,56 @@
         "padding_bottom": 36
       }
     },
+    "0a5f36b4-7648-4021-b2bc-e97bc8fd828b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massage-soaps"
+          }
+        },
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-soaps"
+          }
+        },
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "happy-scrub-soaps"
+          }
+        },
+        "1aa4dfc3-3dfe-4ef7-9a5e-0162f28a5e3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "handmade-soaps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-0",
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1",
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-2",
+        "1aa4dfc3-3dfe-4ef7-9a5e-0162f28a5e3b"
+      ],
+      "settings": {
+        "title": "Soaps",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1660065280e61f3893": {
       "type": "collection-nav",
+      "disabled": true,
       "blocks": {
         "f1ca78b8-a2ee-4ea6-a8f5-1b64bdda70f6": {
           "type": "featured_collection",
@@ -438,7 +611,9 @@
     "1655110418b5035676",
     "1660742631b50d1eba",
     "165580640774a9ee9f",
+    "3c0b06dc-1896-446b-b419-60ffa45b7a94",
     "16600650638f67e5f0",
+    "0a5f36b4-7648-4021-b2bc-e97bc8fd828b",
     "1660065280e61f3893",
     "f5c98cbf-6032-47a9-b3bb-3f665293585a",
     "16560806512a5d8705"
