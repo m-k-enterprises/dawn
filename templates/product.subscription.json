@@ -106,12 +106,11 @@
     },
     "166085210870290bfb": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1660852108d30634df-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Where do I sign up?<\/p>",
+            "heading": "<p>Sign up?<\/p>",
             "heading_size": "h1"
           }
         }
@@ -172,6 +171,7 @@
         },
         "17114040-bcce-45df-8859-f6f876ed1156": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
