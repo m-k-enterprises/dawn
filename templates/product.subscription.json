@@ -67,7 +67,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hand-duotone.png",
             "title": "Subscribe",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/box-taped-duotone.png",
             "title": "Unbox",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -106,6 +106,7 @@
     },
     "166085210870290bfb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1660852108d30634df-0": {
           "type": "heading",
@@ -113,29 +114,10 @@
             "heading": "<p>Where do I sign up?<\/p>",
             "heading_size": "h1"
           }
-        },
-        "1660852108d30634df-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1660852108d30634df-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "1660852108d30634df-0",
-        "1660852108d30634df-1",
-        "1660852108d30634df-2"
+        "1660852108d30634df-0"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -190,7 +172,6 @@
         },
         "17114040-bcce-45df-8859-f6f876ed1156": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
@@ -238,7 +219,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p><\/p>",
             "page": "shipping-returns"
           }
         },
@@ -248,7 +229,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<p><\/p>",
             "page": ""
           }
         },
