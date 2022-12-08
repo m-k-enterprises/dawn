@@ -2,23 +2,24 @@
 {%- liquid
   assign title = ''
 
-  case request.page_type
-    when 'page'
-      assign title = page.title
-  endcase
+  if section.settings.title != blank
+    assign title = section.settings.title
+  else
+    case request.page_type
+      when 'blog'
+        assign title = blog.title
+      when 'page'
+        assign title = page.title
+    endcase
+  endif
 %}
 {{ 'component-local-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="local-hero color-{{ section.settings.color_scheme }} gradient">
   <div class="local-hero__inner page-width">
     <div class="local-hero__text-wrapper">
-      <h1 class="local-hero__title">
-        {%- case request.page_type -%}
-          {%- when 'blog' -%}
-            {{- blog.title | escape -}}
-          {%- when 'page' -%}
-            {{- page.title | escape -}}
-        {%- endcase -%}
+      <h1 class="local-hero__title {{ section.settings.heading_size }}">
+        {{- title | escape -}}
       </h1>
     </div>
 
@@ -37,6 +38,31 @@
   "name": "t:sections.local-banner.name",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.local-banner.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
     {
       "type": "text",
       "id": "button_label",
@@ -84,7 +110,8 @@
   ],
   "templates": [
     "blog",
-    "page"
+    "page",
+    "product"
   ]
 }
 {% endschema %}
