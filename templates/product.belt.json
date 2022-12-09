@@ -289,6 +289,15 @@
             "page": ""
           }
         },
+        "9b3e11fb-0bc7-4699-a1be-9b870ef94d9d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Christmas last shipping dates",
+            "icon": "truck",
+            "content": "",
+            "page": "christmas-last-posting-dates"
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -356,6 +365,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
+        "9b3e11fb-0bc7-4699-a1be-9b870ef94d9d",
         "collapsible-row-2",
         "collapsible-row-3",
         "d3192d1d-2da6-45a2-b3dd-010bb212d85b",
