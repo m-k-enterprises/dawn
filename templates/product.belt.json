@@ -289,15 +289,6 @@
             "page": ""
           }
         },
-        "9b3e11fb-0bc7-4699-a1be-9b870ef94d9d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Christmas last shipping dates",
-            "icon": "truck",
-            "content": "",
-            "page": "christmas-last-posting-dates"
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -314,6 +305,13 @@
             "icon": "heart",
             "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
             "page": "care-guide"
+          }
+        },
+        "952178c3-2b4c-4eaa-adf1-1ee1d8f28859": {
+          "type": "popup",
+          "settings": {
+            "text": "Christmas last shipping dates",
+            "page": "christmas-last-posting-dates"
           }
         },
         "d3192d1d-2da6-45a2-b3dd-010bb212d85b": {
@@ -365,9 +363,9 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
-        "9b3e11fb-0bc7-4699-a1be-9b870ef94d9d",
         "collapsible-row-2",
         "collapsible-row-3",
+        "952178c3-2b4c-4eaa-adf1-1ee1d8f28859",
         "d3192d1d-2da6-45a2-b3dd-010bb212d85b",
         "8b84276a-b8d2-4f8d-98e0-7277d196036f",
         "share",
