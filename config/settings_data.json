@@ -108,16 +108,27 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Buy 2 Get 1 Free",
               "text_alignment": "center",
               "color_scheme": "accent-2",
               "link": ""
             }
+          },
+          "f0593206-18e1-4857-a16a-5d70dcb121f2": {
+            "type": "announcement",
+            "settings": {
+              "text": "Christmas last posting dates",
+              "text_alignment": "center",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/pages\/christmas-last-posting-dates"
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "f0593206-18e1-4857-a16a-5d70dcb121f2"
         ],
         "settings": {
         }
