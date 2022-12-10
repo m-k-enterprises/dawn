@@ -782,7 +782,7 @@
           "content": "Selector de país/región"
         },
         "header__4": {
-          "info": "Para agregar un país/región, ve a tu [configuración de pagos.](/admin/settings/payments)"
+          "info": "Para agregar un país o una región, ve a la [configuración del mercado.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Activar selector de país/región"
@@ -1886,7 +1886,7 @@
           }
         },
         "media_size": {
-          "label": "Tamaño de elementos multimedia en computadoras",
+          "label": "Ancho del elemento multimedia en computadora",
           "info": "Los elementos multimedia se optimizan automáticamente para dispositivos móviles.",
           "options__1": {
             "label": "Pequeño"
@@ -1931,6 +1931,18 @@
           },
           "options__3": {
             "label": "Sin zoom"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "Ajustar el elemento multimedia a la altura de la pantalla"
+        },
+        "media_fit": {
+          "label": "Ajuste del elemento multimedia",
+          "options__1": {
+            "label": "Original"
+          },
+          "options__2": {
+            "label": "Rellenar"
           }
         }
       }

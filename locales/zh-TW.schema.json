@@ -782,7 +782,7 @@
           "content": "國家/地區選擇器"
         },
         "header__4": {
-          "info": "若要新增國家/地區，請前往 [payment settings](/admin/settings/payments)。"
+          "info": "若要新增國家/地區，請前往 [市場設定](/admin/settings/markets)。"
         },
         "enable_country_selector": {
           "label": "啟用國家/地區選擇器"
@@ -1886,7 +1886,7 @@
           }
         },
         "media_size": {
-          "label": "桌面版多媒體檔案大小",
+          "label": "桌面版多媒體檔案寬度",
           "options__1": {
             "label": "小"
           },
@@ -1931,6 +1931,18 @@
           },
           "options__3": {
             "label": "無縮放"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "將多媒體檔案限制為螢幕高度"
+        },
+        "media_fit": {
+          "label": "多媒體檔案最適大小",
+          "options__1": {
+            "label": "原始"
+          },
+          "options__2": {
+            "label": "填滿"
           }
         }
       }

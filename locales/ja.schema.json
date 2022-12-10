@@ -782,7 +782,7 @@
           "content": "国/地域セレクター"
         },
         "header__4": {
-          "info": "国/地域を追加するには、[決済設定](/admin/settings/payments) に移動します"
+          "info": "国/地域を追加するには、[マーケット設定](/admin/settings/markets)に移動します"
         },
         "enable_country_selector": {
           "label": "国/地域セレクターを有効にする"
@@ -1886,7 +1886,7 @@
           }
         },
         "media_size": {
-          "label": "デスクトップのメディアサイズ",
+          "label": "デスクトップメディアの幅",
           "options__1": {
             "label": "小"
           },
@@ -1931,6 +1931,18 @@
           },
           "options__3": {
             "label": "ズームなし"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "メディアを画面の高さに制限する"
+        },
+        "media_fit": {
+          "label": "適合したメディア",
+          "options__1": {
+            "label": "オリジナル"
+          },
+          "options__2": {
+            "label": "塗りつぶし"
           }
         }
       }
