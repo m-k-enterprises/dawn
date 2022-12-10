@@ -19,11 +19,18 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "4d2b4e6f-ed67-4b1b-bfa2-5a56e3553fd7": {
+          "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "4d2b4e6f-ed67-4b1b-bfa2-5a56e3553fd7"
       ],
       "settings": {
       }
