@@ -205,7 +205,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Newsletter",
           "show_social": true,
           "enable_country_selector": true,
