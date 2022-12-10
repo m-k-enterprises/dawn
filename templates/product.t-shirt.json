@@ -55,6 +55,13 @@
           "settings": {
           }
         },
+        "c0554d1b-fe7a-4e2d-a206-fd57e9f01ddd": {
+          "type": "text",
+          "settings": {
+            "text": "We’re gonna make you an offer you can’t refuse: the best 100% cotton tee you’ve ever tried.",
+            "text_style": "body"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,6 +89,7 @@
         "buy_buttons",
         "share",
         "description",
+        "c0554d1b-fe7a-4e2d-a206-fd57e9f01ddd",
         "collapsible-row-0",
         "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d"
       ],
