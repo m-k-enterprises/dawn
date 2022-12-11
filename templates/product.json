@@ -62,13 +62,6 @@
           "settings": {
           }
         },
-        "c0554d1b-fe7a-4e2d-a206-fd57e9f01ddd": {
-          "type": "text",
-          "settings": {
-            "text": "T-shirts are a dime a dozen, but this one stands out from the pack. It’s super soft, breathable, and has just the right amount of stretch. Need we say more?",
-            "text_style": "body"
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -97,13 +90,14 @@
         "590b87ec-dca5-4b92-a53c-b2d5ce40acb7",
         "share",
         "description",
-        "c0554d1b-fe7a-4e2d-a206-fd57e9f01ddd",
         "collapsible-row-0",
         "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
         "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
