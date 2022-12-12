@@ -69,10 +69,22 @@
           "settings": {
             "text": "<p>We believe that serving our customers upholds a responsibility to ensure that they are satisfied with their purchases. We will do our best to make sure that our customers are happy. We believe we can forever create a good impact in the fashion industry by focusing on our customers' thoughts.<\/p><p>We're glad you've found your way to our online fashion store. We hope you'll be back often and spread the word to all your friends! Shop with us today and see the <strong>Pocket Bears Apparel<\/strong> difference.<\/p>"
           }
+        },
+        "4654e217-a5d9-4b78-8545-82f8b56c1b88": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop online",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "1664791129191ea534-1"
+        "1664791129191ea534-1",
+        "4654e217-a5d9-4b78-8545-82f8b56c1b88"
       ],
       "settings": {
         "desktop_content_position": "center",
