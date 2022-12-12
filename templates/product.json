@@ -77,6 +77,19 @@
             "text": "This product is made especially for you as soon as you place an order, which is why it takes us a bit longer to deliver it to you. Making products on demand instead of in bulk helps reduce overproduction, so thank you for making thoughtful purchasing decisions!",
             "text_style": "body"
           }
+        },
+        "8b4c03e3-93fb-4a09-b1a7-a0b869811103": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 2,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
@@ -91,7 +104,8 @@
         "share",
         "description",
         "collapsible-row-0",
-        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d"
+        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d",
+        "8b4c03e3-93fb-4a09-b1a7-a0b869811103"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -113,8 +127,8 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "products_to_show": 5,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
