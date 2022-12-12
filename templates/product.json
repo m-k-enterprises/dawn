@@ -6,7 +6,7 @@
         "850c09a9-533f-4a7d-8398-5c19126b5a5e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, alt: product.title, preload: true }}"
+            "custom_liquid": "{{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, preload: true }}"
           }
         },
         "title": {
