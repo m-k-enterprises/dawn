@@ -6,25 +6,7 @@
         "1664794650c1e21148-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Animals_1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "1664794650c1e21148-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Animals_2.jpg",
+            "image": "shopify:\/\/shop_images\/Animals.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -41,8 +23,7 @@
         }
       },
       "block_order": [
-        "1664794650c1e21148-0",
-        "1664794650c1e21148-1"
+        "1664794650c1e21148-0"
       ],
       "settings": {
         "layout": "full_bleed",
