@@ -309,6 +309,7 @@
         },
         "952178c3-2b4c-4eaa-adf1-1ee1d8f28859": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
             "page": "christmas-last-posting-dates"
