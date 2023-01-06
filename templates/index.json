@@ -5,14 +5,13 @@
       "blocks": {
         "16551104186c81f655-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/1832440.jpg",
-            "heading": "Unleash Christmas",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-06_at_6.26.54_PM.jpg",
+            "heading": "Get Yours Today",
             "heading_size": "h0",
-            "subheading": "Festive season is back and with one of our largest Christmas ranges ever. There's a Christmas gift for all your bath time routines.",
+            "subheading": "Bath Moms & Bath Gems",
             "button_label": "Shop",
-            "link": "shopify:\/\/collections\/christmas-gift-packs",
+            "link": "shopify:\/\/collections\/bath-bombs",
             "button_style_secondary": true,
             "box_align": "bottom-center",
             "show_text_box": false,
