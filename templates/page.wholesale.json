@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "show_page_title": true,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -42,7 +43,7 @@
     "16637047923e4afb96": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.faire.com\/embed\/bw_rv6mrws4sq\" scrolling=\"no\" style=\"margin:0 auto;border:none;display:block;max-width:100%;width:100%;height:700px;\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https:\/\/www.faire.com\/embed\/bw_r6chwzzxzq\" width=\"900\" height=\"600\" scrolling=\"no\" style=\"margin:0 auto;border:none;display:block;max-width:100%;width:900px;height:600px;\"><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
