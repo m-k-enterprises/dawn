@@ -207,8 +207,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -219,8 +218,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -230,8 +228,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "54cbf2b5-d264-4741-a8a9-74f774974b3f": {
           "type": "icon-with-text",
@@ -267,8 +264,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -330,8 +326,7 @@
         },
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -459,8 +454,8 @@
         "padding_bottom": 36
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "related-products": {
+      "type": "related-products",
       "disabled": true,
       "settings": {
         "heading": "You may also like",
@@ -504,8 +499,7 @@
       "blocks": {
         "f506bee6-3e62-44e4-831d-f690b32bcf53": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -525,7 +519,7 @@
     "main",
     "728af4f7-a7a2-4a62-aa89-0dff97aedc70",
     "multicolumn",
-    "product-recommendations",
+    "related-products",
     "1661946404888b2ff9",
     "165091771351e7c596"
   ]
