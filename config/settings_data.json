@@ -1,5 +1,7 @@
 {
   "current": {
+    "logo": "{{ shop.brand.logo }}",
+    "favicon": "shopify:\/\/shop_images\/Paw.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#2b2b2b",
     "gradient_accent_1": "linear-gradient(180deg, rgba(85, 85, 85, 1) 4%, rgba(0, 0, 0, 1) 100%)",
@@ -83,19 +85,18 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/BearBelts",
     "social_facebook_link": "https:\/\/facebook.com\/BearBeltsStore",
-    "social_pinterest_link": "",
     "social_instagram_link": "https:\/\/instagram.com\/BearBelts",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@bearbelts",
-    "social_tumblr_link": "",
-    "social_snapchat_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCp38_YoduZa6UsIo4Gc-SJw",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@bearbelts",
+    "social_twitter_link": "https:\/\/twitter.com\/BearBelts",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/Paw.png",
     "currency_code_enabled": true,
     "checkout_header_image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Wide_-_Bear_Flag_2.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo.png",
@@ -110,8 +111,6 @@
             "type": "announcement",
             "settings": {
               "text": "Buy 2 Get 1 Free",
-              "text_alignment": "center",
-              "color_scheme": "accent-2",
               "link": ""
             }
           },
@@ -120,8 +119,6 @@
             "disabled": true,
             "settings": {
               "text": "Christmas last shipping dates",
-              "text_alignment": "center",
-              "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/christmas-last-posting-dates"
             }
           },
@@ -130,8 +127,6 @@
             "disabled": true,
             "settings": {
               "text": "Royal Mail's international export services continue to be severely disrupted following a cyber incident.",
-              "text_alignment": "center",
-              "color_scheme": "accent-2",
               "link": ""
             }
           }
@@ -141,19 +136,17 @@
           "f0593206-18e1-4857-a16a-5d70dcb121f2",
           "9a2ed4df-c957-436d-83c9-515449e14a8d"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
-          "enable_sticky_header": true,
+          "color_scheme": "background-1",
           "mobile_logo_position": "center",
           "margin_bottom": 0,
           "padding_top": 20,
@@ -199,8 +192,6 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Logo_68253d82-a85b-4198-912f-38e9dc6a79e6.png",
-          "logo_max_width": 100,
           "color_scheme": "background-1"
         }
       },
@@ -211,7 +202,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
