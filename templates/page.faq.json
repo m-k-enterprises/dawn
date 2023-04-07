@@ -16,7 +16,7 @@
           "settings": {
             "heading": "Do you ship overseas?",
             "icon": "none",
-            "row_content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.<\/p>",
+            "row_content": "<p>At this time, we currently only ship to the United States and United Kingdom. We apologize for any inconvenience and hope to expand our shipping locations in the near future. Please stay tuned to our website for updates.<\/p>",
             "page": ""
           }
         },
@@ -34,7 +34,7 @@
           "settings": {
             "heading": "What shipping carriers do you use?",
             "icon": "none",
-            "row_content": "<p>We partner with carriers like USPS, FedEx, DPD, and DHL to give you and your customers the best possible shipping experience.<\/p>",
+            "row_content": "<p>We partner with carriers like USPS, FedEx, DPD, and DHL to give you the best possible shipping experience.<\/p>",
             "page": ""
           }
         }

@@ -109,6 +109,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
+    "brand_headline": "Contact",
+    "brand_description": "<p><a href=\"mailto:\/\/team@pocketbearsapparel.store\">team@pocketbearsapparel.store<\/a><\/p>",
     "social_facebook_link": "https:\/\/facebook.com\/PocketBearsApparel",
     "social_instagram_link": "https:\/\/instagram.com\/PocketBearsApparel",
     "social_youtube_link": "",
