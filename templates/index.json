@@ -6,22 +6,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "A New Experience",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "The best belts on the planet.",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/belts",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -53,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Bear Belts Mission",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>After searching the belt market, we were <strong>frustrated by the lack of options<\/strong> for the bigger guy.<br\/><br\/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to <strong>distinguish yourself from the crowd<\/strong> a little better via your buckle-free belt.<\/p>"
           }
         }
       },
@@ -69,65 +70,273 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 20
+      }
+    },
+    "1652120374894c02b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "3d227545-1bea-45ba-a96a-9fca7d055415": {
+          "type": "column",
+          "settings": {
+            "title": "Buy 2 Get 1 Free",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1652120374c1d5dba6-0": {
+          "type": "column",
+          "settings": {
+            "title": "14 Day Money Back Guarantee",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3d227545-1bea-45ba-a96a-9fca7d055415",
+        "1652120374c1d5dba6-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 16
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Belt collections",
         "heading_size": "h2",
-        "collection": "all",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "belts",
         "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "columns_desktop": 2,
+        "full_width": true,
         "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "165013541345f17318": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "16501354135e9bf081-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16501354135e9bf081-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "16501354135e9bf081-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16501354135e9bf081-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16501354135e9bf081-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16501354135e9bf081-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "16501354135e9bf081-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16501354135e9bf081-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16501354135e9bf081-0",
+        "16501354135e9bf081-1",
+        "16501354135e9bf081-2",
+        "16501354135e9bf081-3",
+        "16501354135e9bf081-4",
+        "16501354135e9bf081-5",
+        "16501354135e9bf081-6",
+        "16501354135e9bf081-7"
+      ],
+      "settings": {
+        "product": "pride-flag-buckle-free-belt",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "166325020295edf243": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "166325020280b6f5cf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seek the Adventure",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166325020280b6f5cf-0"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16521208037f36a38d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652120803c043f23d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Bear Belt",
+            "heading_size": "h1"
+          }
+        },
+        "1652120803c043f23d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Comfort and identity everywhere you go!<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "1652120803c043f23d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Find my belt",
+            "button_link": "shopify:\/\/collections\/belts"
+          }
+        }
+      },
+      "block_order": [
+        "1652120803c043f23d-0",
+        "1652120803c043f23d-1",
+        "1652120803c043f23d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Buckle-Free_Belts_-_Promo_-_Aligned.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "belts"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "pride-flag-buckle-free-belt",
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "ddd86f79-7e84-46a5-8f10-edbf70608489": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "buckle-free-belt",
+            "second_image": false
           }
         }
       },
       "block_order": [
         "collection-0",
         "product",
-        "collection-1"
+        "ddd86f79-7e84-46a5-8f10-edbf70608489"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Our favourites",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -137,17 +346,19 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
-        "description": "",
+        "cover_image": "shopify:\/\/shop_images\/frame-000149.jpg",
+        "video_url": "https:\/\/youtu.be\/qHyIG8-hejI",
+        "description": "Bear Belts Shoot 2022",
         "full_width": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -183,7 +394,7 @@
         "column3"
       ],
       "settings": {
-        "title": "",
+        "title": "What Our Customers Are Saying",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -192,20 +403,69 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "166419697996b064fd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text\/javascript\" src=\"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\" async><\/script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652176883e2da494c": {
+      "type": "newsletter",
+      "blocks": {
+        "165217688366cfcb54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Family",
+            "heading_size": "h1"
+          }
+        },
+        "165217688366cfcb54-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.<\/p>"
+          }
+        },
+        "165217688366cfcb54-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165217688366cfcb54-0",
+        "165217688366cfcb54-1",
+        "165217688366cfcb54-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "1652120374894c02b4",
     "featured_collection",
+    "165013541345f17318",
+    "166325020295edf243",
+    "16521208037f36a38d",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "166419697996b064fd",
+    "1652176883e2da494c"
   ]
 }

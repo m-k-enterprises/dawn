@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1663858668cfada428": {
+      "type": "multicolumn",
+      "blocks": {
+        "6233e77a-7239-4a4a-9e01-b8b509b57cce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/332733308_1159384414762185_5821148717137587436_n.jpg",
+            "title": "Manbears Great British Bear Bash Market 2023",
+            "text": "<p><strong>Eagle Manchester<br\/><\/strong>15 Bloom Street<br\/>Manchester, M1 3HZ<br\/>United Kingdom<\/p><p>Saturday, 29 April 2023 @ midday - 6 pm<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/manbears-manchester.co.uk\/gbbb24-itinerary"
+          }
+        },
+        "166385866842538b59-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/301835451_5533219140090996_6642673734727409752_n.jpg",
+            "title": "BearScotFest 2023",
+            "text": "<p><strong>CC Blooms<\/strong><br\/>23-24 Greenside Place<br\/>Edinburgh, EH1 3AA<br\/>Scotland<br\/>United Kingdom<\/p><p>Friday, 6 October 2023 @ 11 am - 7 pm<\/p><p>Saturday, 7 October 2023 @ 11 am - 2 pm<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/facebook.com\/events\/526335805415755"
+          }
+        },
+        "166385866842538b59-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/310732464_1164507547477182_5874179822365996690_n.jpg",
+            "title": "Birmingham Bear Weekend 2023",
+            "text": "<p><strong>The Loft<\/strong><br\/>143 Bromsgrove Street<br\/>Birmingham, B5 6RG<br\/>United Kingdom<\/p><p>Saturday, 29 October 2022 @ 12 - 3 pm<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/facebook.com\/events\/1146813562874892"
+          }
+        },
+        "52f339e3-ebd2-4152-930c-80c11cc3a1e2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/278964084_10166065768205433_8801369443678954065_n.jpg",
+            "title": "Pre-HiBearNation 2023",
+            "text": "<p><strong>Gay Village<\/strong><br\/>Manchester<br\/>United Kingdom<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/facebook.com\/events\/1049591119006827"
+          }
+        }
+      },
+      "block_order": [
+        "6233e77a-7239-4a4a-9e01-b8b509b57cce",
+        "166385866842538b59-0",
+        "166385866842538b59-1",
+        "52f339e3-ebd2-4152-930c-80c11cc3a1e2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d87aff24-a31b-45d6-b9cd-74411c029dea": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16502531064053__d87aff24-a31b-45d6-b9cd-74411c029dea-16684430417ee393ee-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We have no scheduled events upcoming.<\/p><p>Follow us<\/p>"
+          }
+        },
+        "42f9d9e7-9ec9-454b-a9ed-f28c47580b83": {
+          "type": "button",
+          "settings": {
+            "button_label": "Twitter",
+            "button_link": "https:\/\/twitter.com\/BearBelts",
+            "button_style_secondary": true,
+            "button_label_2": "Facebook",
+            "button_link_2": "https:\/\/facebook.com\/BearBeltsStore",
+            "button_style_secondary_2": true
+          }
+        },
+        "dc4a38d7-1f26-41a5-970b-d2518186bf29": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Facebook",
+            "button_link": "https:\/\/facebook.com\/BearBeltsStore",
+            "button_style_secondary": true,
+            "button_label_2": "Instagram",
+            "button_link_2": "https:\/\/instagram.com\/BearBelts",
+            "button_style_secondary_2": true
+          }
+        },
+        "0b686fa4-2e54-4057-81c1-f7abd77b7ae2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>to be the first to hear what events we'll be at.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16502531064053__d87aff24-a31b-45d6-b9cd-74411c029dea-16684430417ee393ee-1",
+        "42f9d9e7-9ec9-454b-a9ed-f28c47580b83",
+        "dc4a38d7-1f26-41a5-970b-d2518186bf29",
+        "0b686fa4-2e54-4057-81c1-f7abd77b7ae2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663858668cfada428",
+    "d87aff24-a31b-45d6-b9cd-74411c029dea"
+  ]
+}

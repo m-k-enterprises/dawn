@@ -12,21 +12,58 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
+        "enable_quick_add": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1652214013fef53a2c": {
+      "type": "newsletter",
+      "blocks": {
+        "16522140131f01ddee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Family",
+            "heading_size": "h1"
+          }
+        },
+        "16522140131f01ddee-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.<\/p>"
+          }
+        },
+        "16522140131f01ddee-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16522140131f01ddee-0",
+        "16522140131f01ddee-1",
+        "16522140131f01ddee-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "1652214013fef53a2c"
   ]
 }
