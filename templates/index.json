@@ -31,6 +31,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
+        "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -52,6 +53,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -123,19 +125,16 @@
         "7f13bcc3-89c8-489f-b3ee-958750f483b2": {
           "type": "image",
           "settings": {
-            "image_padding": false
           }
         },
         "129cb694-1384-438e-bad0-0094e2051bdb": {
           "type": "image",
           "settings": {
-            "image_padding": false
           }
         },
         "293adf3f-6813-4c71-b841-8f7b3a20082a": {
           "type": "image",
           "settings": {
-            "image_padding": false
           }
         }
       },
@@ -216,6 +215,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
