@@ -5,8 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "39e470c3-01a5-41d4-b536-509c8a72baa1": {
           "type": "text",
@@ -24,8 +23,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -35,8 +33,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -52,8 +49,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
@@ -165,8 +161,7 @@
         },
         "23d905e9-fd93-4c81-8fb8-44ab8b561751": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -199,6 +194,6 @@
     "main",
     "166194647154a33267",
     "16552347299a8f80f2",
-    "product-recommendations"
+    "related-products"
   ]
 }
