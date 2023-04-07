@@ -26,7 +26,6 @@
         "image": "{{ product.metafields.descriptors[\"promo-image\"].value }}",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -207,7 +206,8 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
@@ -218,7 +218,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -228,7 +229,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "54cbf2b5-d264-4741-a8a9-74f774974b3f": {
           "type": "icon-with-text",
@@ -256,15 +258,10 @@
             "show_dynamic_checkout": true
           }
         },
-        "cf82cd08-e05f-430b-ae22-948a287bb55c": {
-          "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -326,7 +323,8 @@
         },
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
@@ -355,7 +353,6 @@
         "54cbf2b5-d264-4741-a8a9-74f774974b3f",
         "087aa213-a434-48ac-9b6b-b35a38ec6464",
         "buy_buttons",
-        "cf82cd08-e05f-430b-ae22-948a287bb55c",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
@@ -369,9 +366,9 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_position": "left",
-        "gallery_layout": "stacked",
         "media_size": "large",
+        "gallery_layout": "stacked",
+        "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
@@ -499,7 +496,8 @@
       "blocks": {
         "f506bee6-3e62-44e4-831d-f690b32bcf53": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
