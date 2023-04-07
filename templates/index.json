@@ -107,6 +107,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
+        "image_behavior": "ambient",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -150,11 +151,11 @@
         "image": "shopify:\/\/shop_images\/photo-of-a-person-in-a-bathtub-viewed-from-above.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -586,6 +587,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "background-2",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -597,8 +599,9 @@
       "settings": {
         "heading": "Unboxing",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/Unboxing.jpg",
+        "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/PgNncS7QHcE",
+        "cover_image": "shopify:\/\/shop_images\/Unboxing.jpg",
         "description": "Unboxing",
         "full_width": false,
         "color_scheme": "background-1",
