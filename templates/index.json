@@ -1,28 +1,140 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1655110418b5035676": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
+        "16551104186c81f655-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-06_at_6.26.54_PM.jpg",
+            "heading": "Get Yours Today",
+            "heading_size": "h0",
+            "subheading": "Bath Moms & Bath Gems",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/bath-bombs",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1841280-5.jpg",
+            "heading": "New In Stock",
+            "heading_size": "h0",
+            "subheading": "Massage Soaps",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/massage-soaps",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1454a3ef-6989-40c1-9cde-31002157f4b6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wi.php_3f08aba4-295f-4c7d-b7e5-3a60c15ff160.jpg",
+            "heading": "New In Stock",
+            "heading_size": "h0",
+            "subheading": "Funky Soaps",
+            "button_label": "Shop",
+            "link": "shopify:\/\/collections\/funky-soaps",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "0c9624c1-d80a-4f2c-8816-c5754da9eab8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1840898.jpg",
+            "heading": "New In Stock",
+            "heading_size": "h0",
+            "subheading": "Rainbow Bath Bomb",
+            "button_label": "Shop",
+            "link": "shopify:\/\/products\/fruit-salad-rainbow-bath-bomb",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "26d135c8-2a6c-4296-ac92-56676e6bb615": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1840890.jpg",
+            "heading": "New In Stock",
+            "heading_size": "h0",
+            "subheading": "Charcoal Bath Bomb",
+            "button_label": "Shop",
+            "link": "shopify:\/\/products\/sea-salt-moss-charcoal-bath-bombs",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16551104186c81f655-0",
+        "ce68e6ee-a82d-47ee-b963-019f0dddaeaf",
+        "1454a3ef-6989-40c1-9cde-31002157f4b6",
+        "0c9624c1-d80a-4f2c-8816-c5754da9eab8",
+        "26d135c8-2a6c-4296-ac92-56676e6bb615"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1660742631b50d1eba": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1660742630310ddf44-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Summer Sale",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "1660742630310ddf44-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Now On",
+            "text_style": "subtitle"
           }
         },
-        "button": {
+        "1660742630310ddf44-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "Shop",
+            "button_link_1": "shopify:\/\/pages\/sale",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -30,182 +142,480 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "1660742630310ddf44-0",
+        "1660742630310ddf44-1",
+        "1660742630310ddf44-2"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/photo-of-a-person-in-a-bathtub-viewed-from-above.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "rich_text": {
+    "165580640774a9ee9f": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
-        "heading": {
+        "1655806407c31560f8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Get 15% off your first purchase",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "1655806407c31560f8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Use discount code `<strong>FirstTime<\/strong>`.<\/p>"
+          }
+        },
+        "1655806407c31560f8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop",
+            "button_link": "\/discount\/FirstTime",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "1655806407c31560f8-0",
+        "1655806407c31560f8-1",
+        "1655806407c31560f8-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "3c0b06dc-1896-446b-b419-60ffa45b7a94": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "himalayan-salt-bath-bombs"
+          }
+        },
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-gift-packs"
+          }
+        },
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halloween-bath-bombs"
+          }
+        },
+        "0063013c-2302-4b0c-954a-2bc1d93849a8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-eggs"
+          }
+        },
+        "91210521-dd66-4d95-a69f-998b781a712b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "donut-bath-fizzers"
+          }
+        },
+        "9245ec8e-0268-4867-a03a-3555523166d4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gemstone-bath-bombs"
+          }
+        },
+        "32c957eb-9301-476d-8794-93cea0b9cdac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-bath-bombs"
+          }
+        },
+        "890e969e-4700-4511-8cc8-bc08c0e2f5b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-shower-steamers"
+          }
+        },
+        "eaf78cef-2fd2-4322-b36e-b60860f40c6b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnificent-floral-fizzes"
+          }
+        },
+        "ae536a6c-130b-40aa-b748-58b6eaa56a97": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "just-desserts-bath-bombs"
+          }
+        },
+        "1258a712-4c35-4f5a-898f-cad28d501c69": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "essential-oils-bath-balls"
+          }
+        },
+        "21b89d47-5899-466d-b121-f2f3a0daa786": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-bath-potion-bath-balls"
+          }
+        },
+        "f08763d2-11b2-48f7-a876-a90b22f0218d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tropical-paradise-coco-bath-bombs"
+          }
+        },
+        "10bcfce3-4eab-4f71-9771-ec5047b5139d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shea-butter-bath-bombs"
+          }
+        },
+        "d86ce215-6550-40e8-aa5e-c8cbf647fe6f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jumbo-bath-balls"
+          }
+        }
+      },
+      "block_order": [
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-0",
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-1",
+        "template--16113744314587__3c0b06dc-1896-446b-b419-60ffa45b7a94-1670517806eee28598-2",
+        "0063013c-2302-4b0c-954a-2bc1d93849a8",
+        "91210521-dd66-4d95-a69f-998b781a712b",
+        "9245ec8e-0268-4867-a03a-3555523166d4",
+        "32c957eb-9301-476d-8794-93cea0b9cdac",
+        "890e969e-4700-4511-8cc8-bc08c0e2f5b2",
+        "eaf78cef-2fd2-4322-b36e-b60860f40c6b",
+        "ae536a6c-130b-40aa-b748-58b6eaa56a97",
+        "1258a712-4c35-4f5a-898f-cad28d501c69",
+        "21b89d47-5899-466d-b121-f2f3a0daa786",
+        "f08763d2-11b2-48f7-a876-a90b22f0218d",
+        "10bcfce3-4eab-4f71-9771-ec5047b5139d",
+        "d86ce215-6550-40e8-aa5e-c8cbf647fe6f"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
+        "title": "Bath Bombs",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16600650638f67e5f0": {
+      "type": "collection-nav",
+      "disabled": true,
+      "blocks": {
+        "1660065063f4fc3b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "himalayan-salt-bath-bombs"
+          }
+        },
+        "392d08fe-b84e-45bf-bbaa-f6241e254bdf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-gift-packs"
+          }
+        },
+        "ea24cf4f-b64d-499c-83ea-b39927016cb4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halloween-bath-bombs"
+          }
+        },
+        "1660065063f4fc3b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-eggs"
+          }
+        },
+        "1660065063f4fc3b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "donut-bath-fizzers"
+          }
+        },
+        "45dd7ec8-6f77-4f49-aacb-f9721004141c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gemstone-bath-bombs"
+          }
+        },
+        "ab740479-2091-47c8-94ed-898d8be920d8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-bath-bombs"
+          }
+        },
+        "101a0ad9-1695-4b70-b43a-b60c5077be54": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-shower-steamers"
+          }
+        },
+        "b0f2baa5-cc26-43f6-b2bc-24a9b8fabeae": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnificent-floral-fizzes"
+          }
+        },
+        "a318914f-9bfd-43e3-85f5-74a7a5a64a96": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "just-desserts-bath-bombs"
+          }
+        },
+        "6a14ddb5-43ec-4b78-b646-d8ca944ae5b3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "essential-oils-bath-balls"
+          }
+        },
+        "109ca839-a47b-4194-a326-b5ae521833db": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aromatherapy-bath-potion-bath-balls"
+          }
+        },
+        "79e5ff12-1e17-44d0-9a9f-dd25b3f8820c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tropical-paradise-coco-bath-bombs"
+          }
+        },
+        "b78c4d64-38c8-4aa5-9205-0c679acd4d40": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shea-butter-bath-bombs"
+          }
+        },
+        "00ec6e10-edbf-44f0-b1bd-9df32e089dfb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jumbo-bath-balls"
+          }
+        }
+      },
+      "block_order": [
+        "1660065063f4fc3b4a-0",
+        "392d08fe-b84e-45bf-bbaa-f6241e254bdf",
+        "ea24cf4f-b64d-499c-83ea-b39927016cb4",
+        "1660065063f4fc3b4a-1",
+        "1660065063f4fc3b4a-2",
+        "45dd7ec8-6f77-4f49-aacb-f9721004141c",
+        "ab740479-2091-47c8-94ed-898d8be920d8",
+        "101a0ad9-1695-4b70-b43a-b60c5077be54",
+        "b0f2baa5-cc26-43f6-b2bc-24a9b8fabeae",
+        "a318914f-9bfd-43e3-85f5-74a7a5a64a96",
+        "6a14ddb5-43ec-4b78-b646-d8ca944ae5b3",
+        "109ca839-a47b-4194-a326-b5ae521833db",
+        "79e5ff12-1e17-44d0-9a9f-dd25b3f8820c",
+        "b78c4d64-38c8-4aa5-9205-0c679acd4d40",
+        "00ec6e10-edbf-44f0-b1bd-9df32e089dfb"
+      ],
+      "settings": {
+        "title": "Bath Bombs",
+        "heading_size": "h1",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
+    "0a5f36b4-7648-4021-b2bc-e97bc8fd828b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massage-soaps"
+          }
+        },
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-soaps"
+          }
+        },
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "happy-scrub-soaps"
+          }
+        },
+        "1aa4dfc3-3dfe-4ef7-9a5e-0162f28a5e3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "handmade-soaps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-0",
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1",
+        "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-2",
+        "1aa4dfc3-3dfe-4ef7-9a5e-0162f28a5e3b"
+      ],
       "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Soaps",
         "heading_size": "h1",
-        "description": "",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1660065280e61f3893": {
+      "type": "collection-nav",
+      "disabled": true,
+      "blocks": {
+        "f1ca78b8-a2ee-4ea6-a8f5-1b64bdda70f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massage-soaps"
+          }
+        },
+        "166006528041d805e2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "funky-soaps"
+          }
+        },
+        "166006528041d805e2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "happy-scrub-soaps"
+          }
+        },
+        "166006528041d805e2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "handmade-soaps"
+          }
+        }
+      },
+      "block_order": [
+        "f1ca78b8-a2ee-4ea6-a8f5-1b64bdda70f6",
+        "166006528041d805e2-0",
+        "166006528041d805e2-1",
+        "166006528041d805e2-2"
+      ],
+      "settings": {
+        "title": "Soaps",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f5c98cbf-6032-47a9-b3bb-3f665293585a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get some extra special ‘me’ time delivered to you every month",
+            "heading_size": "h1"
+          }
+        },
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sent straight to you monthly.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign me up!",
+            "button_link": "shopify:\/\/products\/subscription"
+          }
+        }
+      },
+      "block_order": [
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-0",
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-1",
+        "template--16113744314587__f5c98cbf-6032-47a9-b3bb-3f665293585a-1670497385a16272ef-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shipping-box.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16560806512a5d8705": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Unboxing",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Unboxing.jpg",
+        "video_url": "https:\/\/youtu.be\/PgNncS7QHcE",
+        "description": "Unboxing",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "1655110418b5035676",
+    "1660742631b50d1eba",
+    "165580640774a9ee9f",
+    "3c0b06dc-1896-446b-b419-60ffa45b7a94",
+    "16600650638f67e5f0",
+    "0a5f36b4-7648-4021-b2bc-e97bc8fd828b",
+    "1660065280e61f3893",
+    "f5c98cbf-6032-47a9-b3bb-3f665293585a",
+    "16560806512a5d8705"
   ]
 }
