@@ -1,6 +1,8 @@
-.list-payment {
+.list-payment,
+.list-brands {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
   margin: -0.5rem 0;
   padding-top: 1rem;
@@ -8,15 +10,22 @@
 }
 
 @media screen and (min-width: 750px) {
-  .list-payment {
+  .list-payment,
+  .list-brands {
     justify-content: flex-end;
     margin: -0.5rem;
     padding-top: 0;
   }
 }
 
-.list-payment__item {
+.list-payment__item,
+.list-brands__item {
   align-items: center;
   display: flex;
   padding: 0.5rem;
+}
+
+.list-brands__item svg {
+  width: auto;
+  height: 48px;
 }
