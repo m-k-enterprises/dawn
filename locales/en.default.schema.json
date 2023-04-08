@@ -1041,6 +1041,12 @@
         "payment_enable": {
           "label": "Show payment icons"
         },
+        "header__brands": {
+          "content": "Other brands"
+        },
+        "brands_enable": {
+          "label": "Show other brands"
+        },
         "header__8": {
           "content": "Policy links",
           "info": "To add store policies, go to your [policy settings](/admin/settings/legal)."
