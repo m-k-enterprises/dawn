@@ -24,7 +24,7 @@
   padding: 0.5rem;
 }
 
-.list-brands__item img {
+.list-brands__item svg {
   width: auto;
   height: 48px;
 }
