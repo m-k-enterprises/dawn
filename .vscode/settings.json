@@ -1,12 +1,4 @@
 {
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.formatOnSave": true
-  },
-  "[liquid]": {
-    "editor.formatOnSave": true
-  }
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications"
 }
