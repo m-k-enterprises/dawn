@@ -206,7 +206,22 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7456567658179156570": {
+        "type": "shopify:\/\/apps\/adroll-advertising-marketing\/blocks\/adroll-pixel\/c60853ed-1adb-4359-83ae-4ed43ed0b559",
+        "disabled": false,
+        "settings": {
+          "enable_email_capture": true
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
