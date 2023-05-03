@@ -482,9 +482,7 @@
       "message_label": "Poruka (nije obavezno)",
       "message": "Poruka",
       "max_characters": "Najveći dopušteni broj znakova: {{ max_chars }}",
-      "email_label_optional_for_no_js_behavior": "Adresa e-pošte primatelja (nije obavezno)",
-      "send_on": "YYYY-MM-DD",
-      "send_on_label": "Datum slanja (neobavezno)"
+      "email_label_optional_for_no_js_behavior": "Adresa e-pošte primatelja (nije obavezno)"
     }
   }
 }

@@ -472,9 +472,7 @@
       "message_label": "Μήνυμα (προαιρετικά)",
       "message": "Μήνυμα",
       "max_characters": "Έως {{ max_chars }} χαρακτήρες",
-      "email_label_optional_for_no_js_behavior": "Email παραλήπτη (προαιρετικά)",
-      "send_on": "ΕΕΕΕ-ΜΜ-ΗΗ",
-      "send_on_label": "Ημερομηνία αποστολής (προαιρετικά)"
+      "email_label_optional_for_no_js_behavior": "Email παραλήπτη (προαιρετικά)"
     }
   }
 }
