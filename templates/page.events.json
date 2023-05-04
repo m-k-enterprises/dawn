@@ -10,17 +10,8 @@
     },
     "1663858668cfada428": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
-        "6233e77a-7239-4a4a-9e01-b8b509b57cce": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/332733308_1159384414762185_5821148717137587436_n.jpg",
-            "title": "Manbears Great British Bear Bash Market 2023",
-            "text": "<p><strong>Eagle Manchester<br\/><\/strong>15 Bloom Street<br\/>Manchester, M1 3HZ<br\/>United Kingdom<\/p><p>Saturday, 29 April 2023 @ midday - 6 pm<\/p>",
-            "link_label": "Event",
-            "link": "https:\/\/manbears-manchester.co.uk\/gbbb24-itinerary"
-          }
-        },
         "166385866842538b59-0": {
           "type": "column",
           "disabled": true,
@@ -53,13 +44,24 @@
             "link_label": "Event",
             "link": "https:\/\/facebook.com\/events\/1049591119006827"
           }
+        },
+        "6233e77a-7239-4a4a-9e01-b8b509b57cce": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/332733308_1159384414762185_5821148717137587436_n.jpg",
+            "title": "Manbears Great British Bear Bash Market 2023",
+            "text": "<p><strong>Eagle Manchester<br\/><\/strong>15 Bloom Street<br\/>Manchester, M1 3HZ<br\/>United Kingdom<\/p><p>Saturday, 29 April 2023 @ midday - 6 pm<\/p>",
+            "link_label": "Event",
+            "link": "https:\/\/manbears-manchester.co.uk\/gbbb24-itinerary"
+          }
         }
       },
       "block_order": [
-        "6233e77a-7239-4a4a-9e01-b8b509b57cce",
         "166385866842538b59-0",
         "166385866842538b59-1",
-        "52f339e3-ebd2-4152-930c-80c11cc3a1e2"
+        "52f339e3-ebd2-4152-930c-80c11cc3a1e2",
+        "6233e77a-7239-4a4a-9e01-b8b509b57cce"
       ],
       "settings": {
         "title": "",
@@ -83,7 +85,6 @@
       "blocks": {
         "template--16502531064053__d87aff24-a31b-45d6-b9cd-74411c029dea-16684430417ee393ee-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>We have no scheduled events upcoming.<\/p><p>Follow us<\/p>"
           }
