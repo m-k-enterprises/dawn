@@ -300,8 +300,8 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": "care-guide"
+            "content": "",
+            "page": "{{ product.metafields.descriptors.care_guide_object.value.page.value }}"
           }
         },
         "952178c3-2b4c-4eaa-adf1-1ee1d8f28859": {
@@ -342,7 +342,7 @@
             "stars_fill_color": "#000000",
             "star_size": 15,
             "text_align": "center",
-            "product": "{{product}}",
+            "product": "",
             "stars_text_empty": "No reviews"
           }
         }
