@@ -3,6 +3,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "8c28d416-e1cf-4850-b44d-8c8809aa8ac3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.vendor.product.value.vendor.value }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "disabled": true,
@@ -95,6 +103,7 @@
         }
       },
       "block_order": [
+        "8c28d416-e1cf-4850-b44d-8c8809aa8ac3",
         "title",
         "850c09a9-533f-4a7d-8398-5c19126b5a5e",
         "caption",
