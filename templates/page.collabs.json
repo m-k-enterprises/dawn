@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "ba912d71-31b1-4d8a-b8ed-68ab0978124f": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Affiliate programme",
+            "show_square_logo": false,
+            "show_partnership_info": false,
+            "button_text": "Apply now",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "{{ shop.brand.colors.primary[0].background }}"
+          }
+        }
+      },
+      "block_order": [
+        "ba912d71-31b1-4d8a-b8ed-68ab0978124f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "collabs"
+  ]
+}
