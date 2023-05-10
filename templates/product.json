@@ -147,7 +147,7 @@
       "type": "page",
       "disabled": true,
       "settings": {
-        "page": "{{ product.metafields.descriptors.care_guide_page.value }}",
+        "page": "{{ product.metafields.vendor.product.value.care_guide_page.value }}",
         "heading_size": "h2",
         "color_scheme": "background-1",
         "padding_top": 36,
