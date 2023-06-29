@@ -462,6 +462,12 @@
             "collection": "massage-soaps"
           }
         },
+        "ea9ea5d5-50d0-4975-8a23-3d64cea22065": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wild-natural-hand-crafted-soap"
+          }
+        },
         "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1": {
           "type": "featured_collection",
           "settings": {
@@ -483,6 +489,7 @@
       },
       "block_order": [
         "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-0",
+        "ea9ea5d5-50d0-4975-8a23-3d64cea22065",
         "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-1",
         "template--16113744314587__0a5f36b4-7648-4021-b2bc-e97bc8fd828b-1670517806eee28598-2",
         "1aa4dfc3-3dfe-4ef7-9a5e-0162f28a5e3b"
