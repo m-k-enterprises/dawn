@@ -359,10 +359,13 @@
             "label": "Nessuno"
           },
           "options__2": {
-            "label": "3D lift"
+            "label": "Vertical lift"
           },
           "label": "Effetto hover",
-          "info": "Riguarda schede e pulsanti."
+          "info": "Riguarda schede e pulsanti.",
+          "options__3": {
+            "label": "3D lift"
+          }
         }
       }
     }
@@ -434,6 +437,9 @@
           "label": "Comportamento delle immagini",
           "options__3": {
             "label": "Posizione dello sfondo fissa"
+          },
+          "options__4": {
+            "label": "Zoom avanti durante lo scorrimento"
           }
         }
       }
@@ -467,11 +473,24 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Ruota slide automaticamente"
+          "label": "Ruota automaticamente su desktop"
         },
         "change_slides_speed": {
-          "label": "Cambia slide ogni"
+          "label": "Cambio"
+        },
+        "header__1": {
+          "content": "Icone dei social media",
+          "info": "Per mostrare i tuoi account sui social media, inseriscine i link nelle [impostazioni tema](/editor?context=theme&category=social%20media)."
+        },
+        "header__2": {
+          "content": "Annunci"
+        },
+        "show_social": {
+          "label": "Mostra icone sul desktop"
         }
+      },
+      "presets": {
+        "name": "Barra degli annunci"
       }
     },
     "collage": {
@@ -627,7 +646,7 @@
       "name": "Liquid personalizzato",
       "settings": {
         "custom_liquid": {
-          "label": "Liquid personalizzato",
+          "label": "Codice Liquid",
           "info": "Aggiungi snippet di app o altro codice Liquid per creare personalizzazioni avanzate."
         }
       },
@@ -961,6 +980,12 @@
         },
         "enable_language_selector": {
           "label": "Abilita selettore lingua"
+        },
+        "header__1": {
+          "content": "Colore"
+        },
+        "menu_color_scheme": {
+          "label": "Schema di colori del menu"
         }
       }
     },
@@ -972,9 +997,6 @@
         },
         "image_2": {
           "label": "Seconda immagine"
-        },
-        "color_scheme": {
-          "info": "Visibile quando è visualizzato il contenitore."
         },
         "stack_images_on_mobile": {
           "label": "Elenca immagini su dispositivo mobile"
@@ -1620,7 +1642,7 @@
             },
             "show_gift_card_recipient": {
               "label": "Mostra il modulo informazioni del destinatario per i buoni regalo",
-              "info": "I buoni regalo possono essere inviati direttamente al destinatario in una data stabilita e con un messaggio personale. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Consente agli acquirenti di inviare i buoni regalo in una data programmata insieme a un messaggio personale. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1802,15 +1824,6 @@
             },
             "page": {
               "label": "Pagina"
-            }
-          }
-        },
-        "custom_liquid": {
-          "name": "Liquid personalizzato",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizzato",
-              "info": "Aggiungi snippet di app o altro codice Liquid per creare personalizzazioni avanzate."
             }
           }
         },
@@ -2488,14 +2501,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Liquid personalizzato",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizzato"
-            }
-          }
-        },
         "rating": {
           "name": "Valutazione del prodotto",
           "settings": {
@@ -2571,9 +2576,6 @@
         },
         "image_overlay_opacity": {
           "label": "Opacità della sovrapposizione immagine"
-        },
-        "color_scheme": {
-          "info": "Visibile quando è visualizzato il contenitore."
         },
         "show_text_below": {
           "label": "Mostra contenuto sotto le immagini sui dispositivi mobili",
@@ -2651,6 +2653,9 @@
             "label": "A destra"
           },
           "label": "Allineamento contenuto su dispositivi mobili"
+        },
+        "color_scheme": {
+          "info": "Visibile quando è visualizzato il contenitore."
         }
       },
       "blocks": {
@@ -2815,9 +2820,6 @@
             },
             "image_overlay_opacity": {
               "label": "Opacità della sovrapposizione immagine"
-            },
-            "color_scheme": {
-              "info": "Visibile quando è visualizzato il contenitore."
             },
             "text_alignment_mobile": {
               "label": "Allineamento contenuto su dispositivi mobili",

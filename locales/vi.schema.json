@@ -359,10 +359,13 @@
             "label": "Không"
           },
           "options__2": {
-            "label": "Chế độ nổi 3D"
+            "label": "Chế độ nổi theo chiều dọc"
           },
           "label": "Hiệu ứng di chuột",
-          "info": "Tác động lên các thẻ và nút."
+          "info": "Tác động lên các thẻ và nút.",
+          "options__3": {
+            "label": "Chế độ nổi 3D"
+          }
         }
       }
     }
@@ -434,6 +437,9 @@
           "label": "Hành vi của ảnh",
           "options__3": {
             "label": "Vị trí nền cố định"
+          },
+          "options__4": {
+            "label": "Phóng to khi cuộn"
           }
         }
       }
@@ -467,11 +473,24 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Tự động xoay vòng các trang chiếu"
+          "label": "Tự động xoay trên màn hình nền"
         },
         "change_slides_speed": {
-          "label": "Đổi trang chiếu sau mỗi"
+          "label": "Thay đổi sau mỗi"
+        },
+        "header__1": {
+          "content": "Biểu tượng mạng xã hội",
+          "info": "Để hiển thị tài khoản mạng xã hội, hãy liên kết các tài khoản đó trong [cài đặt chủ đề](/editor?context=theme&category=social%20media)."
+        },
+        "header__2": {
+          "content": "Thông báo"
+        },
+        "show_social": {
+          "label": "Hiển thị biểu tượng trên máy tính để bàn"
         }
+      },
+      "presets": {
+        "name": "Thanh thông báo"
       }
     },
     "collage": {
@@ -627,8 +646,8 @@
       "name": "Liquid tùy chỉnh",
       "settings": {
         "custom_liquid": {
-          "label": "Liquid tùy chỉnh",
-          "info": "Thêm đoạn mã ứng dụng hoặc mã Liquid khác để tạo các tùy chỉnh nâng cao."
+          "label": "Mã Liquid",
+          "info": "Thêm đoạn mã ứng dụng hoặc mã khác để tạo các tùy chỉnh nâng cao."
         }
       },
       "presets": {
@@ -961,6 +980,12 @@
         },
         "enable_language_selector": {
           "label": "Bật hộp chọn ngôn ngữ"
+        },
+        "header__1": {
+          "content": "Màu"
+        },
+        "menu_color_scheme": {
+          "label": "Bảng màu của menu"
         }
       }
     },
@@ -972,9 +997,6 @@
         },
         "image_2": {
           "label": "Hình ảnh thứ hai"
-        },
-        "color_scheme": {
-          "info": "Có thể nhìn thấy khi vùng chứa hiển thị."
         },
         "stack_images_on_mobile": {
           "label": "Xếp chồng hình ảnh trên điện thoại di động"
@@ -1619,8 +1641,8 @@
               "info": "Sử dụng phương thức thanh toán được hỗ trợ trong cửa hàng, khách hàng sẽ thấy tùy chọn ưu tiên của họ như PayPal hoặc Apple Pay. [Tìm hiểu thêm](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
-              "label": "Hiển thị biểu mẫu thông tin người nhận cho sản phẩm thẻ quà tặng",
-              "info": "Có thể tùy ý gửi các sản phẩm thẻ quà tặng trực tiếp cho người nhận vào ngày đã lên lịch kèm tin nhắn cá nhân. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "label": "Hiển thị biểu mẫu thông tin người nhận cho thẻ quà tặng",
+              "info": "Cho phép người mua gửi thẻ quà tặng vào ngày đã lên lịch kèm tin nhắn cá nhân. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1802,15 +1824,6 @@
             },
             "page": {
               "label": "Trang"
-            }
-          }
-        },
-        "custom_liquid": {
-          "name": "Liquid tùy chỉnh",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid tùy chỉnh",
-              "info": "Thêm đoạn mã ứng dụng hoặc mã Liquid khác để tạo các tùy chỉnh nâng cao."
             }
           }
         },
@@ -2488,14 +2501,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Liquid tùy chỉnh",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid tùy chỉnh"
-            }
-          }
-        },
         "rating": {
           "name": "Thứ hạng sản phẩm",
           "settings": {
@@ -2571,9 +2576,6 @@
         },
         "image_overlay_opacity": {
           "label": "Độ chắn sáng của lớp phủ hình ảnh"
-        },
-        "color_scheme": {
-          "info": "Có thể nhìn thấy khi vùng chứa hiển thị."
         },
         "show_text_below": {
           "label": "Hiển thị nội dung dưới hình ảnh trên thiết bị di động",
@@ -2651,6 +2653,9 @@
             "label": "Bên phải"
           },
           "label": "Căn chỉnh nội dung trên thiết bị di động"
+        },
+        "color_scheme": {
+          "info": "Có thể nhìn thấy khi vùng chứa hiển thị."
         }
       },
       "blocks": {
@@ -2815,9 +2820,6 @@
             },
             "image_overlay_opacity": {
               "label": "Độ chắn sáng của lớp phủ hình ảnh"
-            },
-            "color_scheme": {
-              "info": "Có thể nhìn thấy khi vùng chứa hiển thị."
             },
             "text_alignment_mobile": {
               "label": "Căn chỉnh nội dung trên thiết bị di động",
