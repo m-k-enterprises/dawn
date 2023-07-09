@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -18,7 +19,7 @@
       ],
       "settings": {
         "color_scheme": "background-2",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "show_social": true,
         "auto_rotate": true,
         "change_slides_speed": 5
@@ -30,7 +31,7 @@
         "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
         "color_scheme": "background-1",
         "menu_color_scheme": "",
