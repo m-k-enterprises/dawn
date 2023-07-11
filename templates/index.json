@@ -23,6 +23,7 @@
         },
         "16551104186c81f655-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-06_at_6.26.54_PM.jpg",
             "heading": "Get Yours Today",
@@ -42,7 +43,7 @@
         "ce68e6ee-a82d-47ee-b963-019f0dddaeaf": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1841280-5.jpg",
+            "image": "shopify:\/\/shop_images\/image_f-a.png",
             "heading": "New In Stock",
             "heading_size": "h0",
             "subheading": "Massage Soaps",
@@ -78,7 +79,7 @@
         "0c9624c1-d80a-4f2c-8816-c5754da9eab8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1840898.jpg",
+            "image": "shopify:\/\/shop_images\/image_Frd.png",
             "heading": "New In Stock",
             "heading_size": "h0",
             "subheading": "Rainbow Bath Bomb",
