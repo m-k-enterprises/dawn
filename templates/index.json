@@ -240,6 +240,7 @@
         },
         "9245ec8e-0268-4867-a03a-3555523166d4": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "gemstone-bath-bombs"
           }
