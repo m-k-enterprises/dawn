@@ -28,7 +28,7 @@
     "a933a212-cce6-4c61-a275-6bdad2760c0e": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".card__content {display: none;}"
       ],
       "settings": {
         "title": "Explore Our Creative Portfolio of Unique Designs.",
