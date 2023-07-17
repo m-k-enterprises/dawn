@@ -30,11 +30,6 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,6 +38,11 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -107,9 +107,9 @@
         "title",
         "850c09a9-533f-4a7d-8398-5c19126b5a5e",
         "caption",
-        "price",
         "variant_picker",
         "quantity_selector",
+        "price",
         "2900e1a0-b53c-48f0-a89a-d5af49797ef9",
         "buy_buttons",
         "share",
@@ -135,6 +135,7 @@
     },
     "35543d9d-2055-40db-9f78-da377514a105": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "{{ product.metafields.vendor.product.value.size_guide_page.value }}",
         "heading_size": "h2",
