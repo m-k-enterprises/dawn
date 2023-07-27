@@ -328,6 +328,17 @@
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
+            "backgroundColor": "#F1F8F5",
+            "textColor": "#1D4136",
+            "borderColor": "#95C9B4",
+            "showLogo": true,
+            "showMoreInfo": true,
+            "showStats": false,
+            "showProjects": false,
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
           }
         },
         "share": {
@@ -342,7 +353,7 @@
             "stars_fill_color": "#000000",
             "star_size": 15,
             "text_align": "center",
-            "product": "",
+            "product": "{{ product }}",
             "stars_text_empty": "No reviews"
           }
         }
