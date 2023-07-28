@@ -5,10 +5,12 @@
       "settings": {
         "columns_desktop": 4,
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "article_show_date": true,
         "article_show_author": false,
@@ -16,9 +18,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "98649511-a7d3-48e8-8a91-75f40adc1f8e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19880541716785__98649511-a7d3-48e8-8a91-75f40adc1f8e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Didn't find what you were looking for?",
+            "heading_size": "h1"
+          }
+        },
+        "e2a8d2c0-c8ac-4196-bfa2-78c0425c4561": {
+          "type": "caption",
+          "settings": {
+            "caption": "Please feel free to contact us for further assistance.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--19880541716785__98649511-a7d3-48e8-8a91-75f40adc1f8e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keep exploring the world of Mythical Moods and uncover captivating scents that will transport you to extraordinary realms.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19880541716785__98649511-a7d3-48e8-8a91-75f40adc1f8e-heading-1",
+        "e2a8d2c0-c8ac-4196-bfa2-78c0425c4561",
+        "template--19880541716785__98649511-a7d3-48e8-8a91-75f40adc1f8e-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "98649511-a7d3-48e8-8a91-75f40adc1f8e"
   ]
 }
