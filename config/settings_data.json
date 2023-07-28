@@ -117,8 +117,16 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "checkout_body_background_color": "#fff",
-    "checkout_input_background_color_mode": "white",
+    "checkout_header_image": "shopify:\/\/shop_images\/image_aXP.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_No_Margin.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#000000",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#f99d1c",
+    "checkout_accent_color": "#f99d1c",
+    "checkout_button_color": "#f99d1c",
+    "checkout_error_color": "#c4161c",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
