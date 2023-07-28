@@ -1,10 +1,81 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "69fd5e97-90a4-46f2-866c-d8094a86346f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oops! You've ventured into uncharted territory.",
+            "heading_size": "h1"
+          }
+        },
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't worry, though! Our mythical creatures are working tirelessly to bring you back to the enchanted realm of Mythical Moods.<\/p>"
+          }
+        },
+        "80a5a5d9-c3af-4772-a547-22b102caac60": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the meantime, why not explore our magical collection of candles and fragrances?<\/p>"
+          }
+        },
+        "869ba702-7cf9-489f-9dc3-b9759f376374": {
+          "type": "caption",
+          "settings": {
+            "caption": "Click here to return to the realm of Mythical Moods and discover captivating scents that will transport you to extraordinary worlds.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Continue shopping",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "f70c01f8-5f3a-45bb-ba33-3047187f608b": {
+          "type": "caption",
+          "settings": {
+            "caption": "May your journey be filled with wonder and magic!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-heading-1",
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-text-1",
+        "80a5a5d9-c3af-4772-a547-22b102caac60",
+        "869ba702-7cf9-489f-9dc3-b9759f376374",
+        "template--19880541356337__69fd5e97-90a4-46f2-866c-d8094a86346f-button-1",
+        "f70c01f8-5f3a-45bb-ba33-3047187f608b"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "69fd5e97-90a4-46f2-866c-d8094a86346f"
   ]
 }
