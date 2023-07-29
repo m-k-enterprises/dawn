@@ -10,7 +10,6 @@
     },
     "1663858668cfada428": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "166385866842538b59-0": {
           "type": "column",
@@ -20,7 +19,7 @@
             "title": "{{ block.repeater.name.value }}",
             "text": "{{ block.repeater.address | metafield_tag }}{{ block.repeater.dates_text | metafield_tag }}",
             "link_label": "{{ block.repeater.link_label.value }}",
-            "link": "{{ block.repeater.link.value }}"
+            "link": "{{ block.repeater.system.url }}"
           }
         }
       },
@@ -46,6 +45,7 @@
     },
     "d87aff24-a31b-45d6-b9cd-74411c029dea": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16502531064053__d87aff24-a31b-45d6-b9cd-74411c029dea-16684430417ee393ee-1": {
           "type": "text",
