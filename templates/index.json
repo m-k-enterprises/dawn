@@ -1,5 +1,27 @@
 {
   "sections": {
+    "72852d88-42d9-4038-b898-aa671f891831": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While we're on leave,<br\/>orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -151,7 +173,6 @@
     },
     "165013541345f17318": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "16501354135e9bf081-0": {
           "type": "text",
@@ -218,6 +239,7 @@
         "16501354135e9bf081-6",
         "16501354135e9bf081-7"
       ],
+      "disabled": true,
       "settings": {
         "product": "pride-flag-buckle-free-belt",
         "color_scheme": "background-1",
@@ -235,7 +257,6 @@
     },
     "166325020295edf243": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "166325020280b6f5cf-0": {
           "type": "heading",
@@ -248,6 +269,7 @@
       "block_order": [
         "166325020280b6f5cf-0"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -309,7 +331,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -337,6 +358,7 @@
         "product",
         "ddd86f79-7e84-46a5-8f10-edbf70608489"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Our favourites",
         "heading_size": "h2",
@@ -365,7 +387,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -400,6 +421,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "What Our Customers Are Saying",
         "heading_size": "h1",
@@ -507,6 +529,7 @@
     }
   },
   "order": [
+    "72852d88-42d9-4038-b898-aa671f891831",
     "image_banner",
     "rich_text",
     "1652120374894c02b4",

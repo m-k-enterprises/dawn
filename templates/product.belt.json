@@ -38,7 +38,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -59,6 +58,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -75,7 +75,6 @@
     },
     "166325377836e7b914": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1663253778c2e1e213-0": {
           "type": "heading",
@@ -96,6 +95,7 @@
         "1663253778c2e1e213-0",
         "1663253778c2e1e213-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -255,6 +255,13 @@
             "show_inventory_quantity": false
           }
         },
+        "f8090422-5f75-47be-b68c-f3b534a613c4": {
+          "type": "text",
+          "settings": {
+            "text": "While we're on leave, orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -328,9 +335,9 @@
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
@@ -367,6 +374,7 @@
         "quantity_selector",
         "54cbf2b5-d264-4741-a8a9-74f774974b3f",
         "087aa213-a434-48ac-9b6b-b35a38ec6464",
+        "f8090422-5f75-47be-b68c-f3b534a613c4",
         "buy_buttons",
         "description",
         "collapsible-row-0",
@@ -426,7 +434,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -451,6 +458,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
