@@ -68,12 +68,37 @@
         "product": "keychain",
         "color_scheme": "background-1",
         "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "fb0e33ec-ebc1-43fc-84fd-1462a1a73c3e": {
+      "type": "rich-text",
+      "blocks": {
+        "84d91be3-41e8-40d2-883f-1b38272a40a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While we're on leave,<br\/>orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "84d91be3-41e8-40d2-883f-1b38272a40a8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "right",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "cart-footer": {
@@ -89,22 +114,26 @@
           "settings": {
           }
         },
-        "ad1373db-9d6c-4127-99aa-0092977ded76": {
-          "type": "shopify:\/\/apps\/shop\/blocks\/shop-pay-installments-banner\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
-          "settings": {
-            "product": ""
-          }
-        },
         "c7138dba-043f-4f5a-a3e6-aa87f6d05478": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
+            "backgroundColor": "#F1F8F5",
+            "textColor": "#1D4136",
+            "borderColor": "#95C9B4",
+            "showLogo": true,
+            "showMoreInfo": true,
+            "showStats": false,
+            "showProjects": false,
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
           }
         }
       },
       "block_order": [
         "subtotal",
         "buttons",
-        "ad1373db-9d6c-4127-99aa-0092977ded76",
         "c7138dba-043f-4f5a-a3e6-aa87f6d05478"
       ],
       "settings": {
@@ -127,6 +156,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -141,6 +171,7 @@
   "order": [
     "cart-items",
     "16501397251333c3f3",
+    "fb0e33ec-ebc1-43fc-84fd-1462a1a73c3e",
     "cart-footer",
     "featured-collection"
   ]
