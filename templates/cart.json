@@ -92,6 +92,7 @@
       "block_order": [
         "84d91be3-41e8-40d2-883f-1b38272a40a8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "right",
@@ -117,9 +118,9 @@
         "c7138dba-043f-4f5a-a3e6-aa87f6d05478": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
