@@ -118,6 +118,28 @@
         "padding_bottom": 36
       }
     },
+    "2377825f-200f-401f-a523-0a2242ef71b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16800405160181__2377825f-200f-401f-a523-0a2242ef71b8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.kickstarter.story | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__2377825f-200f-401f-a523-0a2242ef71b8-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1652214013fef53a2c": {
       "type": "newsletter",
       "blocks": {
@@ -178,6 +200,7 @@
     "525decad-a52f-41ab-97e5-20aaee25901c",
     "3e48b113-f373-45c7-a2e7-dcfd162d431c",
     "a4ae54ab-a43b-47fe-a99b-c12464b4f651",
+    "2377825f-200f-401f-a523-0a2242ef71b8",
     "1652214013fef53a2c",
     "product-grid"
   ]
