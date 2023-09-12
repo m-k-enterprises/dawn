@@ -25,42 +25,6 @@
         "padding_bottom": 36
       }
     },
-    "292cba63-3003-4709-ae80-668329aebcac": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon",
-            "heading_size": "h1"
-          }
-        },
-        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Upcoming Project",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-heading-1",
-        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-text-1"
-      ],
-      "settings": {
-        "image": "{{ collection.image }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "top-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "3e48b113-f373-45c7-a2e7-dcfd162d431c": {
       "type": "rich-text",
       "blocks": {
@@ -157,7 +121,6 @@
   "order": [
     "banner",
     "525decad-a52f-41ab-97e5-20aaee25901c",
-    "292cba63-3003-4709-ae80-668329aebcac",
     "3e48b113-f373-45c7-a2e7-dcfd162d431c",
     "1652214013fef53a2c",
     "product-grid"
