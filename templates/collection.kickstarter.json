@@ -75,6 +75,49 @@
         "padding_bottom": 52
       }
     },
+    "a4ae54ab-a43b-47fe-a99b-c12464b4f651": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Rewards are guaranteed, and we regularly update backers.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-1",
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1652214013fef53a2c": {
       "type": "newsletter",
       "blocks": {
@@ -134,6 +177,7 @@
     "banner",
     "525decad-a52f-41ab-97e5-20aaee25901c",
     "3e48b113-f373-45c7-a2e7-dcfd162d431c",
+    "a4ae54ab-a43b-47fe-a99b-c12464b4f651",
     "1652214013fef53a2c",
     "product-grid"
   ]
