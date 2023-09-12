@@ -47,12 +47,24 @@
           "settings": {
             "text": "<p>Experience Comfort and Versatility in Fashion<\/p>"
           }
+        },
+        "b74a6b42-c798-4e3a-85c1-39fbc6d50724": {
+          "type": "button",
+          "settings": {
+            "button_label": "Back this project",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-heading-1",
         "41eca16c-f52e-43f3-9954-4f0153574130",
-        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1"
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1",
+        "b74a6b42-c798-4e3a-85c1-39fbc6d50724"
       ],
       "settings": {
         "desktop_content_position": "center",
