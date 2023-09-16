@@ -25,6 +25,7 @@
       "block_order": [
         "1664794650c1e21148-0"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -44,7 +45,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "animals",
+        "collection": "barbie",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": true,
@@ -66,7 +67,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -101,6 +101,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -120,7 +121,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "7f13bcc3-89c8-489f-b3ee-958750f483b2": {
           "type": "image",
@@ -143,6 +143,7 @@
         "129cb694-1384-438e-bad0-0094e2051bdb",
         "293adf3f-6813-4c71-b841-8f7b3a20082a"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -156,7 +157,6 @@
     },
     "16647946530ea14c06": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1664794652a28dbecb-1": {
           "type": "title",
@@ -194,6 +194,7 @@
         "1664794652a28dbecb-4",
         "1664794652a28dbecb-5"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "color_scheme": "background-1",
