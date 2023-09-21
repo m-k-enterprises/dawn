@@ -106,6 +106,7 @@
       "blocks": {
         "3d227545-1bea-45ba-a96a-9fca7d055415": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Buy 2 Get 1 Free",
             "text": "",
