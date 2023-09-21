@@ -187,6 +187,7 @@
         "template--16002834006261__c609627f-f7b9-4b5c-9169-58a02641509a-16684424542f68ed83-0",
         "cabe470d-2e04-464e-8dcd-4763617beecc"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -237,6 +238,7 @@
         },
         "54cbf2b5-d264-4741-a8a9-74f774974b3f": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "vertical",
             "icon_1": "box",
