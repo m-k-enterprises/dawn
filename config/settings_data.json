@@ -100,7 +100,7 @@
     "brand_headline": "Discover the Magic of Mythical Moods",
     "brand_description": "<p>At Mythical Moods, we believe in the power of scent to transport you to extraordinary realms. Our carefully crafted candles and fragrances are designed to ignite your imagination and awaken your senses. Each product is a testament to our dedication to creating an immersive and magical experience, from enchanting aromas to fantasy-inspired themes. Embrace the wonder, indulge your senses, and unlock the realm of Mythical Moods.<\/p>",
     "brand_image": "{{ shop.brand.cover_image }}",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/MythicalMoods",
     "social_instagram_link": "",
     "social_youtube_link": "",
     "social_tiktok_link": "",
