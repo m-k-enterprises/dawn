@@ -33,9 +33,9 @@
         "a32339b8-ad4a-49a7-98fe-315f658291e1": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "backgroundColor": "{{ shop.brand.colors.primary[0].foreground }}",
+            "textColor": "{{ shop.brand.colors.primary[0].background }}",
+            "borderColor": "{{ shop.brand.colors.primary[0].background }}",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
