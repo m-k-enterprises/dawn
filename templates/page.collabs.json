@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "eabb815e-e55a-4dc6-bb4a-1aab38ec0bc9": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Join the Mythical Moods community"
+          }
+        }
+      },
+      "block_order": [
+        "eabb815e-e55a-4dc6-bb4a-1aab38ec0bc9"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "collabs"
+  ]
+}
