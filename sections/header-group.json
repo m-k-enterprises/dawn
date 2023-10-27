@@ -5,6 +5,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "5552d5f9-a976-499c-adab-c7c72c6d5d93": {
+          "type": "announcement",
+          "settings": {
+            "text": "🌟 Introducing Monthly Magic Subscription Plan! 🌟",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -14,6 +21,7 @@
         }
       },
       "block_order": [
+        "5552d5f9-a976-499c-adab-c7c72c6d5d93",
         "announcement-bar-0"
       ],
       "settings": {
