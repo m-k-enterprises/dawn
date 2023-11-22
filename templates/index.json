@@ -1,8 +1,71 @@
 {
   "sections": {
+    "7a0dd13d-bfac-477f-83cd-da2f692f1ba5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Black Friday Sale",
+            "heading_size": "h0"
+          }
+        },
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Up to <strong>30%<\/strong> Off!",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/belts",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1",
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
+        "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "{{ shop.brand.cover_image }}",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "72852d88-42d9-4038-b898-aa671f891831": {
       "type": "rich-text",
       "blocks": {
+        "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>10%<\/strong> Off All Orders",
+            "heading_size": "h1"
+          }
+        },
+        "14713dd5-0e6b-4868-99d4-fc09bb54d383": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>30%<\/strong> Off Orders Over <strong>£50<\/strong>",
+            "heading_size": "h1"
+          }
+        },
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
           "type": "text",
           "settings": {
@@ -11,13 +74,15 @@
         }
       },
       "block_order": [
+        "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e",
+        "14713dd5-0e6b-4868-99d4-fc09bb54d383",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
       "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -531,6 +596,7 @@
     }
   },
   "order": [
+    "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
     "72852d88-42d9-4038-b898-aa671f891831",
     "image_banner",
     "rich_text",
