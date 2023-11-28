@@ -34,6 +34,7 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 0,
@@ -78,6 +79,7 @@
         "14713dd5-0e6b-4868-99d4-fc09bb54d383",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -121,7 +123,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
