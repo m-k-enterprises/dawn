@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Buy 2 Get 1 Free",
             "link": ""
@@ -14,7 +15,6 @@
         },
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
             "link": "shopify:\/\/pages\/christmas-last-posting-dates"
@@ -34,7 +34,6 @@
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325",
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": true,
