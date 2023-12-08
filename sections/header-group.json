@@ -5,6 +5,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "81d85b53-bf12-423d-ac39-8d0753845240": {
+          "type": "announcement",
+          "settings": {
+            "text": "Christmas last shipping dates",
+            "link": "shopify:\/\/pages\/christmas-last-posting-dates"
+          }
+        },
         "5552d5f9-a976-499c-adab-c7c72c6d5d93": {
           "type": "announcement",
           "settings": {
@@ -21,6 +28,7 @@
         }
       },
       "block_order": [
+        "81d85b53-bf12-423d-ac39-8d0753845240",
         "5552d5f9-a976-499c-adab-c7c72c6d5d93",
         "announcement-bar-0"
       ],
