@@ -266,8 +266,7 @@
         },
         "16501354135e9bf081-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "16501354135e9bf081-4": {
           "type": "variant_picker",
@@ -279,8 +278,7 @@
         "16501354135e9bf081-5": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "16501354135e9bf081-6": {
           "type": "buy_buttons",
@@ -579,8 +577,7 @@
         },
         "165217688366cfcb54-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
