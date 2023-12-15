@@ -26,6 +26,7 @@
       "block_order": [
         "166385866842538b59-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -45,7 +46,6 @@
     },
     "d87aff24-a31b-45d6-b9cd-74411c029dea": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16502531064053__d87aff24-a31b-45d6-b9cd-74411c029dea-16684430417ee393ee-1": {
           "type": "text",
