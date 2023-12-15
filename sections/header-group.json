@@ -35,10 +35,13 @@
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "show_line_separator": true,
+        "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 5
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
     "header": {
@@ -50,6 +53,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
