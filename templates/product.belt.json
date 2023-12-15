@@ -260,6 +260,7 @@
         },
         "f8090422-5f75-47be-b68c-f3b534a613c4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "While we're on leave, orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.",
             "text_style": "body"
