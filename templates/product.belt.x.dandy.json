@@ -6,15 +6,15 @@
         "166325186714b7857b-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.title }}",
+            "heading": "Buckle-Free Belt",
             "heading_size": "h1"
           }
         },
         "166325186714b7857b-1": {
           "type": "text",
           "settings": {
-            "text": "The Buckle-Free Belt is a perfect, all purpose belt that makes for a great addition to any outfit.",
-            "text_style": "body"
+            "text": "Bear Belts × Dandy",
+            "text_style": "subtitle"
           }
         }
       },
@@ -25,7 +25,7 @@
       "settings": {
         "image": "{{ product.metafields.descriptors[\"promo-image\"].value }}",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -212,7 +212,14 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "16ab13e1-dc18-426b-aab9-298708029cbc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__title\">\n<h1>Buckle-Free Belt<br\/>\nBear Belts × Dandy<\/h1>\n<\/div>"
           }
         },
         "caption": {
@@ -373,6 +380,7 @@
       "block_order": [
         "vendor",
         "title",
+        "16ab13e1-dc18-426b-aab9-298708029cbc",
         "caption",
         "price",
         "variant_picker",
