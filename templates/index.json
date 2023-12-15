@@ -130,7 +130,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -266,7 +266,8 @@
         },
         "16501354135e9bf081-3": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "16501354135e9bf081-4": {
           "type": "variant_picker",
@@ -278,13 +279,15 @@
         "16501354135e9bf081-5": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "16501354135e9bf081-6": {
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         },
         "16501354135e9bf081-7": {
@@ -371,7 +374,8 @@
           "disabled": true,
           "settings": {
             "button_label": "Find my belt",
-            "button_link": "shopify:\/\/collections\/belts"
+            "button_link": "shopify:\/\/collections\/belts",
+            "button_style_secondary": false
           }
         }
       },
@@ -388,6 +392,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
+        "section_color_scheme": "",
         "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -577,7 +582,8 @@
         },
         "165217688366cfcb54-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
