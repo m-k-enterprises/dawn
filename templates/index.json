@@ -393,7 +393,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "section_color_scheme": "",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 36,
@@ -592,7 +592,7 @@
         "165217688366cfcb54-2"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
