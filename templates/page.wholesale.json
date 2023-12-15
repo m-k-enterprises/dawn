@@ -11,7 +11,6 @@
     },
     "16637047882c4c3f12": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "166370478807ea1ffd-0": {
           "type": "heading",
@@ -31,6 +30,7 @@
         "166370478807ea1ffd-0",
         "166370478807ea1ffd-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -95,6 +95,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
@@ -104,7 +105,6 @@
     },
     "16637056202f224202": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "16637056204c63ff07-0": {
           "type": "column",
@@ -129,6 +129,7 @@
         "16637056204c63ff07-0",
         "16637056204c63ff07-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why shop us through Faire?",
         "heading_size": "h1",
@@ -148,7 +149,6 @@
     },
     "1663705804faf37c0c": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "166370580414896383-0": {
           "type": "column",
@@ -193,6 +193,7 @@
         "166370580414896383-2",
         "ce84653a-8e22-460b-b770-0486ae961c0c"
       ],
+      "disabled": true,
       "settings": {
         "title": "Trusted By 600,000 Retailers",
         "heading_size": "h1",
@@ -212,7 +213,6 @@
     },
     "1663706065b9e3bd2b": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "166370606538f1a56d-0": {
           "type": "column",
@@ -247,6 +247,7 @@
         "166370606538f1a56d-1",
         "166370606538f1a56d-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -297,7 +298,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
