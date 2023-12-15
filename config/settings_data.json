@@ -3,17 +3,6 @@
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/Paw.png",
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#2b2b2b",
-    "gradient_accent_1": "linear-gradient(180deg, rgba(85, 85, 85, 1) 4%, rgba(0, 0, 0, 1) 100%)",
-    "colors_accent_2": "#eaa032",
-    "gradient_accent_2": "linear-gradient(180deg, rgba(213, 99, 0, 1), rgba(254, 221, 99, 1) 100%)",
-    "colors_text": "#2b2b2b",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
-    "colors_background_2": "#aaaaaa",
-    "gradient_background_2": "",
     "type_header_font": "bio_rhyme_n4",
     "heading_scale": 100,
     "type_body_font": "bio_rhyme_n4",
@@ -86,7 +75,6 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "text",
     "social_facebook_link": "https:\/\/facebook.com\/BearBeltsStore",
     "social_instagram_link": "https:\/\/instagram.com\/BearBelts",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCp38_YoduZa6UsIo4Gc-SJw",
@@ -105,6 +93,18 @@
     "checkout_logo_position": "left",
     "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#2b2b2b",
+    "gradient_accent_1": "linear-gradient(180deg, rgba(85, 85, 85, 1) 4%, rgba(0, 0, 0, 1) 100%)",
+    "colors_accent_2": "#eaa032",
+    "gradient_accent_2": "linear-gradient(180deg, rgba(213, 99, 0, 1), rgba(254, 221, 99, 1) 100%)",
+    "colors_text": "#2b2b2b",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#aaaaaa",
+    "gradient_background_2": "",
+    "accent_icons": "text",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -138,7 +138,8 @@
           "f0593206-18e1-4857-a16a-5d70dcb121f2",
           "9a2ed4df-c957-436d-83c9-515449e14a8d"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -203,12 +204,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "7456567658179156570": {
         "type": "shopify:\/\/apps\/adroll-advertising-marketing\/blocks\/adroll-pixel\/c60853ed-1adb-4359-83ae-4ed43ed0b559",
