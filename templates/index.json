@@ -3,6 +3,25 @@
     "790ab009-7aab-4f28-8835-ed8835ad89bd": {
       "type": "slideshow",
       "blocks": {
+        "1ba010ce-5a9c-4ed9-ae04-38f037d83501": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_FJE.jpg",
+            "heading": "Magical Sale",
+            "heading_size": "h1",
+            "subheading": "20% Off Select Candles 🕯️",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "0b1bcb5e-567f-4860-b1b8-ff8e69a17c87": {
           "type": "slide",
           "disabled": true,
@@ -60,6 +79,7 @@
         }
       },
       "block_order": [
+        "1ba010ce-5a9c-4ed9-ae04-38f037d83501",
         "0b1bcb5e-567f-4860-b1b8-ff8e69a17c87",
         "template--19880541618481__790ab009-7aab-4f28-8835-ed8835ad89bd-168894563716084574-0",
         "template--19880541618481__790ab009-7aab-4f28-8835-ed8835ad89bd-168894563716084574-1"
