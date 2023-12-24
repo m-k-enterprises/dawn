@@ -6,21 +6,21 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Black Friday Sale",
+            "heading": "New Year Sale",
             "heading_size": "h0"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
           "type": "text",
           "settings": {
-            "text": "Up to <strong>30%<\/strong> Off!",
+            "text": "Buy <strong>One<\/strong>, Get One <strong>50%<\/strong> Off",
             "text_style": "subtitle"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Click to Discover",
             "button_link_1": "shopify:\/\/collections\/belts",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -36,13 +36,13 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
+        "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Back_-_Wide.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -52,8 +52,16 @@
     "72852d88-42d9-4038-b898-aa671f891831": {
       "type": "rich-text",
       "blocks": {
+        "9f99d824-b4ab-49df-a56b-9c7618ab0e24": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate your style with Bear Belts.",
+            "heading_size": "h1"
+          }
+        },
         "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>10%<\/strong> Off All Orders",
             "heading_size": "h1"
@@ -61,6 +69,7 @@
         },
         "14713dd5-0e6b-4868-99d4-fc09bb54d383": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>30%<\/strong> Off Orders Over <strong>£50<\/strong>",
             "heading_size": "h1"
@@ -75,6 +84,7 @@
         }
       },
       "block_order": [
+        "9f99d824-b4ab-49df-a56b-9c7618ab0e24",
         "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e",
         "14713dd5-0e6b-4868-99d4-fc09bb54d383",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
@@ -83,7 +93,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
