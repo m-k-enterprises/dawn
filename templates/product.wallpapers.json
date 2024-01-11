@@ -20,7 +20,7 @@
         "850c09a9-533f-4a7d-8398-5c19126b5a5e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__title\">\n{%- if product.metafields.descriptors.title-image -%}\n{%- assign title_words = product.title | split: product.metafields.descriptors.title-image.value.alt -%}\n\n<h1>{{ title_words[0] }} {{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, preload: true }} {{ title_words[1] }}<\/h1>\n{%- else -%}\n<h1>{{ product.title }}<\/h1>\n{%- endif -%}\n<\/div>"
+            "custom_liquid": "<div class=\"product__title\">\n<h1>\n{%- if product.metafields.descriptors.title-image -%}\n{%- assign title_words = product.title | split: product.metafields.descriptors.title-image.value.alt -%}\n\n{{ title_words[0] }} {{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, preload: true }} {{ title_words[1] }}\n{%- else -%}\n{{ product.title }}\n{%- endif -%}\n<\/h1>\n<\/div>"
           }
         },
         "caption": {
@@ -36,22 +36,11 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
+        "text_FEkFam": {
+          "type": "text",
           "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "2900e1a0-b53c-48f0-a89a-d5af49797ef9": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 100,
-            "show_inventory_quantity": false
+            "text": "Transform your device with stunning, <strong>free<\/strong> wallpapers that ignite your imagination!",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -70,22 +59,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "<p>{{ product.metafields.vendor.product.value.material.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d": {
-          "type": "text",
-          "settings": {
-            "text": "This product is made especially for you as soon as you place an order, which is why it takes us a bit longer to deliver it to you. Making products on demand instead of in bulk helps reduce overproduction, so thank you for making thoughtful purchasing decisions!",
-            "text_style": "body"
           }
         },
         "8b4c03e3-93fb-4a09-b1a7-a0b869811103": {
@@ -108,14 +81,10 @@
         "850c09a9-533f-4a7d-8398-5c19126b5a5e",
         "caption",
         "variant_picker",
-        "quantity_selector",
-        "price",
-        "2900e1a0-b53c-48f0-a89a-d5af49797ef9",
+        "text_FEkFam",
         "buy_buttons",
         "share",
         "description",
-        "collapsible-row-0",
-        "142cdbd9-4ca8-45d3-8dca-edbff37b3c2d",
         "8b4c03e3-93fb-4a09-b1a7-a0b869811103"
       ],
       "settings": {
