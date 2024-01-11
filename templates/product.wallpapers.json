@@ -20,7 +20,7 @@
         "850c09a9-533f-4a7d-8398-5c19126b5a5e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.metafields.descriptors.title-image -%}\n{%- assign title_words = product.title | split: product.metafields.descriptors.title-image.value.alt -%}\n\n<div class=\"product__title\">\n<h1>{{ title_words[0] }} {{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, preload: true }} {{ title_words[1] }}<\/h1>\n<\/div>\n{%- endif -%}"
+            "custom_liquid": "<div class=\"product__title\">\n{%- if product.metafields.descriptors.title-image -%}\n{%- assign title_words = product.title | split: product.metafields.descriptors.title-image.value.alt -%}\n\n<h1>{{ title_words[0] }} {{ product.metafields.descriptors.title-image.value | image_url: height: 416 | image_tag: sizes: 'calc((100vw - 8rem) \/ 3)', height: 44, preload: true }} {{ title_words[1] }}<\/h1>\n{%- else -%}\n<h1>{{ product.title }}<\/h1>\n{%- endif -%}\n<\/div>"
           }
         },
         "caption": {
