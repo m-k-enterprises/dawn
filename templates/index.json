@@ -5,6 +5,7 @@
       "blocks": {
         "1ba010ce-5a9c-4ed9-ae04-38f037d83501": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/image_FJE.jpg",
             "heading": "Magical Sale",
