@@ -573,16 +573,10 @@
           "settings": {
             "maxwidth": 1080
           }
-        },
-        "judge_me_reviews_all_reviews_text_iM4767": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_hBkrxy",
-        "judge_me_reviews_all_reviews_text_iM4767"
+        "judge_me_reviews_featured_carousel_hBkrxy"
       ],
       "settings": {
         "include_margins": true
@@ -590,6 +584,7 @@
     },
     "166419697996b064fd": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text\/javascript\" src=\"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\" async><\/script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
         "color_scheme": "background-1",
