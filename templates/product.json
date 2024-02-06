@@ -128,13 +128,14 @@
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "badgeMode": "info",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
             "showProjects": false,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 0,
@@ -149,12 +150,18 @@
         },
         "e404bab6-f250-4909-a5f2-3df524765bdc": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "{{ shop.brand.colors.secondary[0].background }}",
             "star_size": 15,
             "text_align": "center",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
+          }
+        },
+        "judge_me_reviews_preview_badge_cWLiqG": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
           }
         }
       },
@@ -174,7 +181,8 @@
         "collapsible-row-3",
         "8b84276a-b8d2-4f8d-98e0-7277d196036f",
         "share",
-        "e404bab6-f250-4909-a5f2-3df524765bdc"
+        "e404bab6-f250-4909-a5f2-3df524765bdc",
+        "judge_me_reviews_preview_badge_cWLiqG"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -237,12 +245,19 @@
       "blocks": {
         "f506bee6-3e62-44e4-831d-f690b32bcf53": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "judge_me_reviews_review_widget_RXnNPT": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
       },
       "block_order": [
-        "f506bee6-3e62-44e4-831d-f690b32bcf53"
+        "f506bee6-3e62-44e4-831d-f690b32bcf53",
+        "judge_me_reviews_review_widget_RXnNPT"
       ],
       "settings": {
         "include_margins": true
