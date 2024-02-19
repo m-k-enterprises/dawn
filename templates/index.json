@@ -381,6 +381,12 @@
             "collection": "t-shirts"
           }
         },
+        "featured_collection_TRbaPt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tank-tops"
+          }
+        },
         "featured_collection_G9zzLn": {
           "type": "featured_collection",
           "settings": {
@@ -402,6 +408,7 @@
       },
       "block_order": [
         "featured_collection_dLiqYX",
+        "featured_collection_TRbaPt",
         "featured_collection_G9zzLn",
         "featured_collection_CHHUVw",
         "featured_collection_wcVzmt"
@@ -410,7 +417,7 @@
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
