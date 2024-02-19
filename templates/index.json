@@ -115,6 +115,34 @@
         "show_text_below": false
       }
     },
+    "featured_collection_zwacnr": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Chubby Guys Cuddle Better",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "chubby-guys-cuddle-better",
+        "products_to_show": 25,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_Mn3AKA": {
       "type": "featured-collection",
       "settings": {
@@ -499,6 +527,7 @@
   "order": [
     "1664794650ae5746ed",
     "ac29c246-08b9-4ba9-a3ba-2e95ba30aef4",
+    "featured_collection_zwacnr",
     "featured_collection_Mn3AKA",
     "featured_collection",
     "featured_collection_cPBeF6",
