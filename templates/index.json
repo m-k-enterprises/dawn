@@ -316,7 +316,8 @@
         "1664794652a28dbecb-3": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "1664794652a28dbecb-4": {
@@ -438,7 +439,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
