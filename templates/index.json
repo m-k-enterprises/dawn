@@ -6,22 +6,22 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "New Year Sale",
+            "heading": "Get Carnival-Ready with Bear Belts!",
             "heading_size": "h0"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
           "type": "text",
           "settings": {
-            "text": "Buy <strong>One<\/strong>, Get One <strong>50%<\/strong> Off",
+            "text": "<strong>20%<\/strong> off with code <strong>BearCarnival20<\/strong>",
             "text_style": "subtitle"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Click to Discover",
-            "button_link_1": "shopify:\/\/collections\/belts",
+            "button_label_1": "Shop Now",
+            "button_link_1": "\/discount\/BearCarnival20?redirect=\/collections\/belts",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,9 +34,8 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Back_-_Wide.jpg",
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-02-20_02.15.41_-_A_wide_vibrant_digital_illustration_in_the_style_of_a_comic_book_depicting_a_dynamic_and_lively_scene_of_a_rugby_game_in_action_on_a_vivid_field_wi.webp",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -133,6 +132,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
