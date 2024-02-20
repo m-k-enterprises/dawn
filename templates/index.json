@@ -54,7 +54,7 @@
         "9f99d824-b4ab-49df-a56b-9c7618ab0e24": {
           "type": "heading",
           "settings": {
-            "heading": "Elevate your style with Bear Belts.",
+            "heading": "Feel the spirit of Bear Carnival in every step.",
             "heading_size": "h1"
           }
         },
@@ -74,6 +74,12 @@
             "heading_size": "h1"
           }
         },
+        "text_XgqkHT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From now until <strong>4 March<\/strong>, enjoy <strong>20%<\/strong> off with code <strong>BearCarnvial20<\/strong>.<\/p><p>Don't just join the celebration, define it. Grab yours and let's make this Bear Carnival unforgettable!<\/p>"
+          }
+        },
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
           "type": "text",
           "disabled": true,
@@ -86,9 +92,9 @@
         "9f99d824-b4ab-49df-a56b-9c7618ab0e24",
         "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e",
         "14713dd5-0e6b-4868-99d4-fc09bb54d383",
+        "text_XgqkHT",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
