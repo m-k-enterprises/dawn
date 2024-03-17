@@ -103,6 +103,55 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_iE39MX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_XbnT7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrate Béar Feile in style!",
+            "heading_size": "h0"
+          }
+        },
+        "text_wzfMEz": {
+          "type": "text",
+          "settings": {
+            "text": "Immerse Yourself in the Soul of Celtic Tradition!",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_iKXkmW": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XbnT7b",
+        "text_wzfMEz",
+        "buttons_iKXkmW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Wide_-_Bear_Flag_2_Background_Removed_82b0ab1e-cf11-4a42-851c-52a4ba5102bc.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -634,6 +683,7 @@
   "order": [
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
     "72852d88-42d9-4038-b898-aa671f891831",
+    "image_banner_iE39MX",
     "image_banner",
     "rich_text",
     "1652120374894c02b4",
