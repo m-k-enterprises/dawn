@@ -596,18 +596,29 @@
             "link_label": "",
             "link": "https:\/\/bearbelts.store\/blogs\/news\/gay-london-life-introduces-bear-belts-as-the-newest-fashion-must-have"
           }
+        },
+        "column_jp3AmG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MAIN_VERSION_full_colour_transparent_background.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-0",
-        "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1"
+        "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1",
+        "column_jp3AmG"
       ],
       "settings": {
-        "title": "Featured in",
+        "title": "Featured by",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
