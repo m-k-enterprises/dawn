@@ -3,6 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -51,7 +52,8 @@
         "1650139725104346c5-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
           }
         }
       },
@@ -110,34 +112,38 @@
           "settings": {
           }
         },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-          }
-        },
         "c7138dba-043f-4f5a-a3e6-aa87f6d05478": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#f1f8f5",
-            "textColor": "#1d4136",
-            "borderColor": "#95c9b4",
-            "showLogo": true,
+            "badgeMode": "buyer_contribution",
+            "showLogo": false,
             "showMoreInfo": true,
             "showStats": false,
             "showProjects": false,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 0,
             "borderRadius": 4
           }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons",
-        "c7138dba-043f-4f5a-a3e6-aa87f6d05478"
+        "c7138dba-043f-4f5a-a3e6-aa87f6d05478",
+        "buttons"
       ],
       "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "featured-collection": {
