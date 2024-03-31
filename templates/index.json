@@ -84,6 +84,7 @@
         "text_wzfMEz",
         "buttons_iKXkmW"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Buckle-Free_Belt_-_Grey_-_Front_-_Wide_Large_a0d68558-55ad-4102-8d06-bfec9da0d9a1.jpg",
         "image_overlay_opacity": 0,
@@ -146,6 +147,7 @@
         "text_XgqkHT",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -189,7 +191,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
