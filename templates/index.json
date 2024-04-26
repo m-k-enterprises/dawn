@@ -6,22 +6,22 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "New Year Sale",
+            "heading": "Get Carnival-Ready with Bear Belts!",
             "heading_size": "h0"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
           "type": "text",
           "settings": {
-            "text": "Buy <strong>One<\/strong>, Get One <strong>50%<\/strong> Off",
+            "text": "<strong>20%<\/strong> off with code <strong>BearCarnival20<\/strong>",
             "text_style": "subtitle"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Click to Discover",
-            "button_link_1": "shopify:\/\/collections\/belts",
+            "button_label_1": "Shop Now",
+            "button_link_1": "\/discount\/BearCarnival20?redirect=\/collections\/belts",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +36,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Back_-_Wide.jpg",
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-02-20_02.15.41_-_A_wide_vibrant_digital_illustration_in_the_style_of_a_comic_book_depicting_a_dynamic_and_lively_scene_of_a_rugby_game_in_action_on_a_vivid_field_wi.webp",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -49,13 +49,64 @@
         "show_text_below": true
       }
     },
+    "image_banner_iE39MX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_XbnT7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrate Béar Féile in style!",
+            "heading_size": "h0"
+          }
+        },
+        "text_wzfMEz": {
+          "type": "text",
+          "settings": {
+            "text": "Immerse Yourself in the Soul of Celtic Tradition!",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_iKXkmW": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XbnT7b",
+        "text_wzfMEz",
+        "buttons_iKXkmW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Buckle-Free_Belt_-_Grey_-_Front_-_Wide_Large_a0d68558-55ad-4102-8d06-bfec9da0d9a1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "72852d88-42d9-4038-b898-aa671f891831": {
       "type": "rich-text",
       "blocks": {
         "9f99d824-b4ab-49df-a56b-9c7618ab0e24": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Elevate your style with Bear Belts.",
+            "heading": "Feel the spirit of Bear Carnival in every step.",
             "heading_size": "h1"
           }
         },
@@ -75,11 +126,17 @@
             "heading_size": "h1"
           }
         },
+        "text_XgqkHT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the days grow longer and the earth reawakens, honour your roots in style. Enjoy <strong>20%<\/strong> off with code <strong>BearFeile20<\/strong> until <strong>31 March<\/strong>.<\/p>"
+          }
+        },
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>While we're on leave,<br\/>orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.<\/p>"
+            "text": "<p>While we're on leave,<br\/>orders placed during <strong>8-19 March<\/strong> will be dispatched on <strong>20 March<\/strong>.<\/p>"
           }
         }
       },
@@ -87,6 +144,7 @@
         "9f99d824-b4ab-49df-a56b-9c7618ab0e24",
         "6160b726-d3da-4fb1-8fd2-2b0dcbe9566e",
         "14713dd5-0e6b-4868-99d4-fc09bb54d383",
+        "text_XgqkHT",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
       "disabled": true,
@@ -542,18 +600,29 @@
             "link_label": "",
             "link": "https:\/\/bearbelts.store\/blogs\/news\/gay-london-life-introduces-bear-belts-as-the-newest-fashion-must-have"
           }
+        },
+        "column_jp3AmG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MAIN_VERSION_full_colour_transparent_background.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-0",
-        "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1"
+        "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1",
+        "column_jp3AmG"
       ],
       "settings": {
-        "title": "Featured in",
+        "title": "Featured by",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -628,6 +697,7 @@
   },
   "order": [
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
+    "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
     "image_banner",
     "rich_text",

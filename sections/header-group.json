@@ -15,6 +15,7 @@
         },
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
             "link": "shopify:\/\/pages\/christmas-last-posting-dates"
@@ -27,12 +28,20 @@
             "text": "Royal Mail's international export services continue to be severely disrupted following a cyber incident.",
             "link": ""
           }
+        },
+        "announcement_tpJAUD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Vote for us",
+            "link": "https:\/\/bearworldmag.com\/awards\/vote"
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325",
-        "634fcfd9-2fa1-412f-9c9a-0540c79e6359"
+        "634fcfd9-2fa1-412f-9c9a-0540c79e6359",
+        "announcement_tpJAUD"
       ],
       "settings": {
         "color_scheme": "background-2",

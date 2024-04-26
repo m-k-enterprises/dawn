@@ -2,6 +2,35 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "170839763328fca986": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_Rt8cUB": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_Rt8cUB"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -43,6 +72,7 @@
     }
   },
   "order": [
+    "170839763328fca986",
     "footer"
   ]
 }
