@@ -43,6 +43,7 @@
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359",
         "announcement_tpJAUD"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
