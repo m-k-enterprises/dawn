@@ -12,11 +12,13 @@
       "blocks": {
         "column_UMMbXN": {
           "type": "column",
+          "repeater": "{{ page.metafields.custom.events.value }}",
           "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "{{ block.repeater.image.value }}",
+            "title": "{{ block.repeater.name.value }}",
+            "text": "{{ block.repeater.address | metafield_tag }}{{ block.repeater.dates_text | metafield_tag }}",
+            "link_label": "{{ block.repeater.link_label.value }}",
+            "link": "{{ block.repeater.link.value }}"
           }
         }
       },
