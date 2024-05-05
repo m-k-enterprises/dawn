@@ -191,6 +191,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
