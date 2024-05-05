@@ -6,12 +6,13 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Get Carnival-Ready with Bear Belts!",
+            "heading": "Get Belly-Rub-Ready with Bear Belts × Dandy!",
             "heading_size": "h0"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>20%<\/strong> off with code <strong>BearCarnival20<\/strong>",
             "text_style": "subtitle"
@@ -21,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "\/discount\/BearCarnival20?redirect=\/collections\/belts",
+            "button_link_1": "shopify:\/\/products\/buckle-free-belt-bear-belts-x-dandy",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,15 +35,14 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2024-02-20_02.15.41_-_A_wide_vibrant_digital_illustration_in_the_style_of_a_comic_book_depicting_a_dynamic_and_lively_scene_of_a_rugby_game_in_action_on_a_vivid_field_wi.webp",
+        "image": "shopify:\/\/shop_images\/Buckle-FreeBeltBearBeltsxDandy-Pink-Details1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -341,7 +341,8 @@
           "type": "variant_picker",
           "disabled": true,
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "16501354135e9bf081-5": {
@@ -442,8 +443,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Find my belt",
-            "button_link": "shopify:\/\/collections\/belts",
-            "button_style_secondary": false
+            "button_link": "shopify:\/\/collections\/belts"
           }
         }
       },
@@ -460,7 +460,6 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
-        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
