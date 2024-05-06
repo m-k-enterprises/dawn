@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Get Belly-Rub-Ready with Bear Belts × Dandy!",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
@@ -39,7 +39,7 @@
         "image": "shopify:\/\/shop_images\/Buckle-FreeBeltBearBeltsxDandy-Pink-Details1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "bottom-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
@@ -301,7 +301,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
