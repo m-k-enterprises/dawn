@@ -136,7 +136,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>While we're on leave,<br\/>orders placed during <strong>8-19 March<\/strong> will be dispatched on <strong>20 March<\/strong>.<\/p>"
+            "text": "<p>While we're on leave,<br\/>orders placed during <strong>13 - 30 June<\/strong> will be dispatched on <strong>1 July<\/strong>.<\/p>"
           }
         }
       },
@@ -444,7 +444,8 @@
           "disabled": true,
           "settings": {
             "button_label": "Find my belt",
-            "button_link": "shopify:\/\/collections\/belts"
+            "button_link": "shopify:\/\/collections\/belts",
+            "button_style_secondary": false
           }
         }
       },
@@ -461,6 +462,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
