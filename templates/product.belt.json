@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1663251867a09ea152": {
@@ -246,7 +255,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -299,7 +309,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "<p>{{ product.metafields.facts.materials | metafield_text }}<\/p>",
+            "content": "{{ product.metafields.shopify[\"clothing-accessory-material\"] | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
@@ -375,17 +385,6 @@
             "share_label": "Share"
           }
         },
-        "e404bab6-f250-4909-a5f2-3df524765bdc": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{ product }}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "judge_me_reviews_preview_badge_YwcDyQ": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -412,7 +411,6 @@
         "d3192d1d-2da6-45a2-b3dd-010bb212d85b",
         "8b84276a-b8d2-4f8d-98e0-7277d196036f",
         "share",
-        "e404bab6-f250-4909-a5f2-3df524765bdc",
         "judge_me_reviews_preview_badge_YwcDyQ"
       ],
       "settings": {
@@ -549,12 +547,6 @@
     "165091771351e7c596": {
       "type": "apps",
       "blocks": {
-        "f506bee6-3e62-44e4-831d-f690b32bcf53": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "judge_me_reviews_review_widget_TVGWRp": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -562,7 +554,6 @@
         }
       },
       "block_order": [
-        "f506bee6-3e62-44e4-831d-f690b32bcf53",
         "judge_me_reviews_review_widget_TVGWRp"
       ],
       "settings": {
