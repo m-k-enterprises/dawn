@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5": {
@@ -147,6 +156,7 @@
         "text_XgqkHT",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
