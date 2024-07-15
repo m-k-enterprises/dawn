@@ -312,6 +312,15 @@
           "settings": {
           }
         },
+        "collapsible_tab_NCcxEm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Edition",
+            "icon": "star",
+            "content": "<p>Limited 250 stock edition.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -374,6 +383,7 @@
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "badgeMode": "info",
+            "customText": "",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
@@ -412,6 +422,7 @@
         "f8090422-5f75-47be-b68c-f3b534a613c4",
         "buy_buttons",
         "description",
+        "collapsible_tab_NCcxEm",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
