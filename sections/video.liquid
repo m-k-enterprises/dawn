@@ -74,9 +74,7 @@
           {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
         <span class="deferred-media__poster-button motion-reduce">
-          <span class="svg-wrapper">
-            {{- 'icon-play.svg' | inline_asset_content -}}
-          </span>
+          {%- render 'icon-play' -%}
         </span>
       </button>
       <template>
@@ -132,7 +130,7 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "t:sections.video.settings.heading.default",
+      "default": "Video",
       "label": "t:sections.video.settings.heading.label"
     },
     {
@@ -150,14 +148,6 @@
         {
           "value": "h0",
           "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        },
-        {
-          "value": "hxxl",
-          "label": "t:sections.all.heading_size.options__5.label"
         }
       ],
       "default": "h1",
