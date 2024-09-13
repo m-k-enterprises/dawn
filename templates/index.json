@@ -45,10 +45,10 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Buckle-FreeBeltBearBeltsxDandy-Pink-Details1.jpg",
+        "image": "shopify:\/\/shop_images\/Buckle-FreeBeltBearBeltsxDandy-Side-CloseLarge.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-right",
+        "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
