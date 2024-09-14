@@ -63,9 +63,9 @@
           "repeater": "{{ page.metafields.custom.team_members.value }}",
           "settings": {
             "image": "{{ block.repeater.image.value }}",
-            "title": "{{ block.repeater.role.value }}",
-            "text": "{{ block.repeater.bio | metafield_tag }}",
-            "link_label": "{{ block.repeater.name.value }}",
+            "title": "{{ block.repeater.name.value }}",
+            "text": "<p><strong>{{ block.repeater.role.value }}<\/strong><\/p><p>{{ block.repeater.bio | metafield_tag }}<\/p>",
+            "link_label": "",
             "link": ""
           }
         }
