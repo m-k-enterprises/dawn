@@ -15,12 +15,12 @@
         "slide_LgTEKE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/background.png",
+            "image": "shopify://shop_images/background.png",
             "heading": "Balmins Beach",
             "heading_size": "h1",
             "subheading": "Producto de Sitges",
             "button_label": "Explore and buy",
-            "link": "shopify:\/\/products\/balmins-beach-producto-de-sitges-t-shirt-pocket-bears-apparel-dandy",
+            "link": "shopify://products/balmins-beach-producto-de-sitges-t-shirt-pocket-bears-apparel-dandy",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -33,12 +33,12 @@
         "slide_Gqy49x": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fck_Average_Be_Legendary.png",
+            "image": "shopify://shop_images/Fck_Average_Be_Legendary.png",
             "heading": "F*ck Average Be Legendary collection",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Explore & buy",
-            "link": "shopify:\/\/collections\/f-ck-average-be-legendary",
+            "link": "shopify://collections/f-ck-average-be-legendary",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -51,12 +51,12 @@
         "slide_L7TM4z": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Barbie.png",
+            "image": "shopify://shop_images/Barbie.png",
             "heading": "Bear Meets Barbie collection",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Explore & buy",
-            "link": "shopify:\/\/collections\/barbie",
+            "link": "shopify://collections/barbie",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -69,12 +69,12 @@
         "1664794650c1e21148-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Animals.jpg",
+            "image": "shopify://shop_images/Animals.jpg",
             "heading": "Animals collection",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Explore and buy",
-            "link": "shopify:\/\/collections\/animals",
+            "link": "shopify://collections/animals",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -116,7 +116,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Explore & buy",
-            "button_link_1": "shopify:\/\/collections\/barbie",
+            "button_link_1": "shopify://collections/barbie",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -130,7 +130,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Barbie.png",
+        "image": "shopify://shop_images/Barbie.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-right",
@@ -368,7 +368,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -377,7 +377,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -386,7 +386,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -471,7 +471,7 @@
         "text_fBAjih": {
           "type": "text",
           "settings": {
-            "text": "Experience the Ultimate Collection of <strong>Free<\/strong> Wallpapers for Every Mood.",
+            "text": "Experience the Ultimate Collection of <strong>Free</strong> Wallpapers for Every Mood.",
             "text_style": "body"
           }
         },
@@ -526,7 +526,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -636,7 +636,7 @@
         "template--15955488833723__bc7aec16-06b2-43df-8658-1de41d058e9f-1670680926cf62190a-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "template--15955488833723__bc7aec16-06b2-43df-8658-1de41d058e9f-1670680926cf62190a-2": {
@@ -661,9 +661,9 @@
   "order": [
     "1664794650ae5746ed",
     "ac29c246-08b9-4ba9-a3ba-2e95ba30aef4",
+    "featured_collection_9WJfT7",
     "featured_product_iVwMy9",
     "featured_collection_MmAqd8",
-    "featured_collection_9WJfT7",
     "featured_collection_zwacnr",
     "featured_collection_Mn3AKA",
     "featured_collection",
