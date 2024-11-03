@@ -36,10 +36,16 @@
             "padding_right": 0,
             "padding_left": 0
           }
+        },
+        "judge_me_reviews_ugc_media_grid_GGcmYp": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "forms_inline_FmKJKF"
+        "forms_inline_FmKJKF",
+        "judge_me_reviews_ugc_media_grid_GGcmYp"
       ],
       "settings": {
         "include_margins": true
