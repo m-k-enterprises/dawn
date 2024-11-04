@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5": {
@@ -23,7 +23,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<strong>20%<\/strong> off with code <strong>BearCarnival20<\/strong>",
+            "text": "<strong>20%</strong> off with code <strong>BearCarnival20</strong>",
             "text_style": "subtitle"
           }
         },
@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/products\/buckle-free-belt-bear-belts-x-dandy",
+            "button_link_1": "shopify://products/buckle-free-belt-bear-belts-x-dandy",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,8 +44,9 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Buckle-FreeBeltBearBeltsxDandy-Side-CloseLarge.jpg",
+        "image": "shopify://shop_images/Buckle-FreeBeltBearBeltsxDandy-Side-CloseLarge.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
@@ -95,7 +96,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Buckle-Free_Belt_-_Grey_-_Front_-_Wide_Large_a0d68558-55ad-4102-8d06-bfec9da0d9a1.jpg",
+        "image": "shopify://shop_images/Buckle-Free_Belt_-_Grey_-_Front_-_Wide_Large_a0d68558-55ad-4102-8d06-bfec9da0d9a1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "top-center",
@@ -123,7 +124,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<strong>10%<\/strong> Off All Orders",
+            "heading": "<strong>10%</strong> Off All Orders",
             "heading_size": "h1"
           }
         },
@@ -131,7 +132,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<strong>30%<\/strong> Off Orders Over <strong>£50<\/strong>",
+            "heading": "<strong>30%</strong> Off Orders Over <strong>£50</strong>",
             "heading_size": "h1"
           }
         },
@@ -139,13 +140,13 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>As the days grow longer and the earth reawakens, honour your roots in style. Enjoy <strong>20%<\/strong> off with code <strong>BearFeile20<\/strong> until <strong>31 March<\/strong>.<\/p>"
+            "text": "<p>As the days grow longer and the earth reawakens, honour your roots in style. Enjoy <strong>20%</strong> off with code <strong>BearFeile20</strong> until <strong>31 March</strong>.</p>"
           }
         },
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>While we're on leave,<br\/>orders placed during <strong>13 - 30 June<\/strong> will be dispatched on <strong>1 July<\/strong>.<\/p>"
+            "text": "<p>While we're on leave,<br/>orders placed during <strong>13 - 30 June</strong> will be dispatched on <strong>1 July</strong>.</p>"
           }
         }
       },
@@ -172,14 +173,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "A New Experience",
+            "heading": "Introducing Our New Tan Belts!",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "The best belts on the planet.",
+            "text": "Step up your style with our newest tan belts, designed for comfort and versatility. Enjoy our exclusive offer: buy any two belts and get a third free! Perfect for pairing with any outfit, out buckle-free belts are crafted for all-day wear. Don't miss out — grab yours today and complete your collection!",
             "text_style": "subtitle"
           }
         },
@@ -187,7 +188,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/belts",
+            "button_link_1": "shopify://collections/belts",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -200,7 +201,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
@@ -228,7 +228,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>After searching the belt market, we were <strong>frustrated by the lack of options<\/strong> for the bigger guy.<br\/><br\/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to <strong>distinguish yourself from the crowd<\/strong> a little better via your buckle-free belt.<\/p>"
+            "text": "<p>After searching the belt market, we were <strong>frustrated by the lack of options</strong> for the bigger guy.<br/><br/>Therefore, we decided to take matters into our own hands. We strive to give you the opportunity to <strong>distinguish yourself from the crowd</strong> a little better via your buckle-free belt.</p>"
           }
         }
       },
@@ -250,7 +250,6 @@
       "blocks": {
         "3d227545-1bea-45ba-a96a-9fca7d055415": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "Buy 2 Get 1 Free",
             "text": "",
@@ -444,7 +443,7 @@
         "1652120803c043f23d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Comfort and identity everywhere you go!<\/p>",
+            "text": "<p>Comfort and identity everywhere you go!</p>",
             "text_style": "subtitle"
           }
         },
@@ -453,7 +452,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Find my belt",
-            "button_link": "shopify:\/\/collections\/belts",
+            "button_link": "shopify://collections/belts",
             "button_style_secondary": false
           }
         }
@@ -464,7 +463,7 @@
         "1652120803c043f23d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Buckle-Free_Belts_-_Promo_-_Aligned.jpg",
+        "image": "shopify://shop_images/Buckle-Free_Belts_-_Promo_-_Aligned.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -526,8 +525,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/qHyIG8-hejI",
-        "cover_image": "shopify:\/\/shop_images\/frame-000149.jpg",
+        "video_url": "https://youtu.be/qHyIG8-hejI",
+        "cover_image": "shopify://shop_images/frame-000149.jpg",
         "description": "Bear Belts Shoot 2022",
         "full_width": false,
         "color_scheme": "background-2",
@@ -542,7 +541,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -551,7 +550,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -560,7 +559,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -595,27 +594,27 @@
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BWM-One-Sheet_1.jpg",
+            "image": "shopify://shop_images/BWM-One-Sheet_1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/bearworldmag.com\/bear-belts-are-a-perfect-fit-for-guys-with-a-bigger-belly"
+            "link": "https://bearworldmag.com/bear-belts-are-a-perfect-fit-for-guys-with-a-bigger-belly"
           }
         },
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cropped-GayLondonLife_FBprofile-e1619352933300.jpg",
+            "image": "shopify://shop_images/cropped-GayLondonLife_FBprofile-e1619352933300.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/bearbelts.store\/blogs\/news\/gay-london-life-introduces-bear-belts-as-the-newest-fashion-must-have"
+            "link": "https://bearbelts.store/blogs/news/gay-london-life-introduces-bear-belts-as-the-newest-fashion-must-have"
           }
         },
         "column_jp3AmG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MAIN_VERSION_full_colour_transparent_background.png",
+            "image": "shopify://shop_images/MAIN_VERSION_full_colour_transparent_background.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -637,7 +636,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
-        "button_link": "shopify:\/\/blogs\/news",
+        "button_link": "shopify://blogs/news",
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
@@ -649,7 +648,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_hBkrxy": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1200
           }
@@ -666,7 +665,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text\/javascript\" src=\"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\" async><\/script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https://uk.trustpilot.com/review/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -685,7 +684,7 @@
         "165217688366cfcb54-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.<\/p>"
+            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.</p>"
           }
         },
         "165217688366cfcb54-2": {
