@@ -36,7 +36,7 @@
         "text_kqmGER": {
           "type": "text",
           "settings": {
-            "text": "<p>🐻 It looks like the page you’re looking for is out of reach, but don’t worry — just like our belts, we’ve got your back! 🐻</p>"
+            "text": "<p>🐻 It looks like the page you’re looking for is out of reach,<br/>but don’t worry — just like our belts, we’ve got your back! 🐻</p>"
           }
         },
         "caption_YJiCEB": {
