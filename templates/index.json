@@ -620,19 +620,30 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_Ear7PB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cropped_Photo_Jun_7_2024.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-0",
         "template--16730207584501__870b18fd-8c32-4558-ae29-ffb101ef7f82-1683117829cf7a293a-1",
-        "column_jp3AmG"
+        "column_jp3AmG",
+        "column_Ear7PB"
       ],
       "settings": {
         "title": "Featured by",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
