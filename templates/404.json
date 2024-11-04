@@ -57,6 +57,14 @@
             "button_link_2": "shopify://collections/belts",
             "button_style_secondary_2": false
           }
+        },
+        "caption_8Haw68": {
+          "type": "caption",
+          "settings": {
+            "caption": "In the meantime, here's a bear-approved top: always keep your belt game strong!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
@@ -64,7 +72,8 @@
         "heading_UVnTGL",
         "text_kqmGER",
         "caption_YJiCEB",
-        "button_Ezm679"
+        "button_Ezm679",
+        "caption_8Haw68"
       ],
       "settings": {
         "desktop_content_position": "center",
