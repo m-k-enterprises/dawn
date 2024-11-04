@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1663251867a09ea152": {
@@ -58,7 +58,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our e<strong>lastic polyester blend<\/strong> is soft, lightweight and stretchy. The <strong>PU leather fasteners<\/strong> provide a clean look.<\/p><p><strong>This belt is designed specifically for comfort and durability.<\/strong><\/p>",
+            "text": "<p>Our e<strong>lastic polyester blend</strong> is soft, lightweight and stretchy. The <strong>PU leather fasteners</strong> provide a clean look.</p><p><strong>This belt is designed specifically for comfort and durability.</strong></p>",
             "text_style": "body"
           }
         }
@@ -96,7 +96,7 @@
         "1663253778c2e1e213-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your purchase is backed by our 15-day no-questions-asked refund policy. If you don't absolutely love your Bear Belt, then send it back for a full refund!<\/p>",
+            "text": "<p>Your purchase is backed by our 15-day no-questions-asked refund policy. If you don't absolutely love your Bear Belt, then send it back for a full refund!</p>",
             "text_style": "body"
           }
         }
@@ -127,7 +127,7 @@
         "heading": "How-To",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/How-To.mp4",
+        "video": "shopify://files/videos/How-To.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -142,9 +142,9 @@
         "1664109912cbdf0971-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Adjust.jpg",
+            "image": "shopify://shop_images/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Adjust.jpg",
             "title": "Loop",
-            "text": "<p>Loop the belt through each belt loop.<\/p>",
+            "text": "<p>Loop the belt through each belt loop.</p>",
             "link_label": "",
             "link": ""
           }
@@ -152,9 +152,9 @@
         "1664109912cbdf0971-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Clip.jpg",
+            "image": "shopify://shop_images/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Clip.jpg",
             "title": "Snap",
-            "text": "<p>Snap the buttons together through the front belt loops.<\/p>",
+            "text": "<p>Snap the buttons together through the front belt loops.</p>",
             "link_label": "",
             "link": ""
           }
@@ -162,9 +162,9 @@
         "1664109912cbdf0971-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Stretch_1.jpg",
+            "image": "shopify://shop_images/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Close_-_Stretch_1.jpg",
             "title": "Adjust",
-            "text": "<p>Adjust using the slidable clasp.<\/p>",
+            "text": "<p>Adjust using the slidable clasp.</p>",
             "link_label": "",
             "link": ""
           }
@@ -206,7 +206,7 @@
         "cabe470d-2e04-464e-8dcd-4763617beecc": {
           "type": "text",
           "settings": {
-            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.<\/p>"
+            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.</p>"
           }
         }
       },
@@ -214,11 +214,10 @@
         "template--16002834006261__c609627f-f7b9-4b5c-9169-58a02641509a-16684424542f68ed83-0",
         "cabe470d-2e04-464e-8dcd-4763617beecc"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -288,7 +287,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "While we're on leave, orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.",
+            "text": "While we're on leave, orders placed during <strong>1-11 September</strong> will be dispatched on <strong>12 September</strong>.",
             "text_style": "body"
           }
         },
@@ -328,7 +327,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.facts.length | metafield_tag }} × {{ product.metafields.facts.width | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.facts.length | metafield_tag }} × {{ product.metafields.facts.width | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -363,9 +362,10 @@
           }
         },
         "8b84276a-b8d2-4f8d-98e0-7277d196036f": {
-          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "badgeMode": "info",
+            "customText": "",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
@@ -386,7 +386,7 @@
           }
         },
         "judge_me_reviews_preview_badge_YwcDyQ": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -442,7 +442,7 @@
         "template--16002834006261__728af4f7-a7a2-4a62-aa89-0dff97aedc70-16684424542f68ed83-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy.<br\/><strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back<\/strong> for a full refund!<\/p>"
+            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy.<br/><strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back</strong> for a full refund!</p>"
           }
         }
       },
@@ -466,7 +466,7 @@
           "type": "column",
           "settings": {
             "title": "Buy 2 Get 1 Free",
-            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.<\/p>",
+            "text": "<p>The discount will be automatically applied once you add any 3 belts available in our store to your cart.</p>",
             "link_label": "",
             "link": ""
           }
@@ -475,7 +475,7 @@
           "type": "column",
           "settings": {
             "title": "14 Day Money Back Guarantee",
-            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy. <strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back<\/strong> for a full refund!<\/p>",
+            "text": "<p>Your purchase is backed by our 14-day no-questions-asked refund policy. <strong>If you don't absolutely love your Bear Belts Buckle-Free Belt, then send it back</strong> for a full refund!</p>",
             "link_label": "",
             "link": ""
           }
@@ -528,7 +528,7 @@
         "166194640487bb20a1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Please leave us a review below. We would love to hear your feedback!<\/p>"
+            "text": "<p>Please leave us a review below. We would love to hear your feedback!</p>"
           }
         }
       },
@@ -548,7 +548,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_TVGWRp": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
