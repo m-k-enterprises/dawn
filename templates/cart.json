@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -35,8 +44,7 @@
         },
         "1650139725104346c5-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "1650139725104346c5-4": {
           "type": "variant_picker",
@@ -46,8 +54,7 @@
         },
         "1650139725104346c5-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "1650139725104346c5-6": {
           "type": "buy_buttons",
@@ -87,7 +94,7 @@
         "84d91be3-41e8-40d2-883f-1b38272a40a8": {
           "type": "text",
           "settings": {
-            "text": "<p>While we're on leave,<br\/>orders placed during <strong>1-11 September<\/strong> will be dispatched on <strong>12 September<\/strong>.<\/p>"
+            "text": "<p>While we're on leave,<br/>orders placed during <strong>1-11 September</strong> will be dispatched on <strong>12 September</strong>.</p>"
           }
         }
       },
@@ -109,15 +116,14 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "c7138dba-043f-4f5a-a3e6-aa87f6d05478": {
-          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "badgeMode": "buyer_contribution",
+            "showMoreInfo": "link",
             "showLogo": false,
-            "showMoreInfo": true,
             "showStats": false,
             "showProjects": false,
             "backgroundColor": "#f1f8f5",
@@ -131,8 +137,7 @@
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -167,7 +172,6 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
