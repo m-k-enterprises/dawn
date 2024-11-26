@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -9,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "Christmas last shipping dates",
-            "link": "shopify:\/\/pages\/christmas-last-posting-dates"
+            "link": "shopify://pages/christmas-last-posting-dates"
           }
         },
         "5552d5f9-a976-499c-adab-c7c72c6d5d93": {
@@ -46,13 +55,13 @@
       "type": "apps",
       "blocks": {
         "a32339b8-ad4a-49a7-98fe-315f658291e1": {
-          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "backgroundColor": "{{ shop.brand.colors.primary[0].foreground }}",
             "textColor": "{{ shop.brand.colors.primary[0].background }}",
             "borderColor": "{{ shop.brand.colors.primary[0].background }}",
             "showLogo": true,
-            "showMoreInfo": false,
+            "showMoreInfo": "none",
             "showStats": false,
             "showProjects": false,
             "fullWidth": true,
