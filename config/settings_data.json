@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "{{ shop.brand.logo }}",
@@ -98,12 +107,12 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "Discover the Magic of Mythical Moods",
-    "brand_description": "<p>At Mythical Moods, we believe in the power of scent to transport you to extraordinary realms. Our carefully crafted candles and fragrances are designed to ignite your imagination and awaken your senses. Each product is a testament to our dedication to creating an immersive and magical experience, from enchanting aromas to fantasy-inspired themes. Embrace the wonder, indulge your senses, and unlock the realm of Mythical Moods.<\/p>",
+    "brand_description": "<p>At Mythical Moods, we believe in the power of scent to transport you to extraordinary realms. Our carefully crafted candles and fragrances are designed to ignite your imagination and awaken your senses. Each product is a testament to our dedication to creating an immersive and magical experience, from enchanting aromas to fantasy-inspired themes. Embrace the wonder, indulge your senses, and unlock the realm of Mythical Moods.</p>",
     "brand_image": "{{ shop.brand.cover_image }}",
-    "social_facebook_link": "https:\/\/facebook.com\/MythicalMoods",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://facebook.com/MythicalMoods",
+    "social_instagram_link": "https://instagram.com/MythicalMoods",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@MythicalMoods",
+    "social_tiktok_link": "https://tiktok.com/@MythicalMoods",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -117,8 +126,8 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "checkout_header_image": "shopify:\/\/shop_images\/image_aXP.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_No_Margin.png",
+    "checkout_header_image": "shopify://shop_images/image_aXP.png",
+    "checkout_logo_image": "shopify://shop_images/Logo_No_Margin.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#000000",
@@ -141,12 +150,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -158,10 +165,9 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
