@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -7,7 +16,6 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Buy 2 Get 1 Free",
             "link": ""
@@ -15,10 +23,9 @@
         },
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
-            "link": "shopify:\/\/pages\/christmas-last-posting-dates"
+            "link": "shopify://pages/christmas-last-posting-dates"
           }
         },
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359": {
@@ -31,9 +38,10 @@
         },
         "announcement_tpJAUD": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Vote for us",
-            "link": "https:\/\/bearworldmag.com\/awards\/vote"
+            "link": "https://bearworldmag.com/awards/vote"
           }
         }
       },
@@ -43,7 +51,6 @@
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359",
         "announcement_tpJAUD"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
