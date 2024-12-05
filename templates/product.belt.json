@@ -45,6 +45,69 @@
         "show_text_below": true
       }
     },
+    "multicolumn_LCBHwk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zQFPd8": {
+          "type": "column",
+          "settings": {
+            "title": "Snap Closure",
+            "text": "<p>Our snap closure ensures a secure fit.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wrr4dE": {
+          "type": "column",
+          "settings": {
+            "title": "Accommodates All Sizes",
+            "text": "<p>Accommodates waist sizes up to 47 inches and extends to a 63-inch waist.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xQTYhc": {
+          "type": "column",
+          "settings": {
+            "title": "No-Buckle Design",
+            "text": "<p>Enjoy an effortless fit without the discomfort of buckles.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FChAni": {
+          "type": "column",
+          "settings": {
+            "title": "Durable Materials",
+            "text": "<p>Made from premium, stretchy materials that adapt to your body.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zQFPd8",
+        "column_Wrr4dE",
+        "column_xQTYhc",
+        "column_FChAni"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -362,8 +425,8 @@
           "settings": {
             "badgeMode": "info",
             "customText": "",
-            "showLogo": true,
             "showMoreInfo": "link",
+            "showLogo": true,
             "showStats": false,
             "showProjects": false,
             "backgroundColor": "#f1f8f5",
@@ -557,6 +620,7 @@
   },
   "order": [
     "1663251867a09ea152",
+    "multicolumn_LCBHwk",
     "image-with-text",
     "166325377836e7b914",
     "video_6tRpLe",
