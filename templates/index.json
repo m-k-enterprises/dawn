@@ -322,6 +322,7 @@
         "3d227545-1bea-45ba-a96a-9fca7d055415",
         "1652120374c1d5dba6-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -337,6 +338,44 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 16
+      }
+    },
+    "rich_text_zFtWpN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6XpwpK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy 2 Get 1 Free",
+            "heading_size": "h1"
+          }
+        },
+        "heading_Fk4HeM": {
+          "type": "heading",
+          "settings": {
+            "heading": "14-Day Money-Back Guarantee",
+            "heading_size": "h1"
+          }
+        },
+        "text_tVznA8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Return within 14 days for a full refund, hassle-free.<br/>Simply send it back—no complicated steps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6XpwpK",
+        "heading_Fk4HeM",
+        "text_tVznA8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -719,6 +758,7 @@
     "image_banner",
     "rich_text",
     "1652120374894c02b4",
+    "rich_text_zFtWpN",
     "featured_collection",
     "165013541345f17318",
     "166325020295edf243",
