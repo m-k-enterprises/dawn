@@ -45,6 +45,79 @@
         "show_text_below": true
       }
     },
+    "multicolumn_Y48ifV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zLEitG": {
+          "type": "column",
+          "settings": {
+            "title": "Snap Closure",
+            "text": "<p>Our snap closure ensures a secure fit.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k8VTrc": {
+          "type": "column",
+          "settings": {
+            "title": "Accommodates All Sizes",
+            "text": "<p>Accommodates waist sizes up to 47 inches and extends to a 63-inch waist.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_87AnaB": {
+          "type": "column",
+          "settings": {
+            "title": "No-Buckle Design",
+            "text": "<p>Enjoy an effortless fit without the discomfort of buckles.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wkCQ3r": {
+          "type": "column",
+          "settings": {
+            "title": "Durable Materials",
+            "text": "<p>Made from premium, stretchy materials that adapt to your body.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jTbhMA": {
+          "type": "column",
+          "settings": {
+            "title": "Limited Edition",
+            "text": "<p>Get yours before they’re gone. Our collaboration with Dandy means this belt is available in limited quantities.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zLEitG",
+        "column_k8VTrc",
+        "column_87AnaB",
+        "column_wkCQ3r",
+        "column_jTbhMA"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -379,8 +452,8 @@
           "settings": {
             "badgeMode": "info",
             "customText": "",
-            "showLogo": true,
             "showMoreInfo": "link",
+            "showLogo": true,
             "showStats": false,
             "showProjects": false,
             "backgroundColor": "#f1f8f5",
@@ -576,6 +649,7 @@
   },
   "order": [
     "1663251867a09ea152",
+    "multicolumn_Y48ifV",
     "image-with-text",
     "166325377836e7b914",
     "video_pJRRbY",
