@@ -15,15 +15,14 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Get Belly-Rub-Ready with Bear Belts × Dandy!",
+            "heading": "Limited Edition Alert",
             "heading_size": "h1"
           }
         },
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>20%</strong> off with code <strong>BearCarnival20</strong>",
+            "text": "Get your hands on our exclusive Pink Dandy Belt before it’s too late! Only available while stocks last, this belt is the perfect blend of comfort and style.",
             "text_style": "subtitle"
           }
         },
@@ -44,7 +43,6 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Buckle-FreeBeltBearBeltsxDandy-Side-CloseLarge.jpg",
         "image_overlay_opacity": 0,
@@ -167,54 +165,6 @@
         "padding_bottom": 52
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introducing Our New Tan Belts!",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Step up your style with our newest tan belts, designed for comfort and versatility. Enjoy our exclusive offer: buy any two belts and get a third free! Perfect for pairing with any outfit, out buckle-free belts are crafted for all-day wear. Don't miss out — grab yours today and complete your collection!",
-            "text_style": "subtitle"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Tan Belts",
-            "button_link_1": "shopify://products/buckle-free-belt",
-            "button_style_secondary_1": false,
-            "button_label_2": "View All Belts",
-            "button_link_2": "shopify://collections/belts",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/IMG_0342.heic",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -266,6 +216,54 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing Our New Tan Belts!",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Step up your style with our newest tan belts, designed for comfort and versatility. Enjoy our exclusive offer: buy any two belts and get a third free! Perfect for pairing with any outfit, out buckle-free belts are crafted for all-day wear. Don't miss out — grab yours today and complete your collection!",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Tan Belts",
+            "button_link_1": "shopify://products/buckle-free-belt",
+            "button_style_secondary_1": false,
+            "button_label_2": "View All Belts",
+            "button_link_2": "shopify://collections/belts",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_0342.heic",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
       }
     },
     "rich_text": {
@@ -717,8 +715,8 @@
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
     "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
-    "image_banner",
     "multicolumn",
+    "image_banner",
     "rich_text",
     "1652120374894c02b4",
     "featured_collection",
