@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -12,7 +21,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
@@ -41,13 +50,12 @@
         "16522140131f01ddee-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.<\/p>"
+            "text": "<p>Stay up to date on new product launches! Our email list gets the first news about new launches.</p>"
           }
         },
         "16522140131f01ddee-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
