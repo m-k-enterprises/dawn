@@ -1,15 +1,15 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo_No_Margin.png",
+    "logo": "shopify://shop_images/Logo_No_Margin.png",
     "logo_width": 180,
     "favicon": "{{ shop.brand.square_logo }}",
     "type_header_font": "news_gothic_no_2_n7",
@@ -108,14 +108,14 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "Contact",
-    "brand_description": "<p><a href=\"mailto:\/\/team@pocketbearsapparel.store\">team@pocketbearsapparel.store<\/a><\/p>",
-    "social_facebook_link": "https:\/\/facebook.com\/PocketBearsApparel",
-    "social_instagram_link": "https:\/\/instagram.com\/PocketBearsApparel",
+    "brand_description": "<p><a href=\"mailto://team@pocketbearsapparel.store\">team@pocketbearsapparel.store</a></p>",
+    "social_facebook_link": "https://facebook.com/PocketBearsApparel",
+    "social_instagram_link": "https://instagram.com/PocketBearsApparel",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "",
+    "social_pinterest_link": "https://pinterest.com/PocketBearsApparel",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -124,7 +124,7 @@
     "currency_code_enabled": true,
     "show_cart_note": true,
     "cart_drawer_collection": "wallpapers",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Logo.png",
+    "checkout_logo_image": "shopify://shop_images/Logo.png",
     "checkout_logo_position": "center",
     "checkout_sidebar_background_color": "#f3f3f3",
     "checkout_heading_font": "Helvetica Neue",
@@ -159,8 +159,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -197,7 +196,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact",
-              "subtext": "<p><a href=\"mailto:team@pocketbearsapparel.store\" title=\"team@pocketbearsapparel.store\">team@pocketbearsapparel.store<\/a><\/p>"
+              "subtext": "<p><a href=\"mailto:team@pocketbearsapparel.store\" title=\"team@pocketbearsapparel.store\">team@pocketbearsapparel.store</a></p>"
             }
           },
           "footer-2": {
@@ -205,7 +204,7 @@
             "disabled": true,
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
           }
         },
@@ -241,18 +240,15 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#202a36",
@@ -264,13 +260,12 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1768834845299682660": {
-        "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-embed-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+        "type": "shopify://apps/subscriptions/blocks/app-embed-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
         "disabled": false,
         "settings": {
           "color_text_title": "#6D7175",
@@ -284,10 +279,9 @@
         }
       },
       "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
