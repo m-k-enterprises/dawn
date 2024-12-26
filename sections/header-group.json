@@ -43,13 +43,21 @@
             "text": "Vote for us",
             "link": "https://bearworldmag.com/awards/vote"
           }
+        },
+        "announcement_J68DCK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325",
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359",
-        "announcement_tpJAUD"
+        "announcement_tpJAUD",
+        "announcement_J68DCK"
       ],
       "settings": {
         "color_scheme": "background-2",
