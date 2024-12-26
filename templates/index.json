@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "790ab009-7aab-4f28-8835-ed8835ad89bd": {
@@ -7,10 +16,10 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_FJE.jpg",
+            "image": "shopify://shop_images/image_FJE.jpg",
             "heading": "Magical Sale",
             "heading_size": "h1",
-            "subheading": "<strong>20%<\/strong> Off Select Candles 🕯️",
+            "subheading": "<strong>20%</strong> Off Select Candles 🕯️",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -26,10 +35,10 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_DALL_E_2023-11-19_02.16.08_-_Imagine_a_mystical_library_where_the_worlds_of_magic_and_knowledge_converge._In_the_center_a_grand_ornate_fireplace_crackles_with_Wizard_s_Ember_ca.jpg",
+            "image": "shopify://shop_images/Image_DALL_E_2023-11-19_02.16.08_-_Imagine_a_mystical_library_where_the_worlds_of_magic_and_knowledge_converge._In_the_center_a_grand_ornate_fireplace_crackles_with_Wizard_s_Ember_ca.jpg",
             "heading": "Black Friday Sale",
             "heading_size": "h1",
-            "subheading": "Buy 2 Get 1 <strong>Free<\/strong>",
+            "subheading": "Buy 2 Get 1 <strong>Free</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -44,7 +53,7 @@
         "template--19880541618481__790ab009-7aab-4f28-8835-ed8835ad89bd-168894563716084574-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_ZA8.png",
+            "image": "shopify://shop_images/image_ZA8.png",
             "heading": "Ignite Your Imagination",
             "heading_size": "h1",
             "subheading": "with Enchanting Fantasy Candles!",
@@ -62,7 +71,7 @@
         "template--19880541618481__790ab009-7aab-4f28-8835-ed8835ad89bd-168894563716084574-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_aXP.png",
+            "image": "shopify://shop_images/image_aXP.png",
             "heading": "Step Into a world of enchantment",
             "heading_size": "h1",
             "subheading": "with Fantasy Candle Tins!",
@@ -95,12 +104,34 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_L8zBVX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_bRnyD7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While we're on leave,<br/>orders placed during <strong>27 December - 4 January</strong> will be dispatched on <strong>6 January</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bRnyD7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "title": "Fantasy Aromas Unleashed",
         "heading_size": "h2",
-        "description": "<p>Immerse yourself in a world of captivating scents and mythical wonders with our featured collection. Explore our beautiful candles and fragrances inspired by fantasy realms, where every aroma tells a tale and every burn unlocks a new adventure.<\/p>",
+        "description": "<p>Immerse yourself in a world of captivating scents and mythical wonders with our featured collection. Explore our beautiful candles and fragrances inspired by fantasy realms, where every aroma tells a tale and every burn unlocks a new adventure.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -136,7 +167,7 @@
         "template--19880541618481__c22ae2e3-699c-4c9d-b40a-b9568a7abde2-1689092755843092fe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Elevate your senses with our Mythical&nbsp;Moods fantasy themed candles. Transport yourself to a mystical realm.<\/p>"
+            "text": "<p>Elevate your senses with our Mythical&nbsp;Moods fantasy themed candles. Transport yourself to a mystical realm.</p>"
           }
         },
         "template--19880541618481__c22ae2e3-699c-4c9d-b40a-b9568a7abde2-1689092755843092fe-2": {
@@ -181,7 +212,7 @@
         "template--19880541618481__6c1fbc94-a54a-47bc-a48c-9be455ea5267-16890927960b7e3e80-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_-AN.png",
+            "image": "shopify://shop_images/image_-AN.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -223,6 +254,7 @@
   },
   "order": [
     "790ab009-7aab-4f28-8835-ed8835ad89bd",
+    "rich_text_L8zBVX",
     "featured_collection",
     "c22ae2e3-699c-4c9d-b40a-b9568a7abde2",
     "6c1fbc94-a54a-47bc-a48c-9be455ea5267"

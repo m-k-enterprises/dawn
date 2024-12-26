@@ -34,12 +34,20 @@
             "text": "3 for £25",
             "link": ""
           }
+        },
+        "announcement_37aPih": {
+          "type": "announcement",
+          "settings": {
+            "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "81d85b53-bf12-423d-ac39-8d0753845240",
         "5552d5f9-a976-499c-adab-c7c72c6d5d93",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_37aPih"
       ],
       "settings": {
         "color_scheme": "background-2",
@@ -57,13 +65,15 @@
         "a32339b8-ad4a-49a7-98fe-315f658291e1": {
           "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
+            "badgeMode": "info",
+            "customText": "",
+            "showMoreInfo": "none",
+            "showLogo": true,
+            "showStats": false,
+            "showProjects": false,
             "backgroundColor": "{{ shop.brand.colors.primary[0].foreground }}",
             "textColor": "{{ shop.brand.colors.primary[0].background }}",
             "borderColor": "{{ shop.brand.colors.primary[0].background }}",
-            "showLogo": true,
-            "showMoreInfo": "none",
-            "showStats": false,
-            "showProjects": false,
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 0,
