@@ -37,6 +37,7 @@
         },
         "announcement_37aPih": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
             "link": ""
