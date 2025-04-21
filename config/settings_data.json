@@ -251,7 +251,7 @@
       },
       "6233082987017222955": {
         "type": "shopify://apps/brandlift-loyalty-rewards/blocks/floating-embed/3d9b9e93-a547-40d8-a6b9-aa54a96739cb",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
