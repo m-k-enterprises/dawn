@@ -107,6 +107,7 @@
       "blocks": {
         "text_4qCbQQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>While we're on leave,<br/>orders placed during <strong>27 December - 4 January</strong> will be dispatched on <strong>6 January</strong>.</p>"
           }
