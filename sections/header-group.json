@@ -16,6 +16,7 @@
       "blocks": {
         "81d85b53-bf12-423d-ac39-8d0753845240": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
             "link": "shopify://pages/christmas-last-posting-dates"
@@ -37,9 +38,8 @@
         },
         "announcement_37aPih": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
+            "text": "Orders placed during 8 - 26 May will be dispatched on 27 May",
             "link": ""
           }
         }
