@@ -38,6 +38,7 @@
         },
         "announcement_37aPih": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Orders placed during 8 - 26 May will be dispatched on 27 May",
             "link": ""
