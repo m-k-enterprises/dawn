@@ -39,8 +39,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "3 for £25",
-            "link": ""
+            "text": "🕯️ 3 Candles for £25 - Shop the deal now",
+            "link": "shopify://collections/all"
           }
         }
       },
