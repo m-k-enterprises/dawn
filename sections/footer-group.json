@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -15,13 +24,12 @@
         "sections--19880540438833__b3841991-3bab-4260-89c8-aad277347cb4-1688944792504a40e0-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our community and be the first to know about new releases, enchanting scents, and captivating stories. Stay connected with Mythical Moods for a world of fantasy and sensory delights delivered to your inbox. Sign up now to embark on a journey filled with magic and imagination.<\/p>"
+            "text": "<p>Join our community and be the first to know about new releases, enchanting scents, and captivating stories. Stay connected with Mythical Moods for a world of fantasy and sensory delights delivered to your inbox. Sign up now to embark on a journey filled with magic and imagination.</p>"
           }
         },
         "sections--19880540438833__b3841991-3bab-4260-89c8-aad277347cb4-1688944792504a40e0-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -77,7 +85,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Stay Connected with Mythical Moods",
         "enable_follow_on_shop": true,
         "show_social": true,
